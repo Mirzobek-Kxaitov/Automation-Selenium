@@ -1,0 +1,37 @@
+2025-06-26 19:09:05,444 [INFO] Download button clicked successfully
+2025-06-26 19:09:21,786 [INFO] File uploaded successfully: C:\Users\user\Desktop\photo_2025-04-26_12-18-38.jpg
+2025-06-26 19:09:21,835 [INFO] File photo_2025-04-26_12-18-38.jpg verified successfully
+2025-06-26 19:21:23,758 [INFO] Download button clicked successfully
+2025-06-26 19:21:45,265 [INFO] File uploaded successfully: C:\Users\user\Desktop\photo_2025-04-26_12-18-38.jpg
+2025-06-26 19:21:45,319 [INFO] File photo_2025-04-26_12-18-38.jpg verified successfully
+2025-06-27 17:12:03,739 [ERROR] Error verifying random text: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa53b03+62899]
+	GetHandleVerifier [0x0xa53b44+62964]
+	(No symbol) [0x0x8810f3]
+	(No symbol) [0x0x8c980e]
+	(No symbol) [0x0x8c9bab]
+	(No symbol) [0x0x9125c2]
+	(No symbol) [0x0x8ee554]
+	(No symbol) [0x0x90fd81]
+	(No symbol) [0x0x8ee306]
+	(No symbol) [0x0x8bd670]
+	(No symbol) [0x0x8be4e4]
+	GetHandleVerifier [0x0xcb4793+2556483]
+	GetHandleVerifier [0x0xcafd02+2537394]
+	GetHandleVerifier [0x0xa7a2fa+220586]
+	GetHandleVerifier [0x0xa6aae8+157080]
+	GetHandleVerifier [0x0xa7141d+184013]
+	GetHandleVerifier [0x0xa5ba68+95512]
+	GetHandleVerifier [0x0xa5bc10+95936]
+	GetHandleVerifier [0x0xa46b5a+9738]
+	BaseThreadInitThunk [0x0x74d15d49+25]
+	RtlInitializeExceptionChain [0x0x7726d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7726d021+561]
+
+2025-06-27 17:12:24,898 [ERROR] Buton was already enabled initially
+2025-06-27 17:13:07,910 [INFO] Original color: rgba(0, 123, 255, 1)
+2025-06-27 17:13:09,092 [INFO] New colorrgba(0, 105, 217, 1)
+2025-06-27 17:13:09,092 [INFO] Color change verified succesfully
+2025-06-27 17:13:40,340 [INFO] Button is initially not visible
+2025-06-27 17:13:45,416 [INFO] Button became visible after 5 seconds

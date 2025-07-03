@@ -1,0 +1,900 @@
+2025-05-30 20:05:45,790 [INFO]  Clicked on the 'Impressive' radio button.
+2025-05-30 20:05:45,917 [INFO]  Clicked on the 'Yes' radio button.
+2025-05-30 20:52:48,398 [INFO] user_name kiritildi
+2025-05-30 20:52:48,551 [INFO] user_email kiritildi
+2025-05-30 20:52:48,733 [INFO] current_address kiritildi
+2025-05-30 20:52:48,863 [INFO] permanent_address kiritildi
+2025-05-30 20:52:49,489 [INFO] Screenshot saved: screenshots/screenshot_2025-05-30_20-52-49.png
+2025-05-30 20:53:42,347 [INFO] user_name kiritildi
+2025-05-30 20:53:42,591 [INFO] user_email kiritildi
+2025-05-30 20:53:42,729 [INFO] current_address kiritildi
+2025-05-30 20:53:42,868 [INFO] permanent_address kiritildi
+2025-05-30 20:53:43,737 [INFO] Screenshot saved: screenshots/screenshot_2025-05-30_20-53-43.png
+2025-05-30 20:54:28,322 [INFO]  Clicked on the 'Impressive' radio button.
+2025-05-30 20:54:28,475 [INFO]  Clicked on the 'Yes' radio button.
+2025-06-21 14:09:04,273 [INFO]  Clicked on the 'Impressive' radio button.
+2025-06-21 14:09:04,401 [INFO]  Clicked on the 'Yes' radio button.
+2025-06-24 18:01:36,960 [INFO] Starting test...
+2025-06-24 18:01:37,344 [INFO] Starting test...
+2025-06-24 18:01:40,375 [INFO] Starting test...
+2025-06-24 18:01:40,375 [INFO] Starting test...
+2025-06-24 18:01:43,395 [INFO] Starting test...
+2025-06-24 18:01:49,950 [INFO] Test completed
+2025-06-24 18:03:55,861 [INFO] Starting test...
+2025-06-24 18:03:56,046 [INFO] Home button clicked
+2025-06-24 18:03:59,127 [INFO] Switched to new tab
+2025-06-24 18:03:59,150 [INFO] Current URL: https://demoqa.com/
+2025-06-24 18:04:02,169 [INFO] Assertion passed!
+2025-06-24 18:04:07,585 [INFO] Test completed
+2025-06-24 19:11:08,424 [INFO] Starting multiple windows handling test
+2025-06-24 19:11:08,426 [INFO] Original window saved: 6507DA64205279B2A875C2F4C33467A3
+2025-06-24 19:11:08,606 [INFO] Home button clicked - new tab should open
+2025-06-24 19:11:08,627 [INFO] Switched to new tab
+2025-06-24 19:11:12,812 [INFO] Current URL in new tab: https://demoqa.com/
+2025-06-24 19:11:12,885 [INFO] New tab closed
+2025-06-24 19:11:12,889 [INFO] Switched back to original tab
+2025-06-24 19:11:12,897 [INFO] Back to original URL: https://demoqa.com/links
+2025-06-24 19:11:12,897 [INFO] Multiple windows handling test completed
+2025-06-24 19:34:48,692 [INFO] Starting API response test
+2025-06-24 19:36:53,575 [INFO] Starting API response test
+2025-06-24 19:38:32,410 [INFO] Starting API response test
+2025-06-24 19:38:32,600 [INFO] Created button clicked
+2025-06-24 19:43:24,930 [INFO] Starting API response test
+2025-06-24 19:43:25,043 [INFO] Created button clicked
+2025-06-24 19:43:30,084 [INFO] Response message: Link has responded with staus 201 and status text Created
+2025-06-24 19:43:30,084 [INFO] API response verification passed!
+2025-06-24 19:47:08,113 [INFO] Starting API response test
+2025-06-24 19:47:08,281 [INFO] Created button clicked
+2025-06-24 19:47:13,345 [INFO] Response message: Link has responded with staus 201 and status text Created
+2025-06-24 19:47:13,346 [INFO] API response verification passed!
+2025-06-25 12:09:28,943 [INFO] Starting API response test
+2025-06-25 12:09:29,273 [INFO] Created button clicked
+2025-06-25 12:09:34,317 [INFO] Response message: Link has responded with staus 201 and status text Created
+2025-06-25 12:09:34,318 [INFO] API response verification passed!
+2025-06-25 13:24:59,518 [INFO] Starting API response test
+2025-06-25 13:24:59,895 [INFO] Created button clicked
+2025-06-25 13:33:14,368 [INFO] Starting API response test
+2025-06-25 13:33:14,552 [INFO] Created button clicked
+2025-06-25 13:33:17,614 [INFO] Response message: Link has responded with staus 201 and status text Created
+2025-06-25 13:33:17,614 [INFO] API response verification passed!
+2025-06-25 13:33:17,745 [INFO] No content button clicked
+2025-06-25 13:33:20,792 [INFO] Response message: Link has responded with staus 204 and status text No Content
+2025-06-25 13:33:20,792 [INFO] API response verification passed!
+2025-06-25 13:33:20,923 [INFO] Moved Permanently button clicked
+2025-06-25 13:33:24,007 [INFO] Response message: Link has responded with staus 301 and status text Moved Permanently
+2025-06-25 13:33:24,007 [INFO] API response verification passed
+2025-06-25 13:33:24,193 [INFO] Bad request button clicked
+2025-06-25 13:33:27,269 [INFO] Response message: Link has responded with staus 400 and status text Bad Request
+2025-06-25 13:33:27,269 [INFO] API response verification passed!
+2025-06-25 13:33:27,395 [INFO] Unauthorized button clicked
+2025-06-25 13:33:30,432 [INFO] Response message: Link has responded with staus 401 and status text Unauthorized
+2025-06-25 13:33:30,432 [INFO] API response verification passed!
+2025-06-25 13:33:30,574 [INFO] Forbidden button clicked
+2025-06-25 13:33:33,637 [INFO] Response message: Link has responded with staus 403 and status text Forbidden
+2025-06-25 13:33:33,638 [INFO] API response verification passed!
+2025-06-25 13:33:33,754 [INFO] Not found button clicked
+2025-06-25 13:33:36,803 [INFO] Response message: Link has responded with staus 404 and status text Not Found
+2025-06-25 13:33:36,804 [INFO] API response verification passed!
+2025-06-25 16:35:53,328 [INFO] Starting API response test
+2025-06-25 16:35:53,647 [INFO] Created button clicked
+2025-06-25 16:35:56,759 [INFO] Response message: Link has responded with staus 201 and status text Created
+2025-06-25 16:35:56,759 [INFO] API response verification passed!
+2025-06-25 16:35:56,903 [INFO] No content button clicked
+2025-06-25 16:35:59,978 [INFO] Response message: Link has responded with staus 204 and status text No Content
+2025-06-25 16:35:59,978 [INFO] API response verification passed!
+2025-06-25 16:36:00,126 [INFO] Moved Permanently button clicked
+2025-06-25 16:36:03,186 [INFO] Response message: Link has responded with staus 301 and status text Moved Permanently
+2025-06-25 16:36:03,186 [INFO] API response verification passed
+2025-06-25 16:36:03,304 [INFO] Bad request button clicked
+2025-06-25 16:36:06,364 [INFO] Response message: Link has responded with staus 400 and status text Bad Request
+2025-06-25 16:36:06,365 [INFO] API response verification passed!
+2025-06-25 16:36:06,553 [INFO] Unauthorized button clicked
+2025-06-25 16:36:09,617 [INFO] Response message: Link has responded with staus 401 and status text Unauthorized
+2025-06-25 16:36:09,617 [INFO] API response verification passed!
+2025-06-25 16:36:09,854 [INFO] Forbidden button clicked
+2025-06-25 16:36:12,921 [INFO] Response message: Link has responded with staus 403 and status text Forbidden
+2025-06-25 16:36:12,921 [INFO] API response verification passed!
+2025-06-25 16:36:13,075 [INFO] Not found button clicked
+2025-06-25 16:36:16,129 [INFO] Response message: Link has responded with staus 404 and status text Not Found
+2025-06-25 16:36:16,129 [INFO] API response verification passed!
+2025-06-25 20:49:21,446 [INFO] Image width: 347, height: 100
+2025-06-25 20:49:21,447 [INFO] Valid image is loaded successfully
+2025-06-25 20:49:40,981 [INFO] Image width0, height0
+2025-06-25 20:49:40,981 [INFO] Broken image is correctly broken
+2025-06-25 20:50:01,994 [INFO] Valid link redirected correctly
+2025-06-25 20:50:20,986 [INFO] Broken link worked correctly
+2025-06-26 17:03:25,330 [INFO] Download button clicked successfully
+2025-06-26 17:03:46,804 [INFO] File uploaded successfully: C:\Users\user\Desktop\photo_2025-04-26_12-18-38.jpg
+2025-06-26 17:05:27,784 [ERROR] Error clicking download button: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0xfc3b03+62899]
+	GetHandleVerifier [0x0xfc3b44+62964]
+	(No symbol) [0x0xdf10f3]
+	(No symbol) [0x0xde08c0]
+	(No symbol) [0x0xdfe87f]
+	(No symbol) [0x0xe6514c]
+	(No symbol) [0x0xe7f6a9]
+	(No symbol) [0x0xe5e306]
+	(No symbol) [0x0xe2d670]
+	(No symbol) [0x0xe2e4e4]
+	GetHandleVerifier [0x0x1224793+2556483]
+	GetHandleVerifier [0x0x121fd02+2537394]
+	GetHandleVerifier [0x0xfea2fa+220586]
+	GetHandleVerifier [0x0xfdaae8+157080]
+	GetHandleVerifier [0x0xfe141d+184013]
+	GetHandleVerifier [0x0xfcba68+95512]
+	GetHandleVerifier [0x0xfcbc10+95936]
+	GetHandleVerifier [0x0xfb6b5a+9738]
+	BaseThreadInitThunk [0x0x74d15d49+25]
+	RtlInitializeExceptionChain [0x0x7726d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7726d021+561]
+
+2025-06-26 17:06:00,391 [INFO] Download button clicked successfully
+2025-06-26 17:06:23,866 [INFO] File uploaded successfully: C:\Users\user\Desktop\photo_2025-04-26_12-18-38.jpg
+2025-06-26 17:06:23,917 [INFO] File photo_2025-04-26_12-18-38.jpg not found in input text
+2025-06-26 17:08:05,652 [INFO] Download button clicked successfully
+2025-06-26 17:08:30,469 [INFO] File uploaded successfully: C:\Users\user\Desktop\photo_2025-04-26_12-18-38.jpg
+2025-06-26 17:08:30,532 [ERROR] File photo_2025-04-26_12-18-38.jpg not found. Found: ''
+2025-06-26 17:13:51,295 [INFO] Download button clicked successfully
+2025-06-26 17:14:15,837 [INFO] File uploaded successfully: C:\Users\user\Desktop\photo_2025-04-26_12-18-38.jpg
+2025-06-26 17:14:15,877 [ERROR] Error verifying file upload: name 'current_text' is not defined
+2025-06-26 17:14:51,702 [INFO] Download button clicked successfully
+2025-06-26 17:15:15,913 [INFO] File uploaded successfully: C:\Users\user\Desktop\photo_2025-04-26_12-18-38.jpg
+2025-06-26 17:15:15,990 [INFO] File photo_2025-04-26_12-18-38.jpg verified successfully
+2025-06-27 17:14:19,648 [ERROR] Error verifying random text: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa53b03+62899]
+	GetHandleVerifier [0x0xa53b44+62964]
+	(No symbol) [0x0x8810f3]
+	(No symbol) [0x0x8c980e]
+	(No symbol) [0x0x8c9bab]
+	(No symbol) [0x0x9125c2]
+	(No symbol) [0x0x8ee554]
+	(No symbol) [0x0x90fd81]
+	(No symbol) [0x0x8ee306]
+	(No symbol) [0x0x8bd670]
+	(No symbol) [0x0x8be4e4]
+	GetHandleVerifier [0x0xcb4793+2556483]
+	GetHandleVerifier [0x0xcafd02+2537394]
+	GetHandleVerifier [0x0xa7a2fa+220586]
+	GetHandleVerifier [0x0xa6aae8+157080]
+	GetHandleVerifier [0x0xa7141d+184013]
+	GetHandleVerifier [0x0xa5ba68+95512]
+	GetHandleVerifier [0x0xa5bc10+95936]
+	GetHandleVerifier [0x0xa46b5a+9738]
+	BaseThreadInitThunk [0x0x74d15d49+25]
+	RtlInitializeExceptionChain [0x0x7726d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7726d021+561]
+
+2025-06-27 17:14:33,659 [ERROR] Buton was already enabled initially
+2025-06-27 17:14:51,743 [INFO] Original color: rgba(0, 123, 255, 1)
+2025-06-27 17:14:52,866 [INFO] New colorrgba(0, 105, 217, 1)
+2025-06-27 17:14:52,867 [INFO] Color change verified succesfully
+2025-06-27 17:15:07,534 [INFO] Button is initially not visible
+2025-06-27 17:15:12,611 [INFO] Button became visible after 5 seconds
+2025-06-27 17:17:25,950 [ERROR] Error verifying random text: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa53b03+62899]
+	GetHandleVerifier [0x0xa53b44+62964]
+	(No symbol) [0x0x8810f3]
+	(No symbol) [0x0x8c980e]
+	(No symbol) [0x0x8c9bab]
+	(No symbol) [0x0x9125c2]
+	(No symbol) [0x0x8ee554]
+	(No symbol) [0x0x90fd81]
+	(No symbol) [0x0x8ee306]
+	(No symbol) [0x0x8bd670]
+	(No symbol) [0x0x8be4e4]
+	GetHandleVerifier [0x0xcb4793+2556483]
+	GetHandleVerifier [0x0xcafd02+2537394]
+	GetHandleVerifier [0x0xa7a2fa+220586]
+	GetHandleVerifier [0x0xa6aae8+157080]
+	GetHandleVerifier [0x0xa7141d+184013]
+	GetHandleVerifier [0x0xa5ba68+95512]
+	GetHandleVerifier [0x0xa5bc10+95936]
+	GetHandleVerifier [0x0xa46b5a+9738]
+	BaseThreadInitThunk [0x0x74d15d49+25]
+	RtlInitializeExceptionChain [0x0x7726d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7726d021+561]
+
+2025-06-27 17:17:39,324 [ERROR] Buton was already enabled initially
+2025-06-27 17:17:55,602 [INFO] Original color: rgba(0, 123, 255, 1)
+2025-06-27 17:17:56,732 [INFO] New colorrgba(0, 105, 217, 1)
+2025-06-27 17:17:56,732 [INFO] Color change verified succesfully
+2025-06-27 17:18:10,091 [INFO] Button is initially not visible
+2025-06-27 17:18:15,144 [INFO] Button became visible after 5 seconds
+2025-06-27 17:19:33,477 [ERROR] Error verifying random text: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa53b03+62899]
+	GetHandleVerifier [0x0xa53b44+62964]
+	(No symbol) [0x0x8810f3]
+	(No symbol) [0x0x8c980e]
+	(No symbol) [0x0x8c9bab]
+	(No symbol) [0x0x9125c2]
+	(No symbol) [0x0x8ee554]
+	(No symbol) [0x0x90fd81]
+	(No symbol) [0x0x8ee306]
+	(No symbol) [0x0x8bd670]
+	(No symbol) [0x0x8be4e4]
+	GetHandleVerifier [0x0xcb4793+2556483]
+	GetHandleVerifier [0x0xcafd02+2537394]
+	GetHandleVerifier [0x0xa7a2fa+220586]
+	GetHandleVerifier [0x0xa6aae8+157080]
+	GetHandleVerifier [0x0xa7141d+184013]
+	GetHandleVerifier [0x0xa5ba68+95512]
+	GetHandleVerifier [0x0xa5bc10+95936]
+	GetHandleVerifier [0x0xa46b5a+9738]
+	BaseThreadInitThunk [0x0x74d15d49+25]
+	RtlInitializeExceptionChain [0x0x7726d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7726d021+561]
+
+2025-06-27 17:21:05,890 [ERROR] Error verifying random text: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa53b03+62899]
+	GetHandleVerifier [0x0xa53b44+62964]
+	(No symbol) [0x0x8810f3]
+	(No symbol) [0x0x8c980e]
+	(No symbol) [0x0x8c9bab]
+	(No symbol) [0x0x9125c2]
+	(No symbol) [0x0x8ee554]
+	(No symbol) [0x0x90fd81]
+	(No symbol) [0x0x8ee306]
+	(No symbol) [0x0x8bd670]
+	(No symbol) [0x0x8be4e4]
+	GetHandleVerifier [0x0xcb4793+2556483]
+	GetHandleVerifier [0x0xcafd02+2537394]
+	GetHandleVerifier [0x0xa7a2fa+220586]
+	GetHandleVerifier [0x0xa6aae8+157080]
+	GetHandleVerifier [0x0xa7141d+184013]
+	GetHandleVerifier [0x0xa5ba68+95512]
+	GetHandleVerifier [0x0xa5bc10+95936]
+	GetHandleVerifier [0x0xa46b5a+9738]
+	BaseThreadInitThunk [0x0x74d15d49+25]
+	RtlInitializeExceptionChain [0x0x7726d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7726d021+561]
+
+2025-06-27 17:24:34,332 [INFO] Random text verification successfully
+2025-06-27 17:26:17,542 [INFO] Button is initially disabled
+2025-06-27 17:26:22,574 [INFO]  Button became enabled after 5 seconds
+2025-06-27 18:11:54,718 [INFO] Random text verification successfully
+2025-06-27 18:12:08,579 [INFO] Button is initially disabled
+2025-06-27 18:12:13,616 [INFO]  Button became enabled after 5 seconds
+2025-06-27 18:12:29,319 [INFO] Original color: rgba(0, 123, 255, 1)
+2025-06-27 18:12:30,430 [INFO] New colorrgba(0, 105, 217, 1)
+2025-06-27 18:12:30,430 [INFO] Color change verified succesfully
+2025-06-27 18:12:57,307 [INFO] Button is initially not visible
+2025-06-27 18:13:02,389 [INFO] Button became visible after 5 seconds
+2025-06-28 17:32:27,052 [INFO] File uploaded C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-06-28 17:46:05,755 [INFO] File uploaded C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-06-28 17:47:32,045 [INFO] File uploaded C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-06-28 18:08:07,427 [INFO] File uploaded C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-06-28 18:11:39,294 [INFO] File uploaded C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-06-28 18:26:52,398 [INFO] File uploaded C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-06-28 18:28:59,667 [INFO] File uploaded C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-06-28 18:29:35,963 [INFO] File uploaded C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-06-28 18:31:08,027 [INFO] File uploaded C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-06-28 18:31:45,798 [INFO] File uploaded C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-06-28 18:31:57,707 [INFO] All submitted data verified successfully!
+2025-06-28 18:34:03,133 [INFO] File uploaded C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-06-28 18:34:14,969 [INFO] All submitted data verified successfully!
+2025-06-30 19:00:51,763 [INFO] Successfully clicked element: ('xpath', "//button[@id='tabButton']")
+2025-06-30 19:03:34,663 [INFO] STARTING TEST: test_new_tab_functionality
+2025-06-30 19:03:35,150 [INFO] Successfully clicked element: ('xpath', "//button[@id='tabButton']")
+2025-06-30 19:04:42,911 [INFO] STARTING TEST: test_new_tab_functionality
+2025-06-30 19:04:42,914 [INFO]  Initial tab count: 1
+2025-06-30 19:04:43,137 [INFO] Successfully clicked element: ('xpath', "//button[@id='tabButton']")
+2025-06-30 19:04:43,154 [INFO]  Current tab count: 2
+2025-06-30 19:04:43,154 [INFO]  Test passed!
+2025-06-30 19:16:50,772 [INFO] STARTING TEST: test_new_tab_functionality
+2025-06-30 19:16:50,777 [INFO]  Initial tab count: 1
+2025-06-30 19:16:51,052 [INFO] Successfully clicked element: ('xpath', "//button[@id='tabButton']")
+2025-06-30 19:16:51,079 [INFO]  Current tab count: 2
+2025-06-30 19:16:51,079 [INFO]  Test passed!
+2025-06-30 19:17:07,392 [INFO] STARTING TEST: test_new_window_functionality
+2025-06-30 19:17:07,397 [INFO]  Initial window count: 1
+2025-06-30 19:17:07,650 [INFO] Successfully clicked element: ('xpath', "//button[@id='windowButton']")
+2025-06-30 19:17:07,666 [INFO]  Current window count: 2
+2025-06-30 19:17:07,666 [INFO]  Test passed!
+2025-06-30 19:17:30,022 [INFO] STARTING TEST: test_new_window_message_functionality
+2025-06-30 19:17:30,027 [INFO]  Initial new_window_message count: 1
+2025-06-30 19:17:30,295 [INFO] Successfully clicked element: ('xpath', "//button[@id='messageWindowButton']")
+2025-06-30 19:17:30,304 [INFO]  Current new_window_message count: 2
+2025-06-30 19:17:30,304 [INFO]  Test passed!
+2025-07-01 13:33:52,692 [INFO] STARTING TEST: test_simple_alert_functionality
+2025-07-01 13:33:52,942 [INFO] Successfully clicked element: ('xpath', "//button[@id='alertButton']")
+2025-07-01 13:33:52,942 [INFO] Clicking simple alert button...
+2025-07-01 13:33:52,948 [INFO] Handling simple alert...
+2025-07-01 13:33:52,948 [INFO] Test completed successfully!
+2025-07-01 13:34:22,459 [INFO] STARTING TEST: test_simple_alert_functionality
+2025-07-01 13:34:22,602 [INFO] Successfully clicked element: ('xpath', "//button[@id='alertButton']")
+2025-07-01 13:34:22,603 [INFO] Clicking simple alert button...
+2025-07-01 13:34:22,608 [INFO] Handling simple alert...
+2025-07-01 13:34:22,608 [INFO] Test completed successfully!
+2025-07-01 17:15:43,471 [INFO] STARTING TEST: test_simple_alert_functionality
+2025-07-01 17:15:43,779 [INFO] Successfully clicked element: ('xpath', "//button[@id='alertButton']")
+2025-07-01 17:15:43,779 [INFO] Clicking simple alert button...
+2025-07-01 17:15:43,787 [INFO] Handling simple alert...
+2025-07-01 17:15:43,787 [INFO] Test completed successfully!
+2025-07-01 17:16:09,506 [INFO] STARTING TEST: test_timer_alert_functionality
+2025-07-01 17:16:09,506 [INFO] Clicking timer alert button...
+2025-07-01 17:16:09,722 [INFO] Successfully clicked element: ('xpath', "//button[@id='timerAlertButton']")
+2025-07-01 17:16:09,722 [INFO] Waiting for 5-second timer alert...
+2025-07-01 17:16:14,805 [INFO] Handling timer alert
+2025-07-01 17:16:14,805 [INFO] Timer alert handled successfully!
+2025-07-01 17:16:41,910 [INFO] STARTING TEST: test_confirm_alert_accept
+2025-07-01 17:16:41,910 [INFO] Clicking confirm button...
+2025-07-01 17:16:42,048 [INFO] Successfully clicked element: ('xpath', "//button[@id='confirmButton']")
+2025-07-01 17:16:42,048 [INFO] Accepting confirm alert...
+2025-07-01 17:16:42,108 [INFO] Successfully got text: You selected Ok
+2025-07-01 17:16:42,109 [INFO] Result verified: You selected Ok
+2025-07-01 17:17:05,780 [INFO] STARTING TEST: test_confirm_alert_dismiss
+2025-07-01 17:17:05,780 [INFO] Clicking confirm button...
+2025-07-01 17:17:06,039 [INFO] Successfully clicked element: ('xpath', "//button[@id='confirmButton']")
+2025-07-01 17:17:06,040 [INFO] Dismiss confirm alert...
+2025-07-01 17:17:06,139 [INFO] Successfully got text: You selected Cancel
+2025-07-01 17:17:06,139 [INFO] Result verified: You selected Cancel
+2025-07-01 17:17:26,236 [INFO] STARTING TEST: test_prompt_alert_functionality
+2025-07-01 17:17:26,236 [INFO] Clicking prompt button...
+2025-07-01 17:17:26,466 [INFO] Successfully clicked element: ('xpath', "//button[@id='promtButton']")
+2025-07-01 17:17:26,477 [INFO] Accepting prompt alert...
+2025-07-01 17:17:26,576 [INFO] Successfully got text: You entered Test User
+2025-07-01 17:17:26,577 [INFO]  Result verified: You entered Test User
+2025-07-02 16:21:34,591 [INFO] STARTING TEST: test_frame1
+2025-07-02 16:21:34,845 [INFO] Successfully got text: This is a sample page
+2025-07-02 16:21:34,846 [INFO] Test passed!
+2025-07-02 16:21:50,240 [INFO] STARTING TEST: test_frame2
+2025-07-02 16:21:50,367 [INFO] Successfully got text: This is a sample page
+2025-07-02 16:21:50,367 [INFO] Test passed
+2025-07-02 16:22:04,675 [INFO] STARTING TEST: test_frame_count
+2025-07-02 16:36:50,468 [INFO] STARTING TEST: test_frame1
+2025-07-02 16:36:50,586 [INFO] Successfully got text: This is a sample page
+2025-07-02 16:36:50,586 [INFO] Test passed!
+2025-07-02 16:37:12,860 [INFO] STARTING TEST: test_frame2
+2025-07-02 16:37:12,983 [INFO] Successfully got text: This is a sample page
+2025-07-02 16:37:12,983 [INFO] Test passed
+2025-07-02 16:37:39,112 [INFO] STARTING TEST: test_frame_count
+2025-07-02 16:39:21,270 [INFO] STARTING TEST: test_frame_count
+2025-07-02 16:39:21,309 [INFO] Test passed
+2025-07-02 16:39:50,348 [INFO] STARTING TEST: test_frame1
+2025-07-02 16:39:50,566 [INFO] Successfully got text: This is a sample page
+2025-07-02 16:39:50,566 [INFO] Test passed!
+2025-07-02 16:40:08,269 [INFO] STARTING TEST: test_frame2
+2025-07-02 16:40:08,416 [INFO] Successfully got text: This is a sample page
+2025-07-02 16:40:08,416 [INFO] Test passed
+2025-07-02 16:40:32,638 [INFO] STARTING TEST: test_frame_count
+2025-07-02 16:40:32,671 [INFO] Test passed
+2025-07-02 17:15:34,787 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-07-02 17:15:45,256 [ERROR] Failed to get text from ('id', 'framesWrapper'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x5c3b03+62899]
+	GetHandleVerifier [0x0x5c3b44+62964]
+	(No symbol) [0x0x3f10f3]
+	(No symbol) [0x0x43980e]
+	(No symbol) [0x0x439bab]
+	(No symbol) [0x0x4825c2]
+	(No symbol) [0x0x45e554]
+	(No symbol) [0x0x47fd81]
+	(No symbol) [0x0x45e306]
+	(No symbol) [0x0x42d670]
+	(No symbol) [0x0x42e4e4]
+	GetHandleVerifier [0x0x824793+2556483]
+	GetHandleVerifier [0x0x81fd02+2537394]
+	GetHandleVerifier [0x0x5ea2fa+220586]
+	GetHandleVerifier [0x0x5daae8+157080]
+	GetHandleVerifier [0x0x5e141d+184013]
+	GetHandleVerifier [0x0x5cba68+95512]
+	GetHandleVerifier [0x0x5cbc10+95936]
+	GetHandleVerifier [0x0x5b6b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-02 17:15:45,608 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-02 17:38:35,448 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-07-02 17:38:35,522 [ERROR] Failed to get text from ('xpath', '//text()'): Message: invalid selector: The result of the xpath expression "//text()" is: [object Text]. It should be an element.
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x0x9b3b03+62899]
+	GetHandleVerifier [0x0x9b3b44+62964]
+	(No symbol) [0x0x7e10f3]
+	(No symbol) [0x0x7e78e0]
+	(No symbol) [0x0x7e9c0a]
+	(No symbol) [0x0x7e9c87]
+	(No symbol) [0x0x8290a4]
+	(No symbol) [0x0x829bab]
+	(No symbol) [0x0x8725c2]
+	(No symbol) [0x0x84e554]
+	(No symbol) [0x0x86fd81]
+	(No symbol) [0x0x84e306]
+	(No symbol) [0x0x81d670]
+	(No symbol) [0x0x81e4e4]
+	GetHandleVerifier [0x0xc14793+2556483]
+	GetHandleVerifier [0x0xc0fd02+2537394]
+	GetHandleVerifier [0x0x9da2fa+220586]
+	GetHandleVerifier [0x0x9caae8+157080]
+	GetHandleVerifier [0x0x9d141d+184013]
+	GetHandleVerifier [0x0x9bba68+95512]
+	GetHandleVerifier [0x0x9bbc10+95936]
+	GetHandleVerifier [0x0x9a6b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-02 17:38:35,794 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-02 17:38:35,794 [ERROR] Element not found in parent frame
+2025-07-02 17:58:21,340 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-07-02 17:58:21,444 [ERROR] Failed to get text from ('xpath', '//text()'): Message: invalid selector: The result of the xpath expression "//text()" is: [object Text]. It should be an element.
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x0xdc3b03+62899]
+	GetHandleVerifier [0x0xdc3b44+62964]
+	(No symbol) [0x0xbf10f3]
+	(No symbol) [0x0xbf78e0]
+	(No symbol) [0x0xbf9c0a]
+	(No symbol) [0x0xbf9c87]
+	(No symbol) [0x0xc390a4]
+	(No symbol) [0x0xc39bab]
+	(No symbol) [0x0xc825c2]
+	(No symbol) [0x0xc5e554]
+	(No symbol) [0x0xc7fd81]
+	(No symbol) [0x0xc5e306]
+	(No symbol) [0x0xc2d670]
+	(No symbol) [0x0xc2e4e4]
+	GetHandleVerifier [0x0x1024793+2556483]
+	GetHandleVerifier [0x0x101fd02+2537394]
+	GetHandleVerifier [0x0xdea2fa+220586]
+	GetHandleVerifier [0x0xddaae8+157080]
+	GetHandleVerifier [0x0xde141d+184013]
+	GetHandleVerifier [0x0xdcba68+95512]
+	GetHandleVerifier [0x0xdcbc10+95936]
+	GetHandleVerifier [0x0xdb6b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-02 17:58:21,728 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-02 17:58:21,729 [ERROR] Element not found in parent frame
+2025-07-02 17:58:37,067 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-07-02 18:17:24,869 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-07-02 18:17:24,965 [ERROR] Failed to get text from ('xpath', '//text()'): Message: invalid selector: The result of the xpath expression "//text()" is: [object Text]. It should be an element.
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x0xdc3b03+62899]
+	GetHandleVerifier [0x0xdc3b44+62964]
+	(No symbol) [0x0xbf10f3]
+	(No symbol) [0x0xbf78e0]
+	(No symbol) [0x0xbf9c0a]
+	(No symbol) [0x0xbf9c87]
+	(No symbol) [0x0xc390a4]
+	(No symbol) [0x0xc39bab]
+	(No symbol) [0x0xc825c2]
+	(No symbol) [0x0xc5e554]
+	(No symbol) [0x0xc7fd81]
+	(No symbol) [0x0xc5e306]
+	(No symbol) [0x0xc2d670]
+	(No symbol) [0x0xc2e4e4]
+	GetHandleVerifier [0x0x1024793+2556483]
+	GetHandleVerifier [0x0x101fd02+2537394]
+	GetHandleVerifier [0x0xdea2fa+220586]
+	GetHandleVerifier [0x0xddaae8+157080]
+	GetHandleVerifier [0x0xde141d+184013]
+	GetHandleVerifier [0x0xdcba68+95512]
+	GetHandleVerifier [0x0xdcbc10+95936]
+	GetHandleVerifier [0x0xdb6b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-02 18:17:25,277 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-02 18:17:25,277 [ERROR] Element not found in parent frame
+2025-07-02 18:17:44,645 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-07-02 19:18:07,367 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-07-02 19:18:07,475 [ERROR] Failed to get text from ('xpath', '//text()'): Message: invalid selector: The result of the xpath expression "//text()" is: [object Text]. It should be an element.
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x0x483b03+62899]
+	GetHandleVerifier [0x0x483b44+62964]
+	(No symbol) [0x0x2b10f3]
+	(No symbol) [0x0x2b78e0]
+	(No symbol) [0x0x2b9c0a]
+	(No symbol) [0x0x2b9c87]
+	(No symbol) [0x0x2f90a4]
+	(No symbol) [0x0x2f9bab]
+	(No symbol) [0x0x3425c2]
+	(No symbol) [0x0x31e554]
+	(No symbol) [0x0x33fd81]
+	(No symbol) [0x0x31e306]
+	(No symbol) [0x0x2ed670]
+	(No symbol) [0x0x2ee4e4]
+	GetHandleVerifier [0x0x6e4793+2556483]
+	GetHandleVerifier [0x0x6dfd02+2537394]
+	GetHandleVerifier [0x0x4aa2fa+220586]
+	GetHandleVerifier [0x0x49aae8+157080]
+	GetHandleVerifier [0x0x4a141d+184013]
+	GetHandleVerifier [0x0x48ba68+95512]
+	GetHandleVerifier [0x0x48bc10+95936]
+	GetHandleVerifier [0x0x476b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-02 19:18:07,812 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-02 19:18:07,812 [ERROR] Element not found in parent frame
+2025-07-02 19:18:22,268 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-07-02 19:20:06,726 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-07-02 19:20:06,836 [ERROR] Failed to get text from ('xpath', '//text()'): Message: invalid selector: The result of the xpath expression "//text()" is: [object Text]. It should be an element.
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x0x483b03+62899]
+	GetHandleVerifier [0x0x483b44+62964]
+	(No symbol) [0x0x2b10f3]
+	(No symbol) [0x0x2b78e0]
+	(No symbol) [0x0x2b9c0a]
+	(No symbol) [0x0x2b9c87]
+	(No symbol) [0x0x2f90a4]
+	(No symbol) [0x0x2f9bab]
+	(No symbol) [0x0x3425c2]
+	(No symbol) [0x0x31e554]
+	(No symbol) [0x0x33fd81]
+	(No symbol) [0x0x31e306]
+	(No symbol) [0x0x2ed670]
+	(No symbol) [0x0x2ee4e4]
+	GetHandleVerifier [0x0x6e4793+2556483]
+	GetHandleVerifier [0x0x6dfd02+2537394]
+	GetHandleVerifier [0x0x4aa2fa+220586]
+	GetHandleVerifier [0x0x49aae8+157080]
+	GetHandleVerifier [0x0x4a141d+184013]
+	GetHandleVerifier [0x0x48ba68+95512]
+	GetHandleVerifier [0x0x48bc10+95936]
+	GetHandleVerifier [0x0x476b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-02 19:20:07,119 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-02 19:20:07,119 [ERROR] Element not found in parent frame
+2025-07-02 19:20:20,983 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-07-02 19:20:21,084 [INFO] Switched to child frame
+2025-07-02 19:20:21,123 [ERROR] Failed to get text from ('xpath', '//text()'): Message: invalid selector: The result of the xpath expression "//text()" is: [object Text]. It should be an element.
+  (Session info: chrome=137.0.7151.120); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x0x483b03+62899]
+	GetHandleVerifier [0x0x483b44+62964]
+	(No symbol) [0x0x2b10f3]
+	(No symbol) [0x0x2b78e0]
+	(No symbol) [0x0x2b9c0a]
+	(No symbol) [0x0x2b9c87]
+	(No symbol) [0x0x2f90a4]
+	(No symbol) [0x0x2f9bab]
+	(No symbol) [0x0x3425c2]
+	(No symbol) [0x0x31e554]
+	(No symbol) [0x0x33fd81]
+	(No symbol) [0x0x31e306]
+	(No symbol) [0x0x2ed670]
+	(No symbol) [0x0x2ee4e4]
+	GetHandleVerifier [0x0x6e4793+2556483]
+	GetHandleVerifier [0x0x6dfd02+2537394]
+	GetHandleVerifier [0x0x4aa2fa+220586]
+	GetHandleVerifier [0x0x49aae8+157080]
+	GetHandleVerifier [0x0x4a141d+184013]
+	GetHandleVerifier [0x0x48ba68+95512]
+	GetHandleVerifier [0x0x48bc10+95936]
+	GetHandleVerifier [0x0x476b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-02 19:20:21,415 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-02 19:20:21,416 [ERROR] Element not found in child frame
+2025-07-03 12:02:32,785 [INFO] STARTING TEST: test_small_modal_functionality
+2025-07-03 12:02:32,786 [INFO] Clicking small modal button
+2025-07-03 12:02:33,167 [INFO] Successfully clicked element: ('xpath', "//button[@id='showSmallModal']")
+2025-07-03 12:02:33,167 [INFO] Verfying modal is visible...
+2025-07-03 12:02:33,192 [INFO] Verfying modal title...
+2025-07-03 12:02:33,228 [INFO] Successfully got text: Small Modal
+2025-07-03 12:02:33,229 [INFO] Verfying modal content...
+2025-07-03 12:02:33,265 [INFO] Successfully got text: This is a small modal. It has very less content
+2025-07-03 12:02:33,265 [INFO] Closing modal...
+2025-07-03 12:02:33,441 [INFO] Successfully clicked element: ('class name', 'close')
+2025-07-03 12:03:22,132 [INFO] STARTING TEST: test_small_modal_functionality
+2025-07-03 12:03:22,132 [INFO] Clicking small modal button
+2025-07-03 12:03:22,388 [INFO] Successfully clicked element: ('xpath', "//button[@id='showSmallModal']")
+2025-07-03 12:03:22,389 [INFO] Verfying modal is visible...
+2025-07-03 12:03:22,421 [INFO] Verfying modal title...
+2025-07-03 12:03:22,459 [INFO] Successfully got text: Small Modal
+2025-07-03 12:03:22,460 [INFO] Verfying modal content...
+2025-07-03 12:03:22,517 [INFO] Successfully got text: This is a small modal. It has very less content
+2025-07-03 12:03:22,518 [INFO] Closing modal...
+2025-07-03 12:03:22,657 [INFO] Successfully clicked element: ('class name', 'close')
+2025-07-03 12:06:16,042 [INFO] STARTING TEST: test_small_modal_functionality
+2025-07-03 12:06:16,042 [INFO] Clicking small modal button
+2025-07-03 12:06:16,188 [INFO] Successfully clicked element: ('xpath', "//button[@id='showSmallModal']")
+2025-07-03 12:06:16,188 [INFO] Verfying modal is visible...
+2025-07-03 12:06:16,222 [INFO] Verfying modal title...
+2025-07-03 12:06:16,284 [INFO] Successfully got text: Small Modal
+2025-07-03 12:06:16,284 [INFO] Verfying modal content...
+2025-07-03 12:06:16,318 [INFO] Successfully got text: This is a small modal. It has very less content
+2025-07-03 12:06:18,319 [INFO] Closing modal...
+2025-07-03 12:06:18,495 [INFO] Successfully clicked element: ('class name', 'close')
+2025-07-03 12:06:40,086 [INFO] STARTING TEST: test_large_modal_functionality
+2025-07-03 12:06:40,086 [INFO] Clicking large modal button...
+2025-07-03 12:06:40,303 [INFO] Successfully clicked element: ('xpath', "//button[@id='showLargeModal']")
+2025-07-03 12:06:40,303 [INFO] Verifying modal is visible...
+2025-07-03 12:06:40,331 [INFO] Verifying modal title...
+2025-07-03 12:06:50,793 [ERROR] Failed to get text from ('id', 'example-modal-sizes-title-sm'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x1023b03+62899]
+	GetHandleVerifier [0x0x1023b44+62964]
+	(No symbol) [0x0xe510f3]
+	(No symbol) [0x0xe9980e]
+	(No symbol) [0x0xe99bab]
+	(No symbol) [0x0xee25c2]
+	(No symbol) [0x0xebe554]
+	(No symbol) [0x0xedfd81]
+	(No symbol) [0x0xebe306]
+	(No symbol) [0x0xe8d670]
+	(No symbol) [0x0xe8e4e4]
+	GetHandleVerifier [0x0x1284793+2556483]
+	GetHandleVerifier [0x0x127fd02+2537394]
+	GetHandleVerifier [0x0x104a2fa+220586]
+	GetHandleVerifier [0x0x103aae8+157080]
+	GetHandleVerifier [0x0x104141d+184013]
+	GetHandleVerifier [0x0x102ba68+95512]
+	GetHandleVerifier [0x0x102bc10+95936]
+	GetHandleVerifier [0x0x1016b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-03 12:06:51,130 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-03 12:10:11,296 [INFO] STARTING TEST: test_large_modal_functionality
+2025-07-03 12:10:11,297 [INFO] Clicking large modal button...
+2025-07-03 12:10:11,477 [INFO] Successfully clicked element: ('xpath', "//button[@id='showLargeModal']")
+2025-07-03 12:10:11,477 [INFO] Verifying modal is visible...
+2025-07-03 12:10:11,508 [INFO] Verifying modal title...
+2025-07-03 12:10:22,027 [ERROR] Failed to get text from ('id', 'example-modal-sizes-title-sm'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x1023b03+62899]
+	GetHandleVerifier [0x0x1023b44+62964]
+	(No symbol) [0x0xe510f3]
+	(No symbol) [0x0xe9980e]
+	(No symbol) [0x0xe99bab]
+	(No symbol) [0x0xee25c2]
+	(No symbol) [0x0xebe554]
+	(No symbol) [0x0xedfd81]
+	(No symbol) [0x0xebe306]
+	(No symbol) [0x0xe8d670]
+	(No symbol) [0x0xe8e4e4]
+	GetHandleVerifier [0x0x1284793+2556483]
+	GetHandleVerifier [0x0x127fd02+2537394]
+	GetHandleVerifier [0x0x104a2fa+220586]
+	GetHandleVerifier [0x0x103aae8+157080]
+	GetHandleVerifier [0x0x104141d+184013]
+	GetHandleVerifier [0x0x102ba68+95512]
+	GetHandleVerifier [0x0x102bc10+95936]
+	GetHandleVerifier [0x0x1016b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-03 12:10:22,359 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-03 12:10:22,430 [INFO] Successfully got text: Large Modal
+2025-07-03 12:10:22,431 [INFO] Verifying modal content...
+2025-07-03 12:10:22,477 [INFO] Successfully got text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+2025-07-03 12:12:22,393 [INFO] STARTING TEST: test_large_modal_functionality
+2025-07-03 12:12:22,394 [INFO] Clicking large modal button...
+2025-07-03 12:12:32,561 [ERROR] Failed to click element ('id', 'example-modal-sizes-title-sm'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x1023b03+62899]
+	GetHandleVerifier [0x0x1023b44+62964]
+	(No symbol) [0x0xe510f3]
+	(No symbol) [0x0xe9980e]
+	(No symbol) [0x0xe99bab]
+	(No symbol) [0x0xee25c2]
+	(No symbol) [0x0xebe554]
+	(No symbol) [0x0xedfd81]
+	(No symbol) [0x0xebe306]
+	(No symbol) [0x0xe8d670]
+	(No symbol) [0x0xe8e4e4]
+	GetHandleVerifier [0x0x1284793+2556483]
+	GetHandleVerifier [0x0x127fd02+2537394]
+	GetHandleVerifier [0x0x104a2fa+220586]
+	GetHandleVerifier [0x0x103aae8+157080]
+	GetHandleVerifier [0x0x104141d+184013]
+	GetHandleVerifier [0x0x102ba68+95512]
+	GetHandleVerifier [0x0x102bc10+95936]
+	GetHandleVerifier [0x0x1016b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-03 12:12:32,914 [INFO] Screenshot saved: screenshots/click_error.png
+2025-07-03 12:17:13,195 [INFO] STARTING TEST: test_large_modal_functionality
+2025-07-03 12:17:13,195 [INFO] Clicking large modal button...
+2025-07-03 12:17:23,212 [ERROR] Failed to click element ('id', "//button[@id='showLargeModal']"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x1023b03+62899]
+	GetHandleVerifier [0x0x1023b44+62964]
+	(No symbol) [0x0xe510f3]
+	(No symbol) [0x0xe9980e]
+	(No symbol) [0x0xe99bab]
+	(No symbol) [0x0xee25c2]
+	(No symbol) [0x0xebe554]
+	(No symbol) [0x0xedfd81]
+	(No symbol) [0x0xebe306]
+	(No symbol) [0x0xe8d670]
+	(No symbol) [0x0xe8e4e4]
+	GetHandleVerifier [0x0x1284793+2556483]
+	GetHandleVerifier [0x0x127fd02+2537394]
+	GetHandleVerifier [0x0x104a2fa+220586]
+	GetHandleVerifier [0x0x103aae8+157080]
+	GetHandleVerifier [0x0x104141d+184013]
+	GetHandleVerifier [0x0x102ba68+95512]
+	GetHandleVerifier [0x0x102bc10+95936]
+	GetHandleVerifier [0x0x1016b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-03 12:17:23,555 [INFO] Screenshot saved: screenshots/click_error.png
+2025-07-03 12:20:58,092 [INFO] STARTING TEST: test_large_modal_functionality
+2025-07-03 12:20:58,093 [INFO] Clicking large modal button...
+2025-07-03 12:20:58,400 [INFO] Successfully clicked element: ('xpath', "//button[@id='showLargeModal']")
+2025-07-03 12:20:58,400 [INFO] Verifying modal is visible...
+2025-07-03 12:20:58,433 [INFO] Verifying modal title...
+2025-07-03 12:21:08,885 [ERROR] Failed to get text from ('id', 'example-modal-sizes-title-sm'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x1023b03+62899]
+	GetHandleVerifier [0x0x1023b44+62964]
+	(No symbol) [0x0xe510f3]
+	(No symbol) [0x0xe9980e]
+	(No symbol) [0x0xe99bab]
+	(No symbol) [0x0xee25c2]
+	(No symbol) [0x0xebe554]
+	(No symbol) [0x0xedfd81]
+	(No symbol) [0x0xebe306]
+	(No symbol) [0x0xe8d670]
+	(No symbol) [0x0xe8e4e4]
+	GetHandleVerifier [0x0x1284793+2556483]
+	GetHandleVerifier [0x0x127fd02+2537394]
+	GetHandleVerifier [0x0x104a2fa+220586]
+	GetHandleVerifier [0x0x103aae8+157080]
+	GetHandleVerifier [0x0x104141d+184013]
+	GetHandleVerifier [0x0x102ba68+95512]
+	GetHandleVerifier [0x0x102bc10+95936]
+	GetHandleVerifier [0x0x1016b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-03 12:21:09,166 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-03 12:21:09,218 [INFO] Successfully got text: Large Modal
+2025-07-03 12:21:09,218 [INFO] Verifying modal content...
+2025-07-03 12:21:09,261 [INFO] Successfully got text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+2025-07-03 12:22:31,474 [INFO] STARTING TEST: test_large_modal_functionality
+2025-07-03 12:22:31,475 [INFO] Clicking large modal button...
+2025-07-03 12:22:31,657 [INFO] Successfully clicked element: ('xpath', "//button[@id='showLargeModal']")
+2025-07-03 12:22:31,657 [INFO] Verifying modal is visible...
+2025-07-03 12:22:31,694 [INFO] Verifying modal title...
+2025-07-03 12:22:41,715 [ERROR] Failed to get text from ('id', 'example-modal-sizes-title-sm'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x1023b03+62899]
+	GetHandleVerifier [0x0x1023b44+62964]
+	(No symbol) [0x0xe510f3]
+	(No symbol) [0x0xe9980e]
+	(No symbol) [0x0xe99bab]
+	(No symbol) [0x0xee25c2]
+	(No symbol) [0x0xebe554]
+	(No symbol) [0x0xedfd81]
+	(No symbol) [0x0xebe306]
+	(No symbol) [0x0xe8d670]
+	(No symbol) [0x0xe8e4e4]
+	GetHandleVerifier [0x0x1284793+2556483]
+	GetHandleVerifier [0x0x127fd02+2537394]
+	GetHandleVerifier [0x0x104a2fa+220586]
+	GetHandleVerifier [0x0x103aae8+157080]
+	GetHandleVerifier [0x0x104141d+184013]
+	GetHandleVerifier [0x0x102ba68+95512]
+	GetHandleVerifier [0x0x102bc10+95936]
+	GetHandleVerifier [0x0x1016b5a+9738]
+	BaseThreadInitThunk [0x0x76275d49+25]
+	RtlInitializeExceptionChain [0x0x772ad09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x772ad021+561]
+
+2025-07-03 12:22:41,986 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-03 12:22:42,049 [INFO] Successfully got text: Large Modal
+2025-07-03 12:22:42,050 [INFO] Verifying modal content...
+2025-07-03 12:22:42,118 [INFO] Successfully got text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+2025-07-03 12:22:44,119 [INFO] Closing modal...
+2025-07-03 12:22:44,237 [INFO] Successfully clicked element: ('class name', 'close')
+2025-07-03 12:22:44,238 [INFO] Test completed successfully!
+2025-07-03 14:43:29,860 [INFO] START first accordion
+2025-07-03 14:43:30,085 [INFO] Successfully clicked element: ('xpath', "//div[@id='section1Heading']")
+2025-07-03 14:43:30,085 [INFO] first accordion is clicked
+2025-07-03 14:43:30,085 [INFO] Verifying accordion is visible...
+2025-07-03 14:43:30,114 [INFO] Verfying accordion title
+2025-07-03 14:43:30,158 [INFO] Successfully got text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+2025-07-03 14:43:30,159 [INFO] Verifying other sections are closed
+2025-07-03 14:43:50,461 [INFO] Test completed successfully!
+2025-07-03 14:55:52,395 [INFO] START first accordion
+2025-07-03 14:55:52,555 [INFO] Successfully clicked element: ('xpath', "//div[@id='section1Heading']")
+2025-07-03 14:55:52,555 [INFO] first accordion is clicked
+2025-07-03 14:55:52,654 [INFO] Successfully clicked element: ('xpath', "//div[@id='section1Heading']")
+2025-07-03 14:55:52,654 [INFO] Verifying accordion is visible...
+2025-07-03 14:55:52,680 [INFO] Verfying accordion title
+2025-07-03 14:55:52,727 [INFO] Successfully got text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+2025-07-03 14:55:52,728 [INFO] Verifying other sections are closed
+2025-07-03 14:56:13,302 [INFO] Test completed successfully!
+2025-07-03 15:07:35,839 [INFO] START second accordion
+2025-07-03 15:07:36,083 [INFO] Successfully clicked element: ('xpath', "//div[@id='section2Heading']")
+2025-07-03 15:07:36,083 [INFO] second accordion is clicked
+2025-07-03 15:07:36,193 [INFO] Successfully clicked element: ('xpath', "//div[@id='section2Heading']")
+2025-07-03 15:07:36,194 [INFO] Verifying second accordion is visible...
+2025-07-03 15:07:36,218 [INFO] Verfying accordion title
+2025-07-03 15:07:36,259 [INFO] Successfully got text: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+2025-07-03 15:07:36,260 [INFO] Verifying other sections are closed
+2025-07-03 15:08:15,443 [INFO] START second accordion
+2025-07-03 15:08:15,701 [INFO] Successfully clicked element: ('xpath', "//div[@id='section2Heading']")
+2025-07-03 15:08:15,702 [INFO] second accordion is clicked
+2025-07-03 15:08:15,702 [INFO] Verifying second accordion is visible...
+2025-07-03 15:08:15,746 [INFO] Verfying accordion title
+2025-07-03 15:08:15,793 [INFO] Successfully got text: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+2025-07-03 15:08:15,793 [INFO] Verifying other sections are closed
+2025-07-03 15:11:03,888 [INFO] START second accordion
+2025-07-03 15:11:04,047 [INFO] Successfully clicked element: ('xpath', "//div[@id='section2Heading']")
+2025-07-03 15:11:04,047 [INFO] second accordion is clicked
+2025-07-03 15:11:06,048 [INFO] Verifying second accordion is visible...
+2025-07-03 15:11:06,120 [INFO] Verfying accordion title
+2025-07-03 15:11:06,166 [INFO] Successfully got text: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+2025-07-03 15:11:06,166 [INFO] Verifying other sections are closed
+2025-07-03 15:11:26,647 [INFO] Test completed successfully!
+2025-07-03 15:44:50,113 [INFO] START second accordion
+2025-07-03 15:44:50,284 [INFO] Successfully clicked element: ('xpath', "//div[@id='section2Heading']")
+2025-07-03 15:44:50,285 [INFO] second accordion is clicked
+2025-07-03 15:44:52,286 [INFO] Verifying second accordion is visible...
+2025-07-03 15:44:52,327 [INFO] Verfying accordion title
+2025-07-03 15:44:52,381 [INFO] Successfully got text: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+2025-07-03 15:44:52,381 [INFO] Verifying other sections are closed
+2025-07-03 15:45:12,840 [INFO] Test completed successfully!
+2025-07-03 15:47:50,807 [INFO] START third accordion
+2025-07-03 15:47:50,997 [INFO] Successfully clicked element: ('xpath', "//div[@id='section3Heading']")
+2025-07-03 15:47:50,997 [INFO] Third accordion is clicked
+2025-07-03 15:47:52,998 [INFO] Verifying third accordion is visible...
+2025-07-03 15:49:00,267 [INFO] START third accordion
+2025-07-03 15:49:00,533 [INFO] Successfully clicked element: ('xpath', "//div[@id='section3Heading']")
+2025-07-03 15:49:00,533 [INFO] Third accordion is clicked
+2025-07-03 15:49:02,534 [INFO] Verifying third accordion is visible...
+2025-07-03 15:49:02,583 [INFO] Verfying accordion title
+2025-07-03 15:49:02,634 [INFO] Successfully got text: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+2025-07-03 15:49:02,634 [INFO] Verifying other sections are closed
+2025-07-03 15:49:23,232 [INFO] Test completed successfully!
+2025-07-03 15:50:19,698 [INFO] START first accordion
+2025-07-03 15:50:19,954 [INFO] Successfully clicked element: ('xpath', "//div[@id='section1Heading']")
+2025-07-03 15:50:19,954 [INFO] first accordion is clicked
+2025-07-03 15:50:20,191 [INFO] Successfully clicked element: ('xpath', "//div[@id='section1Heading']")
+2025-07-03 15:50:20,191 [INFO] Verifying accordion is visible...
+2025-07-03 15:50:20,224 [INFO] Verfying accordion title
+2025-07-03 15:50:20,292 [INFO] Successfully got text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+2025-07-03 15:50:20,292 [INFO] Verifying other sections are closed
+2025-07-03 15:50:40,930 [INFO] Test completed successfully!
+2025-07-03 15:51:01,951 [INFO] START second accordion
+2025-07-03 15:51:02,198 [INFO] Successfully clicked element: ('xpath', "//div[@id='section2Heading']")
+2025-07-03 15:51:02,198 [INFO] second accordion is clicked
+2025-07-03 15:51:04,199 [INFO] Verifying second accordion is visible...
+2025-07-03 15:51:04,274 [INFO] Verfying accordion title
+2025-07-03 15:51:04,362 [INFO] Successfully got text: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+2025-07-03 15:51:04,363 [INFO] Verifying other sections are closed
+2025-07-03 15:51:24,943 [INFO] Test completed successfully!
+2025-07-03 15:51:55,028 [INFO] START third accordion
+2025-07-03 15:51:55,272 [INFO] Successfully clicked element: ('xpath', "//div[@id='section3Heading']")
+2025-07-03 15:51:55,272 [INFO] Third accordion is clicked
+2025-07-03 15:51:57,273 [INFO] Verifying third accordion is visible...
+2025-07-03 15:51:57,319 [INFO] Verfying accordion title
+2025-07-03 15:51:57,358 [INFO] Successfully got text: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+2025-07-03 15:51:57,359 [INFO] Verifying other sections are closed
+2025-07-03 15:52:17,965 [INFO] Test completed successfully!
