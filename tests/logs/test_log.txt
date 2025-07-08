@@ -904,3 +904,215 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 2025-07-04 14:18:43,618 [ERROR] Failed to get text from ('xpath', "//input[@id='autoCompleteSingleInput']"): Message: 
 
 2025-07-04 14:18:43,979 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-04 14:44:32,476 [INFO] Successfully entered text: bl
+2025-07-04 14:44:32,477 [INFO] Successfully entered text in single color input: bl
+2025-07-04 14:44:32,644 [INFO] Successfully selected color:Blue
+2025-07-04 14:44:42,941 [ERROR] Failed to get text from ('xpath', "//input[@id='autoCompleteSingleInput']"): Message: 
+
+2025-07-04 14:44:43,311 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-04 14:46:30,192 [INFO] Test single color is starting
+2025-07-04 14:46:30,401 [INFO] Successfully entered text: bl
+2025-07-04 14:46:30,401 [INFO] Successfully entered text in single color input: bl
+2025-07-04 14:46:30,513 [INFO] Successfully selected color:Blue
+2025-07-04 14:46:30,513 [INFO] Selected color
+2025-07-04 14:46:38,718 [INFO] Successfully got text: 
+2025-07-04 14:46:38,718 [INFO] Verifying color
+2025-07-05 10:58:39,716 [INFO] Test single color is starting
+2025-07-05 10:58:40,071 [INFO] Successfully entered text: bl
+2025-07-05 10:58:40,072 [INFO] Successfully entered text in single color input: bl
+2025-07-05 10:58:40,228 [INFO] Successfully selected color:Blue
+2025-07-05 10:58:40,228 [INFO] Selected color
+2025-07-05 10:58:50,514 [ERROR] Failed to get text from ('xpath', "//input[@id='autoCompleteSingleInput']"): Message: 
+
+2025-07-05 10:58:50,882 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-05 10:59:02,252 [INFO] Successfully entered text: re
+2025-07-05 10:59:02,253 [INFO] Successfully entered text in multiple color input: re
+2025-07-05 10:59:02,359 [INFO] Successfully selected color:Red
+2025-07-05 10:59:02,478 [INFO] Successfully entered text: bl
+2025-07-05 10:59:02,478 [INFO] Successfully entered text in multiple color input: bl
+2025-07-05 10:59:02,590 [INFO] Successfully selected color:Blue
+2025-07-05 10:59:02,655 [INFO] Selected colors: ['Red', 'Blue']
+2025-07-05 11:01:04,385 [INFO] Test single color is starting
+2025-07-05 11:01:04,386 [ERROR] Failed to enter text in single color input: 'AutoComplete_page' object has no attribute 'SINGLE_COLOR_INPUT'
+2025-07-05 11:01:04,680 [INFO] Screenshot saved: screenshots/single_color_input_error.png
+2025-07-05 11:01:49,629 [INFO] Test single color is starting
+2025-07-05 11:01:59,640 [ERROR] Failed to enter text in ('xpath', "//div[contains(@class, 'auto-complete__single-value')]"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x6c3b03+62899]
+	GetHandleVerifier [0x0x6c3b44+62964]
+	(No symbol) [0x0x4f10f3]
+	(No symbol) [0x0x53980e]
+	(No symbol) [0x0x539bab]
+	(No symbol) [0x0x5825c2]
+	(No symbol) [0x0x55e554]
+	(No symbol) [0x0x57fd81]
+	(No symbol) [0x0x55e306]
+	(No symbol) [0x0x52d670]
+	(No symbol) [0x0x52e4e4]
+	GetHandleVerifier [0x0x924793+2556483]
+	GetHandleVerifier [0x0x91fd02+2537394]
+	GetHandleVerifier [0x0x6ea2fa+220586]
+	GetHandleVerifier [0x0x6daae8+157080]
+	GetHandleVerifier [0x0x6e141d+184013]
+	GetHandleVerifier [0x0x6cba68+95512]
+	GetHandleVerifier [0x0x6cbc10+95936]
+	GetHandleVerifier [0x0x6b6b5a+9738]
+	BaseThreadInitThunk [0x0x76a65d49+25]
+	RtlInitializeExceptionChain [0x0x77ced09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77ced021+561]
+
+2025-07-05 11:01:59,995 [INFO] Screenshot saved: screenshots/input_error.png
+2025-07-05 11:01:59,996 [ERROR] Failed to enter text in single color input: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x6c3b03+62899]
+	GetHandleVerifier [0x0x6c3b44+62964]
+	(No symbol) [0x0x4f10f3]
+	(No symbol) [0x0x53980e]
+	(No symbol) [0x0x539bab]
+	(No symbol) [0x0x5825c2]
+	(No symbol) [0x0x55e554]
+	(No symbol) [0x0x57fd81]
+	(No symbol) [0x0x55e306]
+	(No symbol) [0x0x52d670]
+	(No symbol) [0x0x52e4e4]
+	GetHandleVerifier [0x0x924793+2556483]
+	GetHandleVerifier [0x0x91fd02+2537394]
+	GetHandleVerifier [0x0x6ea2fa+220586]
+	GetHandleVerifier [0x0x6daae8+157080]
+	GetHandleVerifier [0x0x6e141d+184013]
+	GetHandleVerifier [0x0x6cba68+95512]
+	GetHandleVerifier [0x0x6cbc10+95936]
+	GetHandleVerifier [0x0x6b6b5a+9738]
+	BaseThreadInitThunk [0x0x76a65d49+25]
+	RtlInitializeExceptionChain [0x0x77ced09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77ced021+561]
+
+2025-07-05 11:02:00,309 [INFO] Screenshot saved: screenshots/single_color_input_error.png
+2025-07-05 11:02:22,116 [INFO] Test single color is starting
+2025-07-05 11:02:22,292 [INFO] Successfully entered text: bl
+2025-07-05 11:02:22,293 [INFO] Successfully entered text in single color input: bl
+2025-07-05 11:02:22,383 [INFO] Successfully selected color:Blue
+2025-07-05 11:02:22,383 [INFO] Selected color
+2025-07-05 11:02:32,493 [ERROR] Failed to get text from ('xpath', "//input[@id='autoCompleteSingleInput']"): Message: 
+
+2025-07-05 11:02:32,598 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-07-05 11:03:50,516 [INFO] Test single color is starting
+2025-07-05 11:03:50,516 [ERROR] Failed to get single selected color: 'AutoComplete_page' object has no attribute 'SINGLE_COLOR_SELECTED'
+2025-07-05 11:03:50,549 [ERROR] Color Blue not found in suggestions
+2025-07-05 11:03:50,549 [INFO] Selected color
+2025-07-05 11:03:50,617 [INFO] Successfully got text: 
+2025-07-05 11:03:50,618 [INFO] Verifying color
+2025-07-05 11:04:17,182 [ERROR] Failed to get single selected color: 'AutoComplete_page' object has no attribute 'SINGLE_COLOR_SELECTED'
+2025-07-05 11:04:17,201 [ERROR] Color Blue not found in suggestions
+2025-07-05 11:04:48,969 [ERROR] Failed to get single selected color: 'AutoComplete_page' object has no attribute 'SINGLE_COLOR_SELECTED'
+2025-07-05 11:04:48,986 [ERROR] Color Blue not found in suggestions
+2025-07-05 11:04:48,998 [INFO] Selected colors: []
+2025-07-05 11:06:46,151 [INFO] Successfully entered text: bl
+2025-07-05 11:06:46,151 [INFO] Successfully entered text in single color input: bl
+2025-07-05 11:06:46,240 [INFO] Successfully selected color: Blue
+2025-07-05 11:06:46,253 [INFO] Selected colors: []
+2025-07-05 11:07:35,533 [INFO] Successfully entered text: bl
+2025-07-05 11:07:35,533 [INFO] Successfully entered text in single color input: bl
+2025-07-05 11:07:35,629 [INFO] Successfully selected color: Blue
+2025-07-05 11:07:35,661 [INFO] Single selected color: Blue
+2025-07-05 11:09:39,388 [INFO] Successfully entered text: bl
+2025-07-05 11:09:39,389 [INFO] Successfully entered text in single color input: bl
+2025-07-05 11:09:39,505 [INFO] Successfully selected color: Blue
+2025-07-05 11:09:39,582 [INFO] Single selected color: Blue
+2025-07-05 11:09:51,906 [INFO] Successfully entered text: re
+2025-07-05 11:09:51,906 [INFO] Successfully entered text in multiple color input: re
+2025-07-05 11:09:52,001 [INFO] Successfully selected color: Red
+2025-07-05 11:09:52,082 [INFO] Successfully entered text: bl
+2025-07-05 11:09:52,082 [INFO] Successfully entered text in multiple color input: bl
+2025-07-05 11:09:52,146 [INFO] Successfully selected color: Blue
+2025-07-05 11:09:52,183 [INFO] Selected colors: ['Red', 'Blue']
+2025-07-05 11:10:13,335 [INFO] Successfully entered text: re
+2025-07-05 11:10:13,336 [INFO] Successfully entered text in multiple color input: re
+2025-07-05 11:10:13,435 [INFO] Successfully selected color: Red
+2025-07-05 11:10:13,508 [INFO] Successfully entered text: gr
+2025-07-05 11:10:13,509 [INFO] Successfully entered text in multiple color input: gr
+2025-07-05 11:10:13,608 [INFO] Successfully selected color: Green
+2025-07-05 11:10:13,783 [INFO] Successfully entered text: bl
+2025-07-05 11:10:13,783 [INFO] Successfully entered text in multiple color input: bl
+2025-07-05 11:10:13,909 [INFO] Successfully selected color: Blue
+2025-07-05 11:10:13,971 [INFO] Selected colors: ['Red', 'Green', 'Blue']
+2025-07-05 11:10:14,056 [INFO] Successfully removed color at index: 0
+2025-07-05 11:10:14,142 [INFO] Selected colors: ['Green', 'Blue']
+2025-07-08 19:36:00,326 [INFO] Successfully entered text: 07/09/2025
+2025-07-08 19:36:00,493 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-07-08 19:36:00,617 [INFO] Successfully selected 'May' from dropdown
+2025-07-08 19:36:00,720 [INFO] Successfully selected '2024' from dropdown
+2025-07-08 19:36:11,138 [ERROR] Failed to click element ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='07']"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x10c3b03+62899]
+	GetHandleVerifier [0x0x10c3b44+62964]
+	(No symbol) [0x0xef10f3]
+	(No symbol) [0x0xf3980e]
+	(No symbol) [0x0xf39bab]
+	(No symbol) [0x0xf825c2]
+	(No symbol) [0x0xf5e554]
+	(No symbol) [0x0xf7fd81]
+	(No symbol) [0x0xf5e306]
+	(No symbol) [0x0xf2d670]
+	(No symbol) [0x0xf2e4e4]
+	GetHandleVerifier [0x0x1324793+2556483]
+	GetHandleVerifier [0x0x131fd02+2537394]
+	GetHandleVerifier [0x0x10ea2fa+220586]
+	GetHandleVerifier [0x0x10daae8+157080]
+	GetHandleVerifier [0x0x10e141d+184013]
+	GetHandleVerifier [0x0x10cba68+95512]
+	GetHandleVerifier [0x0x10cbc10+95936]
+	GetHandleVerifier [0x0x10b6b5a+9738]
+	BaseThreadInitThunk [0x0x76a65d49+25]
+	RtlInitializeExceptionChain [0x0x77ced09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77ced021+561]
+
+2025-07-08 19:36:11,484 [INFO] Screenshot saved: screenshots/click_error.png
+2025-07-08 19:46:32,159 [INFO] Successfully entered text: 07/09/2025
+2025-07-08 19:46:47,176 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-07-08 19:46:47,351 [INFO] Successfully selected 'May' from dropdown
+2025-07-08 19:46:47,461 [INFO] Successfully selected '2024' from dropdown
+2025-07-08 19:46:47,667 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='7']")
+2025-07-08 19:47:10,140 [INFO] Successfully entered text: 08/15/2025
+2025-07-08 19:47:10,222 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-07-08 19:47:10,344 [INFO] Successfully selected 'August' from dropdown
+2025-07-08 19:47:10,416 [INFO] Successfully selected '2025' from dropdown
+2025-07-08 19:47:10,540 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='15']")
+2025-07-08 19:47:32,253 [INFO] Successfully entered text: 07/09/2025
+2025-07-08 19:47:49,359 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-07-08 19:47:49,520 [INFO] Successfully selected 'May' from dropdown
+2025-07-08 19:47:49,613 [INFO] Successfully selected '2024' from dropdown
+2025-07-08 19:47:49,746 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='7']")
+2025-07-08 19:48:21,318 [INFO] Successfully entered text: 08/15/2025
+2025-07-08 19:48:21,472 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-07-08 19:48:21,620 [INFO] Successfully selected 'August' from dropdown
+2025-07-08 19:48:21,791 [INFO] Successfully selected '2025' from dropdown
+2025-07-08 19:48:22,017 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='15']")
+2025-07-08 19:50:18,709 [INFO] Successfully entered text: 7/9/2025
+2025-07-08 19:51:10,338 [INFO] Successfully entered text: 7/9/2025
+2025-07-08 19:57:05,862 [ERROR] Failed to click element 7/9/2025: WebDriver.find_element() takes from 1 to 3 positional arguments but 9 were given
+2025-07-08 19:57:06,197 [INFO] Screenshot saved: screenshots/click_error.png
+2025-07-08 20:39:40,415 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-07-08 20:39:40,585 [INFO] Successfully selected 'May' from dropdown
+2025-07-08 20:39:40,686 [INFO] Successfully selected '2024' from dropdown
+2025-07-08 20:39:40,801 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='7']")
+2025-07-08 20:40:04,111 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-07-08 20:40:04,187 [INFO] Successfully selected 'August' from dropdown
+2025-07-08 20:40:04,298 [INFO] Successfully selected '2025' from dropdown
+2025-07-08 20:40:04,451 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='15']")
+2025-07-08 20:44:13,698 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-07-08 20:44:13,812 [INFO] Successfully selected 'May' from dropdown
+2025-07-08 20:44:13,903 [INFO] Successfully selected '2024' from dropdown
+2025-07-08 20:44:14,024 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='7']")
+2025-07-08 20:44:37,824 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-07-08 20:44:37,890 [INFO] Successfully selected 'August' from dropdown
+2025-07-08 20:44:37,947 [INFO] Successfully selected '2025' from dropdown
+2025-07-08 20:44:38,099 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='15']")
+2025-07-08 20:46:01,716 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-07-08 20:46:01,858 [INFO] Successfully selected 'May' from dropdown
+2025-07-08 20:46:02,004 [INFO] Successfully selected '2024' from dropdown
+2025-07-08 20:46:02,219 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='7']")
+2025-07-08 20:46:25,242 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-07-08 20:46:25,326 [INFO] Successfully selected 'August' from dropdown
+2025-07-08 20:46:25,389 [INFO] Successfully selected '2025' from dropdown
+2025-07-08 20:46:25,522 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='15']")
