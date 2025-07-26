@@ -1167,3 +1167,45 @@ Stacktrace:
 2025-07-12 15:08:01,506 [INFO] Successfully got tooltip text: You hovered over the Button
 2025-07-12 15:08:27,823 [INFO] Successfully hovered over button
 2025-07-12 15:08:29,113 [INFO] Successfully moved mouse away
+2025-07-24 17:13:48,100 [INFO] Successfully hovered over button
+2025-07-24 17:13:49,446 [INFO] Successfully moved mouse away
+2025-07-24 17:14:15,192 [INFO] Successfully hovered over button
+2025-07-24 17:14:16,280 [INFO] Successfully got tooltip text: You hovered over the Button
+2025-07-24 17:14:40,730 [INFO] Successfully hovered over button
+2025-07-24 17:14:54,561 [INFO] Successfully hovered over button
+2025-07-24 17:14:55,733 [INFO] Successfully clicked element: ('id', 'toolTipButton')
+2025-07-24 17:14:55,733 [INFO] Successfully clicked hover button
+2025-07-24 17:15:09,304 [INFO] Successfully hovered over input field
+2025-07-24 17:15:10,458 [INFO] Successfully got tooltip text: You hovered over the text field
+2025-07-24 17:15:53,123 [INFO] Successfully entered text: Test text
+2025-07-24 17:15:53,123 [INFO] Successfully entered text: Test text
+2025-07-24 17:15:53,444 [INFO] Successfully hovered over input field
+2025-07-24 17:15:56,522 [INFO] Successfully got tooltip text: You hovered over the text field
+2025-07-24 17:16:49,648 [INFO] Successfully hovered over button
+2025-07-24 17:16:51,028 [INFO] Successfully moved mouse away
+2025-07-26 16:20:16,297 [INFO] Successfully hovered Main Item 1 button
+2025-07-26 16:20:33,896 [INFO] Successfully hovered Main Item 2 button
+2025-07-26 16:20:33,922 [INFO] Sub-menu is visible
+2025-07-26 16:20:49,095 [INFO] Successfully hovered Main Item 2 button
+2025-07-26 16:20:49,133 [INFO] Sub-menu appeared successfully
+2025-07-26 16:20:49,439 [INFO] Successfully hovered Sub Item 1 button
+2025-07-26 16:21:06,808 [INFO] Successfully hovered Main Item 2 button
+2025-07-26 16:21:06,830 [INFO] Sub-menu appeared successfully
+2025-07-26 16:24:37,949 [INFO] Successfully hovered Main Item 1 button
+2025-07-26 16:25:29,991 [INFO] Successfully hovered Main Item 1 button
+2025-07-26 16:26:40,003 [INFO] Successfully hovered Main Item 1 button
+2025-07-26 16:27:57,353 [INFO] Successfully hovered Main Item 1 button
+2025-07-26 16:27:57,668 [INFO] Successfully hovered Main Item 2 button
+2025-07-26 16:27:57,979 [INFO] Successfully hovered Main Item 3 button
+2025-07-26 16:32:53,346 [INFO] Successfully hovered Main Item 1 button
+2025-07-26 16:32:53,645 [INFO] Successfully hovered Main Item 2 button
+2025-07-26 16:32:53,974 [INFO] Successfully hovered Main Item 3 button
+2025-07-26 16:33:21,281 [INFO] Successfully hovered Main Item 2 button
+2025-07-26 16:33:21,342 [INFO] Sub-menu is visible
+2025-07-26 16:33:35,973 [INFO] Successfully hovered Main Item 2 button
+2025-07-26 16:33:36,011 [INFO] Sub-menu appeared successfully
+2025-07-26 16:33:36,318 [INFO] Successfully hovered Sub Item 1 button
+2025-07-26 16:33:36,615 [INFO] Successfully hovered SUB SUB LIST
+2025-07-26 16:33:36,655 [INFO] Nested sub-menu is visible
+2025-07-26 16:33:55,150 [INFO] Successfully hovered Main Item 2 button
+2025-07-26 16:33:55,191 [INFO] Sub-menu appeared successfully
