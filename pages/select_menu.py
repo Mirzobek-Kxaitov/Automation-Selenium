@@ -214,10 +214,6 @@ class Select_Menu_Page(BasePage):
             self.logger.error(f"Failed to verify selections: {str(e)}")
             return None
 
-
-
-
-
 # -----------------------------------------------------------------------------------------------------------------------
 
     def select_standard_multi_cars(self):
