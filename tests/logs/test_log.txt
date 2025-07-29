@@ -1209,3 +1209,405 @@ Stacktrace:
 2025-07-26 16:33:36,655 [INFO] Nested sub-menu is visible
 2025-07-26 16:33:55,150 [INFO] Successfully hovered Main Item 2 button
 2025-07-26 16:33:55,191 [INFO] Sub-menu appeared successfully
+2025-07-28 12:56:45,180 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 12:56:45,304 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 1']")
+2025-07-28 12:56:45,305 [INFO] Successfully selected Group 1, option 1
+2025-07-28 12:56:58,433 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 12:56:58,563 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 2']")
+2025-07-28 12:56:58,563 [INFO] Successfully selected Group 1, option 2
+2025-07-28 12:57:11,422 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 12:57:21,821 [ERROR] Failed to click element ('xpath', '//div[@id="react-select-11-option-0-0"]'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x5c1af3+62339]
+	GetHandleVerifier [0x0x5c1b34+62404]
+	(No symbol) [0x0x402123]
+	(No symbol) [0x0x44a86e]
+	(No symbol) [0x0x44ac0b]
+	(No symbol) [0x0x492f72]
+	(No symbol) [0x0x46f404]
+	(No symbol) [0x0x4907a3]
+	(No symbol) [0x0x46f1b6]
+	(No symbol) [0x0x43e7a2]
+	(No symbol) [0x0x43f644]
+	GetHandleVerifier [0x0x836683+2637587]
+	GetHandleVerifier [0x0x831a8a+2618138]
+	GetHandleVerifier [0x0x5e856a+220666]
+	GetHandleVerifier [0x0x5d8998+156200]
+	GetHandleVerifier [0x0x5df12d+182717]
+	GetHandleVerifier [0x0x5c9a38+94920]
+	GetHandleVerifier [0x0x5c9bc2+95314]
+	GetHandleVerifier [0x0x5b4d0a+9626]
+	BaseThreadInitThunk [0x0x76535d49+25]
+	RtlInitializeExceptionChain [0x0x773ed1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x773ed131+561]
+
+2025-07-28 12:57:22,083 [INFO] Screenshot saved: screenshots/click_error.png
+2025-07-28 12:57:22,083 [ERROR] Failed to select option: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x5c1af3+62339]
+	GetHandleVerifier [0x0x5c1b34+62404]
+	(No symbol) [0x0x402123]
+	(No symbol) [0x0x44a86e]
+	(No symbol) [0x0x44ac0b]
+	(No symbol) [0x0x492f72]
+	(No symbol) [0x0x46f404]
+	(No symbol) [0x0x4907a3]
+	(No symbol) [0x0x46f1b6]
+	(No symbol) [0x0x43e7a2]
+	(No symbol) [0x0x43f644]
+	GetHandleVerifier [0x0x836683+2637587]
+	GetHandleVerifier [0x0x831a8a+2618138]
+	GetHandleVerifier [0x0x5e856a+220666]
+	GetHandleVerifier [0x0x5d8998+156200]
+	GetHandleVerifier [0x0x5df12d+182717]
+	GetHandleVerifier [0x0x5c9a38+94920]
+	GetHandleVerifier [0x0x5c9bc2+95314]
+	GetHandleVerifier [0x0x5b4d0a+9626]
+	BaseThreadInitThunk [0x0x76535d49+25]
+	RtlInitializeExceptionChain [0x0x773ed1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x773ed131+561]
+
+2025-07-28 12:57:22,313 [INFO] Screenshot saved: screenshots/select_value_error.png
+2025-07-28 12:57:43,810 [INFO] Successfully selected Purple
+2025-07-28 12:57:58,160 [INFO] Successfully clicked element: ('xpath', '//*[@id="selectMenuContainer"]/div[7]/div/div/div[1]/div[1]')
+2025-07-28 12:57:58,346 [INFO] Successfully clicked element: ('xpath', "//div[contains(text(),'Green')]")
+2025-07-28 12:57:58,487 [INFO] Successfully clicked element: ('xpath', "//div[contains(text(),'Blue')]")
+2025-07-28 12:57:58,487 [INFO] Successfully selected Green and Blue
+2025-07-28 12:58:11,699 [INFO] Successfully selected Volvo and Saab
+2025-07-28 14:04:34,937 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 14:04:35,058 [INFO] Successfully clicked element: ('xpath', "//div[text()='Dr.']")
+2025-07-28 14:04:35,058 [INFO] Successfully selected Dr
+2025-07-28 14:08:02,740 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 14:08:02,866 [INFO] Successfully clicked element: ('xpath', "//div[text()='Dr.']")
+2025-07-28 14:08:02,866 [INFO] Successfully selected Dr
+2025-07-28 14:08:05,048 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 14:08:05,230 [INFO] Successfully clicked element: ('xpath', "//div[text()='Dr.']")
+2025-07-28 14:08:05,230 [INFO] Successfully selected Mr
+2025-07-28 14:08:35,862 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 14:08:35,969 [INFO] Successfully clicked element: ('xpath', "//div[text()='Dr.']")
+2025-07-28 14:08:35,969 [INFO] Successfully selected Dr
+2025-07-28 14:08:38,148 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 14:08:38,334 [INFO] Successfully clicked element: ('xpath', "//div[text()='Mr.']")
+2025-07-28 14:08:38,335 [INFO] Successfully selected Mr
+2025-07-28 15:00:58,555 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:00:58,679 [INFO] Successfully clicked element: ('xpath', "//div[text()='Dr.']")
+2025-07-28 15:00:58,679 [INFO] Successfully selected Dr
+2025-07-28 15:01:00,905 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:01:01,118 [INFO] Successfully clicked element: ('xpath', "//div[text()='Mr.']")
+2025-07-28 15:01:01,118 [INFO] Successfully selected Mr
+2025-07-28 15:01:03,280 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:01:03,450 [INFO] Successfully clicked element: ('xpath', "//div[text()='Mrs.']")
+2025-07-28 15:01:03,450 [INFO] Successfully selected Mrs
+2025-07-28 15:01:05,534 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:01:05,641 [INFO] Successfully clicked element: ('xpath', "//div[text()='Ms.']")
+2025-07-28 15:01:05,641 [INFO] Successfully selected Ms
+2025-07-28 15:01:07,798 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:01:07,900 [INFO] Successfully clicked element: ('xpath', "//div[text()='Prof.']")
+2025-07-28 15:01:07,900 [INFO] Successfully selected Prof
+2025-07-28 15:01:10,058 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:01:20,465 [ERROR] Failed to click element ('xpath', "//div[text()='Other.']"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x5c1af3+62339]
+	GetHandleVerifier [0x0x5c1b34+62404]
+	(No symbol) [0x0x402123]
+	(No symbol) [0x0x44a86e]
+	(No symbol) [0x0x44ac0b]
+	(No symbol) [0x0x492f72]
+	(No symbol) [0x0x46f404]
+	(No symbol) [0x0x4907a3]
+	(No symbol) [0x0x46f1b6]
+	(No symbol) [0x0x43e7a2]
+	(No symbol) [0x0x43f644]
+	GetHandleVerifier [0x0x836683+2637587]
+	GetHandleVerifier [0x0x831a8a+2618138]
+	GetHandleVerifier [0x0x5e856a+220666]
+	GetHandleVerifier [0x0x5d8998+156200]
+	GetHandleVerifier [0x0x5df12d+182717]
+	GetHandleVerifier [0x0x5c9a38+94920]
+	GetHandleVerifier [0x0x5c9bc2+95314]
+	GetHandleVerifier [0x0x5b4d0a+9626]
+	BaseThreadInitThunk [0x0x76535d49+25]
+	RtlInitializeExceptionChain [0x0x773ed1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x773ed131+561]
+
+2025-07-28 15:01:20,770 [INFO] Screenshot saved: screenshots/click_error.png
+2025-07-28 15:01:20,771 [ERROR] Failed to select option: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x5c1af3+62339]
+	GetHandleVerifier [0x0x5c1b34+62404]
+	(No symbol) [0x0x402123]
+	(No symbol) [0x0x44a86e]
+	(No symbol) [0x0x44ac0b]
+	(No symbol) [0x0x492f72]
+	(No symbol) [0x0x46f404]
+	(No symbol) [0x0x4907a3]
+	(No symbol) [0x0x46f1b6]
+	(No symbol) [0x0x43e7a2]
+	(No symbol) [0x0x43f644]
+	GetHandleVerifier [0x0x836683+2637587]
+	GetHandleVerifier [0x0x831a8a+2618138]
+	GetHandleVerifier [0x0x5e856a+220666]
+	GetHandleVerifier [0x0x5d8998+156200]
+	GetHandleVerifier [0x0x5df12d+182717]
+	GetHandleVerifier [0x0x5c9a38+94920]
+	GetHandleVerifier [0x0x5c9bc2+95314]
+	GetHandleVerifier [0x0x5b4d0a+9626]
+	BaseThreadInitThunk [0x0x76535d49+25]
+	RtlInitializeExceptionChain [0x0x773ed1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x773ed131+561]
+
+2025-07-28 15:01:21,083 [INFO] Screenshot saved: screenshots/select_value_error.png
+2025-07-28 15:01:53,240 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:01:53,382 [INFO] Successfully clicked element: ('xpath', "//div[text()='Dr.']")
+2025-07-28 15:01:53,383 [INFO] Successfully selected Dr
+2025-07-28 15:01:55,603 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:01:55,785 [INFO] Successfully clicked element: ('xpath', "//div[text()='Mr.']")
+2025-07-28 15:01:55,786 [INFO] Successfully selected Mr
+2025-07-28 15:01:57,924 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:01:58,088 [INFO] Successfully clicked element: ('xpath', "//div[text()='Mrs.']")
+2025-07-28 15:01:58,088 [INFO] Successfully selected Mrs
+2025-07-28 15:02:00,279 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:02:00,467 [INFO] Successfully clicked element: ('xpath', "//div[text()='Ms.']")
+2025-07-28 15:02:00,468 [INFO] Successfully selected Ms
+2025-07-28 15:02:02,641 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:02:02,780 [INFO] Successfully clicked element: ('xpath', "//div[text()='Prof.']")
+2025-07-28 15:02:02,780 [INFO] Successfully selected Prof
+2025-07-28 15:02:04,929 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-28 15:02:05,051 [INFO] Successfully clicked element: ('xpath', "//div[text()='Other']")
+2025-07-28 15:02:05,052 [INFO] Successfully selected Other
+2025-07-28 15:33:30,288 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:33:30,412 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 1']")
+2025-07-28 15:33:30,412 [INFO] Successfully selected Group 1, option 1
+2025-07-28 15:33:47,566 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:33:47,738 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 2']")
+2025-07-28 15:33:47,739 [INFO] Successfully selected Group 1, option 2
+2025-07-28 15:34:09,465 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:34:09,644 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 1']")
+2025-07-28 15:34:09,644 [INFO] Successfully selected Group 2, option 1
+2025-07-28 15:34:23,703 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:34:23,873 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 2']")
+2025-07-28 15:34:23,873 [INFO] Successfully selected Group 2, option 2
+2025-07-28 15:34:37,613 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:34:37,733 [INFO] Successfully clicked element: ('xpath', "//div[text()='A root option']")
+2025-07-28 15:34:37,733 [INFO] Successfully selected A root option
+2025-07-28 15:34:50,833 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:34:50,940 [INFO] Successfully clicked element: ('xpath', "//div[text()='Another root option']")
+2025-07-28 15:34:50,940 [INFO] Successfully selected Another root option
+2025-07-28 15:39:49,399 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:39:49,556 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 1']")
+2025-07-28 15:39:49,556 [INFO] Successfully selected Group 1, option 1
+2025-07-28 15:39:49,707 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:39:49,901 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 2']")
+2025-07-28 15:39:49,901 [INFO] Successfully selected Group 1, option 2
+2025-07-28 15:39:50,052 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:39:50,184 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 1']")
+2025-07-28 15:39:50,185 [INFO] Successfully selected Group 2, option 1
+2025-07-28 15:39:50,294 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:39:50,450 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 2']")
+2025-07-28 15:39:50,450 [INFO] Successfully selected Group 2, option 2
+2025-07-28 15:39:50,574 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:39:50,712 [INFO] Successfully clicked element: ('xpath', "//div[text()='A root option']")
+2025-07-28 15:39:50,712 [INFO] Successfully selected A root option
+2025-07-28 15:39:50,861 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:39:51,045 [INFO] Successfully clicked element: ('xpath', "//div[text()='Another root option']")
+2025-07-28 15:39:51,046 [INFO] Successfully selected Another root option
+2025-07-28 15:40:28,472 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:40:28,573 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 1']")
+2025-07-28 15:40:28,573 [INFO] Successfully selected Group 1, option 1
+2025-07-28 15:40:29,853 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:40:30,028 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 2']")
+2025-07-28 15:40:30,029 [INFO] Successfully selected Group 1, option 2
+2025-07-28 15:40:31,242 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:40:31,461 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 1']")
+2025-07-28 15:40:31,461 [INFO] Successfully selected Group 2, option 1
+2025-07-28 15:40:32,683 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:40:32,914 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 2']")
+2025-07-28 15:40:32,915 [INFO] Successfully selected Group 2, option 2
+2025-07-28 15:40:34,095 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:40:34,273 [INFO] Successfully clicked element: ('xpath', "//div[text()='A root option']")
+2025-07-28 15:40:34,273 [INFO] Successfully selected A root option
+2025-07-28 15:40:35,355 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-28 15:40:35,462 [INFO] Successfully clicked element: ('xpath', "//div[text()='Another root option']")
+2025-07-28 15:40:35,462 [INFO] Successfully selected Another root option
+2025-07-29 12:41:29,858 [INFO] Successfully selected Red
+2025-07-29 12:41:52,583 [INFO] Successfully selected Red
+2025-07-29 12:44:47,043 [INFO] Successfully selected Blue
+2025-07-29 12:46:58,876 [INFO] Successfully selected Blue
+2025-07-29 12:46:58,992 [INFO] Successfully selected Red
+2025-07-29 12:46:59,102 [INFO] Successfully selected Green
+2025-07-29 12:46:59,199 [INFO] Successfully selected Black
+2025-07-29 12:46:59,296 [INFO] Successfully selected Yellow
+2025-07-29 12:46:59,385 [INFO] Successfully selected Purple
+2025-07-29 12:46:59,479 [INFO] Successfully selected White
+2025-07-29 12:46:59,577 [INFO] Successfully selected Voilet
+2025-07-29 12:46:59,734 [INFO] Successfully selected Indigo
+2025-07-29 12:46:59,843 [INFO] Successfully selected Magenta
+2025-07-29 12:46:59,976 [INFO] Successfully selected Aqua
+2025-07-29 12:50:49,455 [INFO] Successfully selected Blue
+2025-07-29 12:50:50,557 [INFO] Successfully selected Red
+2025-07-29 12:50:51,732 [INFO] Successfully selected Green
+2025-07-29 12:50:52,917 [INFO] Successfully selected Black
+2025-07-29 12:50:54,001 [INFO] Successfully selected Yellow
+2025-07-29 12:50:55,147 [INFO] Successfully selected Purple
+2025-07-29 12:50:56,344 [INFO] Successfully selected White
+2025-07-29 12:50:57,486 [INFO] Successfully selected Voilet
+2025-07-29 12:50:58,572 [INFO] Successfully selected Indigo
+2025-07-29 12:50:59,664 [INFO] Successfully selected Magenta
+2025-07-29 12:51:00,804 [INFO] Successfully selected Aqua
+2025-07-29 12:56:24,337 [INFO] Successfully selected Blue
+2025-07-29 12:56:25,485 [INFO] Successfully selected Red
+2025-07-29 12:56:26,669 [INFO] Successfully selected Green
+2025-07-29 12:56:27,803 [INFO] Successfully selected Black
+2025-07-29 12:56:28,991 [INFO] Successfully selected Yellow
+2025-07-29 12:56:30,139 [INFO] Successfully selected Purple
+2025-07-29 12:56:31,325 [INFO] Successfully selected White
+2025-07-29 12:56:32,484 [INFO] Successfully selected Voilet
+2025-07-29 12:56:33,560 [INFO] Successfully selected Indigo
+2025-07-29 12:56:34,690 [INFO] Successfully selected Magenta
+2025-07-29 12:56:35,828 [INFO] Successfully selected Aqua
+2025-07-29 12:58:53,312 [INFO] Successfully selected Blue
+2025-07-29 12:58:54,404 [INFO] Successfully selected Red
+2025-07-29 12:58:55,624 [INFO] Successfully selected Green
+2025-07-29 12:58:56,780 [INFO] Successfully selected Black
+2025-07-29 12:58:57,945 [INFO] Successfully selected Yellow
+2025-07-29 12:58:59,125 [INFO] Successfully selected Purple
+2025-07-29 12:59:00,303 [INFO] Successfully selected White
+2025-07-29 12:59:01,460 [INFO] Successfully selected Voilet
+2025-07-29 12:59:02,581 [INFO] Successfully selected Indigo
+2025-07-29 12:59:03,663 [INFO] Successfully selected Magenta
+2025-07-29 12:59:04,797 [INFO] Successfully selected Aqua
+2025-07-29 13:00:14,180 [ERROR] Failed to select color: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x1141af3+62339]
+	GetHandleVerifier [0x0x1141b34+62404]
+	(No symbol) [0x0xf82123]
+	(No symbol) [0x0xfca86e]
+	(No symbol) [0x0xfcac0b]
+	(No symbol) [0x0x1012f72]
+	(No symbol) [0x0xfef404]
+	(No symbol) [0x0x10107a3]
+	(No symbol) [0x0xfef1b6]
+	(No symbol) [0x0xfbe7a2]
+	(No symbol) [0x0xfbf644]
+	GetHandleVerifier [0x0x13b6683+2637587]
+	GetHandleVerifier [0x0x13b1a8a+2618138]
+	GetHandleVerifier [0x0x116856a+220666]
+	GetHandleVerifier [0x0x1158998+156200]
+	GetHandleVerifier [0x0x115f12d+182717]
+	GetHandleVerifier [0x0x1149a38+94920]
+	GetHandleVerifier [0x0x1149bc2+95314]
+	GetHandleVerifier [0x0x1134d0a+9626]
+	BaseThreadInitThunk [0x0x76535d49+25]
+	RtlInitializeExceptionChain [0x0x773ed1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x773ed131+561]
+
+2025-07-29 13:00:14,345 [INFO] Screenshot saved: screenshots/old_select_error.png
+2025-07-29 13:00:53,979 [INFO] Successfully selected Blue
+2025-07-29 13:00:55,116 [INFO] Successfully selected Red
+2025-07-29 13:00:56,321 [INFO] Successfully selected Green
+2025-07-29 13:00:57,475 [INFO] Successfully selected Black
+2025-07-29 13:00:58,603 [INFO] Successfully selected Yellow
+2025-07-29 13:00:59,733 [INFO] Successfully selected Purple
+2025-07-29 13:01:00,881 [INFO] Successfully selected White
+2025-07-29 13:01:01,979 [INFO] Successfully selected Voilet
+2025-07-29 13:01:03,095 [INFO] Successfully selected Indigo
+2025-07-29 13:01:04,242 [INFO] Successfully selected Magenta
+2025-07-29 13:01:05,352 [INFO] Successfully selected Aqua
+2025-07-29 17:32:01,593 [INFO] Successfully clicked element: ('xpath', '//*[@id="selectMenuContainer"]/div[7]/div/div/div[1]/div[1]')
+2025-07-29 17:32:01,715 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-0"]')
+2025-07-29 17:32:01,867 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-1"]')
+2025-07-29 17:32:01,868 [INFO] Successfully selected Green and Blue
+2025-07-29 17:36:16,962 [INFO] Successfully clicked element: ('xpath', '//*[@id="selectMenuContainer"]/div[7]/div/div/div[1]/div[1]')
+2025-07-29 17:36:17,134 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-0"]')
+2025-07-29 17:36:17,313 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-1"]')
+2025-07-29 17:36:17,313 [INFO] Successfully selected Green and Blue
+2025-07-29 17:36:17,314 [ERROR] Failed to verify selections: 'Select_Menu_Page' object has no attribute 'find_element'
+2025-07-29 17:39:24,925 [INFO] Successfully clicked element: ('xpath', '//*[@id="selectMenuContainer"]/div[7]/div/div/div[1]/div[1]')
+2025-07-29 17:39:25,108 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-0"]')
+2025-07-29 17:39:25,315 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-1"]')
+2025-07-29 17:39:25,315 [INFO] Successfully selected Green and Blue
+2025-07-29 17:39:25,650 [INFO] Screenshot saved: screenshots/multiselect_final_state.png
+2025-07-29 17:40:37,657 [INFO] Successfully clicked element: ('xpath', '//*[@id="selectMenuContainer"]/div[7]/div/div/div[1]/div[1]')
+2025-07-29 17:40:37,815 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-0"]')
+2025-07-29 17:40:37,978 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-1"]')
+2025-07-29 17:40:37,978 [INFO] Successfully selected Green and Blue
+2025-07-29 17:40:41,278 [INFO] Screenshot saved: screenshots/multiselect_final_state.png
+2025-07-29 17:42:13,915 [INFO] Successfully clicked element: ('xpath', '//*[@id="selectMenuContainer"]/div[7]/div/div/div[1]/div[1]')
+2025-07-29 17:42:14,066 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-0"]')
+2025-07-29 17:42:14,183 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-1"]')
+2025-07-29 17:42:14,336 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-2"]')
+2025-07-29 17:42:14,521 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-3"]')
+2025-07-29 17:42:14,521 [INFO] Successfully selected Green and Blue
+2025-07-29 17:42:17,866 [INFO] Screenshot saved: screenshots/multiselect_final_state.png
+2025-07-29 18:09:10,780 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:09:10,894 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 1']")
+2025-07-29 18:09:10,894 [INFO] Successfully selected Group 1, option 1
+2025-07-29 18:09:29,435 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:09:29,569 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 2']")
+2025-07-29 18:09:29,569 [INFO] Successfully selected Group 1, option 2
+2025-07-29 18:09:42,811 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:09:42,974 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 1']")
+2025-07-29 18:09:42,974 [INFO] Successfully selected Group 2, option 1
+2025-07-29 18:09:58,152 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:09:58,275 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 2']")
+2025-07-29 18:09:58,275 [INFO] Successfully selected Group 2, option 2
+2025-07-29 18:10:12,070 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:10:12,193 [INFO] Successfully clicked element: ('xpath', "//div[text()='A root option']")
+2025-07-29 18:10:12,193 [INFO] Successfully selected A root option
+2025-07-29 18:10:27,085 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:10:27,197 [INFO] Successfully clicked element: ('xpath', "//div[text()='Another root option']")
+2025-07-29 18:10:27,197 [INFO] Successfully selected Another root option
+2025-07-29 18:10:42,142 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:10:42,301 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 1']")
+2025-07-29 18:10:42,301 [INFO] Successfully selected Group 1, option 1
+2025-07-29 18:10:43,464 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:10:43,632 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 2']")
+2025-07-29 18:10:43,632 [INFO] Successfully selected Group 1, option 2
+2025-07-29 18:10:44,809 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:10:45,021 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 1']")
+2025-07-29 18:10:45,021 [INFO] Successfully selected Group 2, option 1
+2025-07-29 18:10:46,128 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:10:46,255 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 2']")
+2025-07-29 18:10:46,255 [INFO] Successfully selected Group 2, option 2
+2025-07-29 18:10:47,494 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:10:47,710 [INFO] Successfully clicked element: ('xpath', "//div[text()='A root option']")
+2025-07-29 18:10:47,710 [INFO] Successfully selected A root option
+2025-07-29 18:10:48,919 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-07-29 18:10:49,105 [INFO] Successfully clicked element: ('xpath', "//div[text()='Another root option']")
+2025-07-29 18:10:49,105 [INFO] Successfully selected Another root option
+2025-07-29 18:11:06,320 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-29 18:11:06,451 [INFO] Successfully clicked element: ('xpath', "//div[text()='Dr.']")
+2025-07-29 18:11:06,451 [INFO] Successfully selected Dr
+2025-07-29 18:11:08,655 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-29 18:11:08,833 [INFO] Successfully clicked element: ('xpath', "//div[text()='Mr.']")
+2025-07-29 18:11:08,833 [INFO] Successfully selected Mr
+2025-07-29 18:11:11,045 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-29 18:11:11,166 [INFO] Successfully clicked element: ('xpath', "//div[text()='Mrs.']")
+2025-07-29 18:11:11,167 [INFO] Successfully selected Mrs
+2025-07-29 18:11:13,376 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-29 18:11:13,588 [INFO] Successfully clicked element: ('xpath', "//div[text()='Ms.']")
+2025-07-29 18:11:13,588 [INFO] Successfully selected Ms
+2025-07-29 18:11:15,732 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-29 18:11:15,854 [INFO] Successfully clicked element: ('xpath', "//div[text()='Prof.']")
+2025-07-29 18:11:15,854 [INFO] Successfully selected Prof
+2025-07-29 18:11:18,032 [INFO] Successfully clicked element: ('xpath', '//div[@id="selectOne"]')
+2025-07-29 18:11:18,198 [INFO] Successfully clicked element: ('xpath', "//div[text()='Other']")
+2025-07-29 18:11:18,199 [INFO] Successfully selected Other
+2025-07-29 18:11:35,464 [INFO] Successfully selected Blue
+2025-07-29 18:11:36,596 [INFO] Successfully selected Red
+2025-07-29 18:11:37,709 [INFO] Successfully selected Green
+2025-07-29 18:11:38,888 [INFO] Successfully selected Black
+2025-07-29 18:11:40,002 [INFO] Successfully selected Yellow
+2025-07-29 18:11:41,177 [INFO] Successfully selected Purple
+2025-07-29 18:11:42,326 [INFO] Successfully selected White
+2025-07-29 18:11:43,482 [INFO] Successfully selected Voilet
+2025-07-29 18:11:44,596 [INFO] Successfully selected Indigo
+2025-07-29 18:11:45,731 [INFO] Successfully selected Magenta
+2025-07-29 18:11:46,847 [INFO] Successfully selected Aqua
+2025-07-29 18:12:05,203 [INFO] Successfully clicked element: ('xpath', '//*[@id="selectMenuContainer"]/div[7]/div/div/div[1]/div[1]')
+2025-07-29 18:12:05,341 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-0"]')
+2025-07-29 18:12:05,444 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-1"]')
+2025-07-29 18:12:05,551 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-2"]')
+2025-07-29 18:12:05,649 [INFO] Successfully clicked element: ('xpath', '//div[@id="react-select-4-option-3"]')
+2025-07-29 18:12:05,650 [INFO] Successfully selected Green and Blue
+2025-07-29 18:12:08,969 [INFO] Screenshot saved: screenshots/multiselect_final_state.png
