@@ -10,31 +10,31 @@ def setup():
     yield page
     driver.quit()
 
-#
-# def test_drag_one_to_six(setup):
-#     page = setup
-#     page.drag_and_drop(page.LIST_ONE, page.LIST_SIX)
-#     assert True
-#
-# def test_drag_six_to_one(setup):
-#     page = setup
-#     page.drag_and_drop(page.LIST_SIX, page.LIST_ONE)
-#     assert True
-#
-# def test_drag_three_to_five(setup):
-#     page = setup
-#     page.drag_and_drop(page.LIST_THREE, page.LIST_FIVE)
-#     assert True
-#
-# def test_drag_neighbor(setup):
-#     page = setup
-#     page.drag_and_drop(page.LIST_TWO, page.LIST_THREE)
-#     assert True
-#
-# def test_drag_itself(setup):
-#     page = setup
-#     page.drag_and_drop(page.LIST_FOUR, page.LIST_FOUR)
-#     assert True
+
+def test_drag_one_to_six(setup):
+    page = setup
+    page.drag_and_drop(page.LIST_ONE, page.LIST_SIX)
+    assert True
+
+def test_drag_six_to_one(setup):
+    page = setup
+    page.drag_and_drop(page.LIST_SIX, page.LIST_ONE)
+    assert True
+
+def test_drag_three_to_five(setup):
+    page = setup
+    page.drag_and_drop(page.LIST_THREE, page.LIST_FIVE)
+    assert True
+
+def test_drag_neighbor(setup):
+    page = setup
+    page.drag_and_drop(page.LIST_TWO, page.LIST_THREE)
+    assert True
+
+def test_drag_itself(setup):
+    page = setup
+    page.drag_and_drop(page.LIST_FOUR, page.LIST_FOUR)
+    assert True
 
 def test_grid_one_to_nine(setup):
     page = setup
