@@ -35,3 +35,353 @@ Stacktrace:
 2025-06-27 17:13:09,092 [INFO] Color change verified succesfully
 2025-06-27 17:13:40,340 [INFO] Button is initially not visible
 2025-06-27 17:13:45,416 [INFO] Button became visible after 5 seconds
+2025-08-08 19:33:48,355 [INFO] START first accordion
+2025-08-08 19:33:48,710 [INFO] Successfully clicked element: ('xpath', "//div[@id='section1Heading']")
+2025-08-08 19:33:48,710 [INFO] first accordion is clicked
+2025-08-08 19:33:48,830 [INFO] Successfully clicked element: ('xpath', "//div[@id='section1Heading']")
+2025-08-08 19:33:48,830 [INFO] Verifying accordion is visible...
+2025-08-08 19:33:48,851 [INFO] Verfying accordion title
+2025-08-08 19:33:48,889 [INFO] Successfully got text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+2025-08-08 19:33:48,889 [INFO] Verifying other sections are closed
+2025-08-08 19:34:09,857 [INFO] Test completed successfully!
+2025-08-08 19:34:28,611 [INFO] START second accordion
+2025-08-08 19:34:28,750 [INFO] Successfully clicked element: ('xpath', "//div[@id='section2Heading']")
+2025-08-08 19:34:28,751 [INFO] second accordion is clicked
+2025-08-08 19:34:30,751 [INFO] Verifying second accordion is visible...
+2025-08-08 19:34:30,807 [INFO] Verfying accordion title
+2025-08-08 19:34:30,865 [INFO] Successfully got text: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+2025-08-08 19:34:30,866 [INFO] Verifying other sections are closed
+2025-08-08 19:34:51,815 [INFO] Test completed successfully!
+2025-08-08 19:35:05,799 [INFO] START third accordion
+2025-08-08 19:35:05,962 [INFO] Successfully clicked element: ('xpath', "//div[@id='section3Heading']")
+2025-08-08 19:35:05,962 [INFO] Third accordion is clicked
+2025-08-08 19:35:07,963 [INFO] Verifying third accordion is visible...
+2025-08-08 19:35:08,050 [INFO] Verfying accordion title
+2025-08-08 19:35:08,107 [INFO] Successfully got text: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+2025-08-08 19:35:08,107 [INFO] Verifying other sections are closed
+2025-08-08 19:35:28,253 [INFO] Test completed successfully!
+2025-08-08 19:36:01,578 [INFO] STARTING TEST: test_simple_alert_functionality
+2025-08-08 19:36:01,742 [INFO] Successfully clicked element: ('xpath', "//button[@id='alertButton']")
+2025-08-08 19:36:01,742 [INFO] Clicking simple alert button...
+2025-08-08 19:36:01,751 [INFO] Handling simple alert...
+2025-08-08 19:36:01,751 [INFO] Test completed successfully!
+2025-08-08 19:36:20,165 [INFO] STARTING TEST: test_timer_alert_functionality
+2025-08-08 19:36:20,165 [INFO] Clicking timer alert button...
+2025-08-08 19:36:20,334 [INFO] Successfully clicked element: ('xpath', "//button[@id='timerAlertButton']")
+2025-08-08 19:36:20,335 [INFO] Waiting for 5-second timer alert...
+2025-08-08 19:36:25,524 [INFO] Handling timer alert
+2025-08-08 19:36:25,525 [INFO] Timer alert handled successfully!
+2025-08-08 19:36:41,545 [INFO] STARTING TEST: test_confirm_alert_accept
+2025-08-08 19:36:41,545 [INFO] Clicking confirm button...
+2025-08-08 19:36:41,759 [INFO] Successfully clicked element: ('xpath', "//button[@id='confirmButton']")
+2025-08-08 19:36:41,759 [INFO] Accepting confirm alert...
+2025-08-08 19:36:41,804 [INFO] Successfully got text: You selected Ok
+2025-08-08 19:36:41,804 [INFO] Result verified: You selected Ok
+2025-08-08 19:37:02,233 [INFO] STARTING TEST: test_confirm_alert_dismiss
+2025-08-08 19:37:02,233 [INFO] Clicking confirm button...
+2025-08-08 19:37:02,445 [INFO] Successfully clicked element: ('xpath', "//button[@id='confirmButton']")
+2025-08-08 19:37:02,446 [INFO] Dismiss confirm alert...
+2025-08-08 19:37:02,506 [INFO] Successfully got text: You selected Cancel
+2025-08-08 19:37:02,507 [INFO] Result verified: You selected Cancel
+2025-08-08 19:37:22,713 [INFO] STARTING TEST: test_prompt_alert_functionality
+2025-08-08 19:37:22,714 [INFO] Clicking prompt button...
+2025-08-08 19:37:22,856 [INFO] Successfully clicked element: ('xpath', "//button[@id='promtButton']")
+2025-08-08 19:37:22,864 [INFO] Accepting prompt alert...
+2025-08-08 19:37:22,917 [INFO] Successfully got text: You entered Test User
+2025-08-08 19:37:22,918 [INFO]  Result verified: You entered Test User
+2025-08-08 19:38:00,440 [INFO] Successfully entered text: bl
+2025-08-08 19:38:00,440 [INFO] Successfully entered text in single color input: bl
+2025-08-08 19:38:00,551 [INFO] Successfully selected color: Blue
+2025-08-08 19:38:00,586 [INFO] Single selected color: Blue
+2025-08-08 19:38:20,513 [INFO] Successfully entered text: re
+2025-08-08 19:38:20,514 [INFO] Successfully entered text in multiple color input: re
+2025-08-08 19:38:20,531 [ERROR] Color Red not found in suggestions
+2025-08-08 19:38:20,654 [INFO] Successfully entered text: bl
+2025-08-08 19:38:20,654 [INFO] Successfully entered text in multiple color input: bl
+2025-08-08 19:38:20,660 [ERROR] Color Blue not found in suggestions
+2025-08-08 19:38:20,669 [INFO] Selected colors: []
+2025-08-08 19:39:08,053 [INFO] Successfully entered text: re
+2025-08-08 19:39:08,053 [INFO] Successfully entered text in multiple color input: re
+2025-08-08 19:39:08,178 [INFO] Successfully selected color: Red
+2025-08-08 19:39:08,287 [INFO] Successfully entered text: gr
+2025-08-08 19:39:08,287 [INFO] Successfully entered text in multiple color input: gr
+2025-08-08 19:39:08,411 [INFO] Successfully selected color: Green
+2025-08-08 19:39:08,524 [INFO] Successfully entered text: bl
+2025-08-08 19:39:08,524 [INFO] Successfully entered text in multiple color input: bl
+2025-08-08 19:39:08,621 [INFO] Successfully selected color: Blue
+2025-08-08 19:39:08,661 [INFO] Selected colors: ['Red', 'Green', 'Blue']
+2025-08-08 19:39:08,731 [INFO] Successfully removed color at index: 0
+2025-08-08 19:39:08,783 [INFO] Selected colors: ['Green', 'Blue']
+2025-08-08 19:39:23,322 [INFO] Image width: 347, height: 100
+2025-08-08 19:39:23,323 [INFO] Valid image is loaded successfully
+2025-08-08 19:39:38,153 [INFO] Image width0, height0
+2025-08-08 19:39:38,153 [INFO] Broken image is correctly broken
+2025-08-08 19:39:56,542 [INFO] Successfully clicked element: ('xpath', "//a[text()='Click Here for Valid Link']")
+2025-08-08 19:39:56,561 [INFO] Valid link redirected correctly
+2025-08-08 19:40:16,762 [INFO] Successfully clicked element: ('xpath', "//a[text()='Click Here for Broken Link']")
+2025-08-08 19:40:16,774 [INFO] Broken link worked correctly
+2025-08-08 19:40:32,134 [INFO] STARTING TEST: test_new_tab_functionality
+2025-08-08 19:40:32,143 [INFO]  Initial tab count: 1
+2025-08-08 19:40:32,385 [INFO] Successfully clicked element: ('xpath', "//button[@id='tabButton']")
+2025-08-08 19:40:32,394 [INFO]  Current tab count: 2
+2025-08-08 19:40:32,395 [INFO]  Test passed!
+2025-08-08 19:40:46,351 [INFO] STARTING TEST: test_new_window_functionality
+2025-08-08 19:40:46,354 [INFO]  Initial window count: 1
+2025-08-08 19:40:46,668 [INFO] Successfully clicked element: ('xpath', "//button[@id='windowButton']")
+2025-08-08 19:40:46,682 [INFO]  Current window count: 2
+2025-08-08 19:40:46,682 [INFO]  Test passed!
+2025-08-08 19:41:02,209 [INFO] STARTING TEST: test_new_window_message_functionality
+2025-08-08 19:41:02,212 [INFO]  Initial new_window_message count: 1
+2025-08-08 19:41:02,557 [INFO] Successfully clicked element: ('xpath', "//button[@id='messageWindowButton']")
+2025-08-08 19:41:02,574 [INFO]  Current new_window_message count: 2
+2025-08-08 19:41:02,575 [INFO]  Test passed!
+2025-08-08 19:42:20,142 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-08 19:42:20,293 [INFO] Successfully clicked element: ('xpath', "(//button[@aria-label='Toggle'])[2]")
+2025-08-08 19:42:20,431 [INFO] Successfully clicked element: ('xpath', "(//button[@aria-label='Toggle'])[3]")
+2025-08-08 19:42:20,630 [INFO] Successfully clicked element: ('xpath', "(//button[@aria-label='Toggle'])[4]")
+2025-08-08 19:42:20,755 [INFO] Successfully clicked element: ('xpath', "//label[@for='tree-node-desktop']")
+2025-08-08 19:42:20,857 [INFO] Successfully clicked element: ('xpath', "//label[@for='tree-node-documents']")
+2025-08-08 19:42:21,072 [INFO] Successfully clicked element: ('xpath', "//label[@for='tree-node-downloads']")
+2025-08-08 19:43:35,122 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-08-08 19:43:35,248 [INFO] Successfully selected 'May' from dropdown
+2025-08-08 19:43:35,351 [INFO] Successfully selected '2024' from dropdown
+2025-08-08 19:43:35,522 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='7']")
+2025-08-08 19:43:50,822 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-08-08 19:43:50,914 [INFO] Successfully selected 'August' from dropdown
+2025-08-08 19:43:50,987 [INFO] Successfully selected '2025' from dropdown
+2025-08-08 19:43:51,164 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='15']")
+2025-08-08 19:44:24,629 [INFO] Successfully clicked element: ('id', 'draggableExample-tab-axisRestriction')
+2025-08-08 19:44:38,691 [INFO] Successfully clicked element: ('id', 'draggableExample-tab-axisRestriction')
+2025-08-08 19:44:51,577 [INFO] Successfully clicked element: ('id', 'draggableExample-tab-containerRestriction')
+2025-08-08 19:45:03,928 [INFO] Successfully clicked element: ('id', 'draggableExample-tab-cursorStyle')
+2025-08-08 19:45:43,521 [INFO] Successfully clicked element: ('id', 'draggableExample-tab-containerRestriction')
+2025-08-08 19:46:53,354 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-preventPropogation')
+2025-08-08 19:48:02,492 [INFO] Random text verification successfully
+2025-08-08 19:48:17,064 [INFO] Button is initially disabled
+2025-08-08 19:48:22,079 [INFO]  Button became enabled after 5 seconds
+2025-08-08 19:48:37,383 [INFO] Original color: rgba(0, 123, 255, 1)
+2025-08-08 19:48:38,502 [INFO] New colorrgba(0, 105, 217, 1)
+2025-08-08 19:48:38,502 [INFO] Color change verified succesfully
+2025-08-08 19:48:54,125 [INFO] Button is initially not visible
+2025-08-08 19:48:59,168 [INFO] Button became visible after 5 seconds
+2025-08-08 19:49:14,279 [INFO] STARTING TEST: test_frame1
+2025-08-08 19:49:14,455 [INFO] Successfully got text: This is a sample page
+2025-08-08 19:49:14,456 [INFO] Test passed!
+2025-08-08 19:49:29,844 [INFO] STARTING TEST: test_frame2
+2025-08-08 19:49:30,008 [INFO] Successfully got text: This is a sample page
+2025-08-08 19:49:30,009 [INFO] Test passed
+2025-08-08 19:49:44,937 [INFO] STARTING TEST: test_frame_count
+2025-08-08 19:49:44,990 [INFO] Test passed
+2025-08-08 19:50:02,809 [INFO] Starting API response test
+2025-08-08 19:50:03,047 [INFO] Successfully clicked element: ('xpath', "//a[@id='created']")
+2025-08-08 19:50:03,047 [INFO] Created button clicked
+2025-08-08 19:50:06,135 [INFO] Successfully got text: Link has responded with staus 201 and status text Created
+2025-08-08 19:50:06,135 [INFO] Response message: Link has responded with staus 201 and status text Created
+2025-08-08 19:50:06,135 [INFO] API response verification passed!
+2025-08-08 19:50:06,240 [INFO] Successfully clicked element: ('xpath', "//a[@id='no-content']")
+2025-08-08 19:50:06,240 [INFO] No content button clicked
+2025-08-08 19:50:09,275 [INFO] Successfully got text: Link has responded with staus 204 and status text No Content
+2025-08-08 19:50:09,275 [INFO] Response message: Link has responded with staus 204 and status text No Content
+2025-08-08 19:50:09,275 [INFO] API response verification passed!
+2025-08-08 19:50:09,419 [INFO] Successfully clicked element: ('xpath', "//a[@id='moved']")
+2025-08-08 19:50:09,420 [INFO] Moved Permanently button clicked
+2025-08-08 19:50:12,452 [INFO] Successfully got text: Link has responded with staus 301 and status text Moved Permanently
+2025-08-08 19:50:12,453 [INFO] Response message: Link has responded with staus 301 and status text Moved Permanently
+2025-08-08 19:50:12,453 [INFO] API response verification passed
+2025-08-08 19:50:12,561 [INFO] Successfully clicked element: ('xpath', "//a[@id='bad-request']")
+2025-08-08 19:50:12,562 [INFO] Bad request button clicked
+2025-08-08 19:50:15,587 [INFO] Successfully got text: Link has responded with staus 400 and status text Bad Request
+2025-08-08 19:50:15,587 [INFO] Response message: Link has responded with staus 400 and status text Bad Request
+2025-08-08 19:50:15,588 [INFO] API response verification passed!
+2025-08-08 19:50:15,734 [INFO] Successfully clicked element: ('xpath', "//a[@id='unauthorized']")
+2025-08-08 19:50:15,734 [INFO] Unauthorized button clicked
+2025-08-08 19:50:18,768 [INFO] Successfully got text: Link has responded with staus 401 and status text Unauthorized
+2025-08-08 19:50:18,768 [INFO] Response message: Link has responded with staus 401 and status text Unauthorized
+2025-08-08 19:50:18,768 [INFO] API response verification passed!
+2025-08-08 19:50:18,878 [INFO] Successfully clicked element: ('xpath', "//a[@id='forbidden']")
+2025-08-08 19:50:18,878 [INFO] Forbidden button clicked
+2025-08-08 19:50:21,923 [INFO] Successfully got text: Link has responded with staus 403 and status text Forbidden
+2025-08-08 19:50:21,923 [INFO] Response message: Link has responded with staus 403 and status text Forbidden
+2025-08-08 19:50:21,923 [INFO] API response verification passed!
+2025-08-08 19:50:22,022 [INFO] Successfully clicked element: ('xpath', "//a[@id='invalid-url']")
+2025-08-08 19:50:22,022 [INFO] Not found button clicked
+2025-08-08 19:50:25,068 [INFO] Successfully got text: Link has responded with staus 404 and status text Not Found
+2025-08-08 19:50:25,068 [INFO] Response message: Link has responded with staus 404 and status text Not Found
+2025-08-08 19:50:25,068 [INFO] API response verification passed!
+2025-08-08 19:50:41,086 [INFO] Successfully entered text: mirzobek
+2025-08-08 19:50:41,086 [INFO] username kiritildi
+2025-08-08 19:50:41,279 [INFO] Successfully entered text: cDN!!asaCxbxva4
+2025-08-08 19:50:41,280 [INFO] password kiritildi
+2025-08-08 19:50:41,416 [INFO] Successfully clicked element: ('xpath', '//button[@id="login"]')
+2025-08-08 19:50:41,416 [INFO] login button bosildi
+2025-08-08 19:50:44,708 [INFO] Screenshot saved: screenshots/screenshot_2025-08-08_19-50-44.png
+2025-08-08 19:51:18,121 [INFO] Successfully hovered Main Item 1 button
+2025-08-08 19:51:18,420 [INFO] Successfully hovered Main Item 2 button
+2025-08-08 19:51:18,729 [INFO] Successfully hovered Main Item 3 button
+2025-08-08 19:51:33,510 [INFO] Successfully hovered Main Item 2 button
+2025-08-08 19:51:33,549 [INFO] Sub-menu is visible
+2025-08-08 19:52:38,704 [INFO] Successfully hovered Main Item 2 button
+2025-08-08 19:52:38,757 [INFO] Sub-menu appeared successfully
+2025-08-08 19:52:39,063 [INFO] Successfully hovered Sub Item 1 button
+2025-08-08 19:52:39,407 [INFO] Successfully hovered SUB SUB LIST
+2025-08-08 19:52:39,451 [INFO] Nested sub-menu is visible
+2025-08-08 19:52:55,925 [INFO] Successfully hovered Main Item 2 button
+2025-08-08 19:52:55,960 [INFO] Sub-menu appeared successfully
+2025-08-08 19:53:11,897 [INFO] STARTING TEST: test_large_modal_functionality
+2025-08-08 19:53:11,897 [INFO] Clicking large modal button...
+2025-08-08 19:53:12,065 [INFO] Successfully clicked element: ('xpath', "//button[@id='showLargeModal']")
+2025-08-08 19:53:12,066 [INFO] Verifying modal is visible...
+2025-08-08 19:53:12,106 [INFO] Verifying modal title...
+2025-08-08 19:53:22,467 [ERROR] Failed to get text from ('id', 'example-modal-sizes-title-sm'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2bfd23+62915]
+	GetHandleVerifier [0x0x2bfd64+62980]
+	(No symbol) [0x0xf3e13]
+	(No symbol) [0x0x13c89e]
+	(No symbol) [0x0x13cc3b]
+	(No symbol) [0x0x184ec2]
+	(No symbol) [0x0x161424]
+	(No symbol) [0x0x1826ea]
+	(No symbol) [0x0x1611d6]
+	(No symbol) [0x0x130833]
+	(No symbol) [0x0x1316a4]
+	GetHandleVerifier [0x0x528d13+2590131]
+	GetHandleVerifier [0x0x523f5a+2570234]
+	GetHandleVerifier [0x0x2e59da+217722]
+	GetHandleVerifier [0x0x2d6048+153832]
+	GetHandleVerifier [0x0x2dc4ad+179533]
+	GetHandleVerifier [0x0x2c7728+94152]
+	GetHandleVerifier [0x0x2c78b2+94546]
+	GetHandleVerifier [0x0x2b2bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+	(No symbol) [0x0]
+
+2025-08-08 19:53:22,733 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-08-08 19:53:22,784 [INFO] Successfully got text: Large Modal
+2025-08-08 19:53:22,784 [INFO] Verifying modal content...
+2025-08-08 19:53:22,828 [INFO] Successfully got text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+2025-08-08 19:53:24,829 [INFO] Closing modal...
+2025-08-08 19:53:24,988 [INFO] Successfully clicked element: ('class name', 'close')
+2025-08-08 19:53:24,989 [INFO] Test completed successfully!
+2025-08-08 19:53:39,762 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-08-08 19:53:39,881 [ERROR] Failed to get text from ('xpath', '//text()'): Message: invalid selector: The result of the xpath expression "//text()" is: [object Text]. It should be an element.
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x0x2bfd23+62915]
+	GetHandleVerifier [0x0x2bfd64+62980]
+	(No symbol) [0x0xf3e13]
+	(No symbol) [0x0xfa619]
+	(No symbol) [0x0xfc94a]
+	(No symbol) [0x0xfc9c7]
+	(No symbol) [0x0x13c134]
+	(No symbol) [0x0x13cc3b]
+	(No symbol) [0x0x184ec2]
+	(No symbol) [0x0x161424]
+	(No symbol) [0x0x1826ea]
+	(No symbol) [0x0x1611d6]
+	(No symbol) [0x0x130833]
+	(No symbol) [0x0x1316a4]
+	GetHandleVerifier [0x0x528d13+2590131]
+	GetHandleVerifier [0x0x523f5a+2570234]
+	GetHandleVerifier [0x0x2e59da+217722]
+	GetHandleVerifier [0x0x2d6048+153832]
+	GetHandleVerifier [0x0x2dc4ad+179533]
+	GetHandleVerifier [0x0x2c7728+94152]
+	GetHandleVerifier [0x0x2c78b2+94546]
+	GetHandleVerifier [0x0x2b2bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+	(No symbol) [0x0]
+
+2025-08-08 19:53:40,127 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-08-08 19:53:40,127 [ERROR] Element not found in parent frame
+2025-08-08 19:53:54,828 [INFO] STARTING TEST: test_switch_to_parent_frame
+2025-08-08 19:53:54,911 [INFO] Switched to child frame
+2025-08-08 19:53:54,937 [ERROR] Failed to get text from ('xpath', '//text()'): Message: invalid selector: The result of the xpath expression "//text()" is: [object Text]. It should be an element.
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+	GetHandleVerifier [0x0x2bfd23+62915]
+	GetHandleVerifier [0x0x2bfd64+62980]
+	(No symbol) [0x0xf3e13]
+	(No symbol) [0x0xfa619]
+	(No symbol) [0x0xfc94a]
+	(No symbol) [0x0xfc9c7]
+	(No symbol) [0x0x13c134]
+	(No symbol) [0x0x13cc3b]
+	(No symbol) [0x0x184ec2]
+	(No symbol) [0x0x161424]
+	(No symbol) [0x0x1826ea]
+	(No symbol) [0x0x1611d6]
+	(No symbol) [0x0x130833]
+	(No symbol) [0x0x1316a4]
+	GetHandleVerifier [0x0x528d13+2590131]
+	GetHandleVerifier [0x0x523f5a+2570234]
+	GetHandleVerifier [0x0x2e59da+217722]
+	GetHandleVerifier [0x0x2d6048+153832]
+	GetHandleVerifier [0x0x2dc4ad+179533]
+	GetHandleVerifier [0x0x2c7728+94152]
+	GetHandleVerifier [0x0x2c78b2+94546]
+	GetHandleVerifier [0x0x2b2bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+	(No symbol) [0x0]
+
+2025-08-08 19:53:55,187 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-08-08 19:53:55,187 [ERROR] Element not found in child frame
+2025-08-08 19:54:11,370 [INFO] Successfully entered text: Mirzobek
+2025-08-08 19:54:11,569 [INFO] Successfully entered text: Xaitov
+2025-08-08 19:54:11,846 [INFO] Successfully entered text: mirzobekxayitov@mail.ru
+2025-08-08 19:54:12,154 [INFO] Successfully clicked element: ('xpath', "//label[@for='gender-radio-1']")
+2025-08-08 19:54:12,494 [INFO] Successfully entered text: 9885535355
+2025-08-08 19:54:15,788 [INFO] Successfully clicked element: ('xpath', "//label[@for='hobbies-checkbox-1']")
+2025-08-08 19:54:15,982 [INFO] Successfully clicked element: ('xpath', "//label[@for='hobbies-checkbox-2']")
+2025-08-08 19:54:16,142 [INFO] Successfully clicked element: ('xpath', "//label[@for='hobbies-checkbox-3']")
+2025-08-08 19:54:16,195 [ERROR] Upload error C:\Users\user\Desktop\POST LINKEDIN.jpg
+2025-08-08 19:54:16,416 [INFO] Successfully entered text: Uzbekistan, Tashkent, Jobster Company - QA manager
+2025-08-08 19:54:16,524 [INFO] Successfully clicked element: ('xpath', "//div[contains(text(), 'Select State')]")
+2025-08-08 19:54:16,664 [INFO] Successfully clicked element: ('xpath', "//div[text()='Uttar Pradesh']")
+2025-08-08 19:54:16,805 [INFO] Successfully clicked element: ('xpath', "//div[contains(text(), 'Select City')]")
+2025-08-08 19:54:17,003 [INFO] Successfully clicked element: ('xpath', "//div[@id='react-select-4-option-2']")
+2025-08-08 19:54:22,198 [INFO] Successfully clicked element: ('xpath', "//button[@id='submit']")
+2025-08-08 19:54:27,255 [INFO] Successfully got text: Mirzobek Xaitov
+2025-08-08 19:54:27,299 [INFO] Successfully got text: mirzobekxayitov@mail.ru
+2025-08-08 19:54:27,346 [INFO] Successfully got text: Male
+2025-08-08 19:54:27,408 [INFO] Successfully got text: 9885535355
+2025-08-08 19:54:27,462 [INFO] Successfully got text: 30 April,1995
+2025-08-08 19:54:27,516 [INFO] Successfully got text: Maths, Physics
+2025-08-08 19:54:27,565 [INFO] Successfully got text: Sports, Reading, Music
+2025-08-08 19:54:27,618 [INFO] Successfully got text: Uzbekistan, Tashkent, Jobster Company - QA manager
+2025-08-08 19:54:27,659 [INFO] Successfully got text: Uttar Pradesh Merrut
+2025-08-08 19:54:27,659 [INFO] All submitted data verified successfully!
+2025-08-08 19:54:43,903 [INFO] Successfully clicked element: ('id', 'startStopButton')
+2025-08-08 19:55:11,490 [INFO] Successfully clicked element: ('xpath', "//label[@for='yesRadio']")
+2025-08-08 19:55:11,491 [INFO]  Clicked on the 'Impressive' radio button.
+2025-08-08 19:55:11,614 [INFO] Successfully clicked element: ('xpath', "//label[@for='impressiveRadio']")
+2025-08-08 19:55:11,615 [INFO]  Clicked on the 'Yes' radio button.
+2025-08-08 19:57:39,334 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-08-08 19:57:39,511 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 1']")
+2025-08-08 19:57:39,511 [INFO] Successfully selected Group 1, option 1
+2025-08-08 19:57:56,003 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-08-08 19:57:56,129 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 1, option 2']")
+2025-08-08 19:57:56,129 [INFO] Successfully selected Group 1, option 2
+2025-08-08 19:58:12,225 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-08-08 19:58:12,347 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 1']")
+2025-08-08 19:58:12,347 [INFO] Successfully selected Group 2, option 1
+2025-08-08 19:58:27,790 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-08-08 19:58:27,925 [INFO] Successfully clicked element: ('xpath', "//div[text()='Group 2, option 2']")
+2025-08-08 19:58:27,926 [INFO] Successfully selected Group 2, option 2
+2025-08-08 19:58:42,424 [INFO] Successfully clicked element: ('xpath', '//div[@id="withOptGroup"]')
+2025-08-08 19:58:42,579 [INFO] Successfully clicked element: ('xpath', "//div[text()='A root option']")
+2025-08-08 19:58:42,579 [INFO] Successfully selected A root option
+2025-08-08 19:59:55,878 [INFO] Successfully entered text: mirzobek
+2025-08-08 19:59:55,878 [INFO] username kiritildi
+2025-08-08 19:59:56,103 [INFO] Successfully entered text: cDN!!asaCxbxva4
+2025-08-08 19:59:56,104 [INFO] password kiritildi
+2025-08-08 19:59:56,236 [INFO] Successfully clicked element: ('xpath', '//button[@id="login"]')
+2025-08-08 19:59:56,237 [INFO] login button bosildi
+2025-08-08 19:59:59,616 [INFO] Screenshot saved: screenshots/screenshot_2025-08-08_19-59-59.png
