@@ -1706,3 +1706,109 @@ Stacktrace:
 2025-08-06 19:55:56,562 [INFO] Successfully clicked element: ('id', 'draggableExample-tab-containerRestriction')
 2025-08-06 19:56:25,502 [INFO] Successfully clicked element: ('id', 'draggableExample-tab-cursorStyle')
 2025-08-06 20:00:35,240 [INFO] Successfully clicked element: ('id', 'draggableExample-tab-containerRestriction')
+2025-08-08 11:54:52,417 [INFO] Successfully entered text: invalid_user
+2025-08-08 11:54:52,417 [INFO] usernamekiritildi
+2025-08-08 11:54:52,666 [INFO] Successfully entered text: invalid_pass
+2025-08-08 11:54:52,666 [INFO] password kiritildi
+2025-08-08 11:54:53,023 [INFO] Screenshot saved: screenshots/screenshot_2025-08-08_11-54-52.png
+2025-08-08 11:54:53,215 [INFO] Successfully clicked element: ('xpath', '//button[@id="login"]')
+2025-08-08 11:54:53,215 [INFO] login button bosildi
+2025-08-08 11:54:54,342 [INFO] Successfully got text: Invalid username or password!
+2025-08-08 12:00:14,869 [INFO] Successfully entered text: invalid_user
+2025-08-08 12:00:14,869 [INFO] usernamekiritildi
+2025-08-08 12:00:15,037 [INFO] Successfully entered text: cDN!!asaCxbxva4
+2025-08-08 12:00:15,037 [INFO] password kiritildi
+2025-08-08 12:00:15,321 [INFO] Screenshot saved: screenshots/screenshot_2025-08-08_12-00-15.png
+2025-08-08 12:00:15,412 [INFO] Successfully clicked element: ('xpath', '//button[@id="login"]')
+2025-08-08 12:00:15,413 [INFO] login button bosildi
+2025-08-08 12:00:20,488 [INFO] Successfully got text: Invalid username or password!
+2025-08-08 12:00:51,019 [INFO] Successfully entered text: mirzobekr
+2025-08-08 12:00:51,019 [INFO] usernamekiritildi
+2025-08-08 12:00:51,209 [INFO] Successfully entered text: cDN!!asaCxbxva4
+2025-08-08 12:00:51,209 [INFO] password kiritildi
+2025-08-08 12:00:51,514 [INFO] Screenshot saved: screenshots/screenshot_2025-08-08_12-00-51.png
+2025-08-08 12:00:51,664 [INFO] Successfully clicked element: ('xpath', '//button[@id="login"]')
+2025-08-08 12:00:51,665 [INFO] login button bosildi
+2025-08-08 12:00:56,749 [INFO] Successfully got text: Invalid username or password!
+2025-08-08 12:01:30,258 [INFO] Successfully entered text: mirzobek
+2025-08-08 12:01:30,259 [INFO] usernamekiritildi
+2025-08-08 12:01:30,483 [INFO] Successfully entered text: cDN!!asaCxbxva4
+2025-08-08 12:01:30,484 [INFO] password kiritildi
+2025-08-08 12:01:30,586 [INFO] Successfully clicked element: ('xpath', '//button[@id="login"]')
+2025-08-08 12:01:30,586 [INFO] login button bosildi
+2025-08-08 12:01:35,869 [INFO] Screenshot saved: screenshots/screenshot_2025-08-08_12-01-35.png
+2025-08-08 12:01:46,248 [ERROR] Failed to get text from ('xpath', '//p[@id="name"]'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x5ffd23+62915]
+	GetHandleVerifier [0x0x5ffd64+62980]
+	(No symbol) [0x0x433e13]
+	(No symbol) [0x0x47c89e]
+	(No symbol) [0x0x47cc3b]
+	(No symbol) [0x0x4c4ec2]
+	(No symbol) [0x0x4a1424]
+	(No symbol) [0x0x4c26ea]
+	(No symbol) [0x0x4a11d6]
+	(No symbol) [0x0x470833]
+	(No symbol) [0x0x4716a4]
+	GetHandleVerifier [0x0x868d13+2590131]
+	GetHandleVerifier [0x0x863f5a+2570234]
+	GetHandleVerifier [0x0x6259da+217722]
+	GetHandleVerifier [0x0x616048+153832]
+	GetHandleVerifier [0x0x61c4ad+179533]
+	GetHandleVerifier [0x0x607728+94152]
+	GetHandleVerifier [0x0x6078b2+94546]
+	GetHandleVerifier [0x0x5f2bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-08 12:01:46,559 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-08-08 12:03:33,574 [ERROR] Failed to enter text in ('xpath', '//input[@id="userName"]'): 'function' object has no attribute 'find_element'
+2025-08-08 12:05:46,392 [INFO] Successfully entered text: invalid_user
+2025-08-08 12:05:46,393 [INFO] username kiritildi
+2025-08-08 12:05:46,543 [INFO] Successfully entered text: invalid_pass
+2025-08-08 12:05:46,544 [INFO] password kiritildi
+2025-08-08 12:05:46,666 [INFO] Successfully clicked element: ('xpath', '//button[@id="login"]')
+2025-08-08 12:05:46,667 [INFO] login button bosildi
+2025-08-08 12:05:47,969 [INFO] Screenshot saved: screenshots/screenshot_2025-08-08_12-05-47.png
+2025-08-08 12:05:48,013 [INFO] Successfully got text: Invalid username or password!
+2025-08-08 12:08:27,950 [INFO] Successfully entered text: mirzobek
+2025-08-08 12:08:27,951 [INFO] username kiritildi
+2025-08-08 12:08:28,142 [INFO] Successfully entered text: cDN!!asaCxbxva4
+2025-08-08 12:08:28,143 [INFO] password kiritildi
+2025-08-08 12:08:28,261 [INFO] Successfully clicked element: ('xpath', '//button[@id="login"]')
+2025-08-08 12:08:28,261 [INFO] login button bosildi
+2025-08-08 12:08:29,555 [INFO] Screenshot saved: screenshots/screenshot_2025-08-08_12-08-29.png
+2025-08-08 12:08:39,849 [ERROR] Failed to get text from ('xpath', '//p[@id="name"]'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x5ffd23+62915]
+	GetHandleVerifier [0x0x5ffd64+62980]
+	(No symbol) [0x0x433e13]
+	(No symbol) [0x0x47c89e]
+	(No symbol) [0x0x47cc3b]
+	(No symbol) [0x0x4c4ec2]
+	(No symbol) [0x0x4a1424]
+	(No symbol) [0x0x4c26ea]
+	(No symbol) [0x0x4a11d6]
+	(No symbol) [0x0x470833]
+	(No symbol) [0x0x4716a4]
+	GetHandleVerifier [0x0x868d13+2590131]
+	GetHandleVerifier [0x0x863f5a+2570234]
+	GetHandleVerifier [0x0x6259da+217722]
+	GetHandleVerifier [0x0x616048+153832]
+	GetHandleVerifier [0x0x61c4ad+179533]
+	GetHandleVerifier [0x0x607728+94152]
+	GetHandleVerifier [0x0x6078b2+94546]
+	GetHandleVerifier [0x0x5f2bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-08 12:08:40,120 [INFO] Screenshot saved: screenshots/get_text_error.png
+2025-08-08 12:09:59,274 [INFO] Successfully entered text: mirzobek
+2025-08-08 12:09:59,275 [INFO] username kiritildi
+2025-08-08 12:09:59,469 [INFO] Successfully entered text: cDN!!asaCxbxva4
+2025-08-08 12:09:59,469 [INFO] password kiritildi
+2025-08-08 12:09:59,580 [INFO] Successfully clicked element: ('xpath', '//button[@id="login"]')
+2025-08-08 12:09:59,581 [INFO] login button bosildi
+2025-08-08 12:10:00,903 [INFO] Screenshot saved: screenshots/screenshot_2025-08-08_12-10-00.png
