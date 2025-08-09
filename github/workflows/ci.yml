@@ -10,11 +10,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    services:
-      xvfb:
-        image: selenium/standalone-chrome
-        options: --shm-size=2g
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -29,17 +24,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Download ChromeDriver
-        uses: nanasess/setup-chromedriver@v2
+      - name: Setup Google Chrome
+        uses: browser-actions/setup-chrome@v1
 
-      - name: Install Chrome
-        run: |
-          sudo apt-get update
-          sudo apt-get install google-chrome-stable
-
-      - name: Run tests with pytest (headless mode)
+      - name: Run tests (headless on CI)
         env:
           PYTHONUNBUFFERED: 1
+          HEADLESS: "1"        # ixtiyoriy; CI borligi yetarli, lekin aniq bo‘lishi uchun qoldirdik
         run: |
-          export DISPLAY=:99
           pytest --maxfail=2 --disable-warnings -v
