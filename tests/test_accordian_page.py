@@ -56,7 +56,7 @@ def test_second_accordion(accordian_page):
     assert not accordian_page.is_first_content_visible(), "First accordion should be closed"
 
     accordian_page.logger.info("Second accordion test PASSED")
-
+#githubda run
 
 def test_third_accordion(accordian_page):
     accordian_page.logger.info("START third accordion")
