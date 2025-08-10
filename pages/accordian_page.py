@@ -25,6 +25,8 @@ class Accordian_page(BasePage):
         self.click(self.THIRD_ACCORDION)
         self.wait_for_element_visible(self.THIRD_CONTENT_LOCATOR)  # Wait for content
 
+# githubda run qilish
+
     def is_first_content_visible(self):
         try:
             self.wait_for_element_visible(self.FIRST_CONTENT_LOCATOR)

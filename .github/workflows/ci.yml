@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "tests/test_accordian_page.py"  # faqat ushbu faylga o‘zgartirishlar bilan ishga tushirish
+      - "tests/test_accordian_page.py"  # faqat shu faylga o‘zgartirishlar bilan ishga tushirish
   pull_request:
     branches: [ main ]
     paths:
@@ -36,4 +36,4 @@ jobs:
           PYTHONUNBUFFERED: 1
           HEADLESS: "1"        # ixtiyoriy; CI borligi yetarli, lekin aniq bo‘lishi uchun qoldirdik
         run: |
-          pytest --maxfail=2 --disable-warnings -v
+          pytest --maxfail=2 --disable-warnings -v --disable-warnings --tb=short tests/test_accordian_page.py
