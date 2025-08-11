@@ -1,10 +1,3 @@
-# ================================================================================
-# ALERTS PAGE OBJECT MODEL
-# ================================================================================
-# Bu file demoqa.com/alerts sahifasidagi barcha elementlar va funksiyalarni
-# boshqarish uchun yaratilgan. Page Object Model pattern ishlatilgan.
-
-
 from base.base_page import BasePage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -34,7 +27,6 @@ class Alerts_page(BasePage):
  # --------------------------------------------------------------------------------------------------------------------
 
 
-    # ================================================================================
     # SIMPLE ALERT METHODS - Oddiy alert bilan ishlash
     # ================================================================================
     def click_simple_alert_button(self):
@@ -44,7 +36,6 @@ class Alerts_page(BasePage):
         alert = self.wait.until(EC.alert_is_present())
         _ = alert.text  # xohlasangiz logga yozing
         alert.accept()
-        # Sahifada result yo‘q => test kutayotgan matnni saqlaymiz
         self.last_result_text = "Alert accepted"
 # ---------------------------------------------------------------------------------------------------------------------
 
@@ -76,21 +67,11 @@ class Alerts_page(BasePage):
         text = self.wait.until(EC.visibility_of_element_located(self.CONFIRM_RESULT)).text
         self.last_result_text = text  # "You selected Cancel"
 # ------------------------------------------------------------------------------------------------------------------------------
-    # ================================================================================
-    # PROMPT ALERT METHODS - Text input bilan alert'lar uchun
-    # ================================================================================
 
     def click_prompt_button(self):
         self.click(self.PROMPT_BUTTON)
 
     def get_prompt_result_text(self):
-        """
-        Prompt alert natijasini oladi
-        Prompt dialog'da text kiritib OK bosilgandan keyin
-        sahifada "You entered [text]" message chiqadi - uni o'qiydi
-        Returns:
-        str: Result text ("You entered [kiritilgan_text]")
-                """
         return self.get_text(self.PROMPT_RESULT)
 
     def handle_prompt_alert(self, text):
@@ -101,7 +82,6 @@ class Alerts_page(BasePage):
         self.last_result_text = text  # "You entered Test User"
 
     def get_alert_result_text(self):
-        # Endi har doim so'nggi natijani qaytaradi (None bo‘lmaydi, handler chaqirilgan bo‘lsa)
         return self.last_result_text
 
     def __init__(self, driver, timeout=10):

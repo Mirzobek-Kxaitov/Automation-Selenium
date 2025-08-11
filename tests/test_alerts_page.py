@@ -9,7 +9,6 @@ def setup_logger():
     logger = logging.getLogger("AlertsTest")
     logger.setLevel(logging.INFO)
 
-    # Eng muhimi — eski handlerlarni olib tashlash
     logger.handlers.clear()
 
     ch = logging.StreamHandler(sys.stdout)  # stdout
@@ -21,7 +20,6 @@ def setup_logger():
     return logger
 
 
-# Pytest parametrizatsiyasi
 @pytest.mark.parametrize("alert_type, expected_result", [
     ("simple", "Alert accepted"),  # simple alert
     ("timer", "Alert after 5 seconds"),  # timer alert
