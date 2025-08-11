@@ -3,7 +3,6 @@ from utils.driver import get_driver
 import logging
 import pytest
 
-# Loggerni sozlash
 def setup_logger():
     import sys, logging
     logger = logging.getLogger("AlertsTest")

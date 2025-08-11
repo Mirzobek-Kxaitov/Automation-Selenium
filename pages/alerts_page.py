@@ -13,7 +13,6 @@ class Alerts_page(BasePage):
     3. Confirm Alert - OK/Cancel tanlov bilan alert
     4. Prompt Alert - text input bilan alert
     """
-    # ================================================================================
     # LOCATORS - Sahifadagi barcha elementlarning joylashuvini belgilaydi
     # ================================================================================
 
