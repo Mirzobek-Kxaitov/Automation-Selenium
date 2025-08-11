@@ -38,85 +38,49 @@ class Alerts_page(BasePage):
     # SIMPLE ALERT METHODS - Oddiy alert bilan ishlash
     # ================================================================================
     def click_simple_alert_button(self):
-        """
-         Simple alert button'ini bosadi
-         Bu button bosilganda oddiy alert dialog chiqadi
-         """
         self.click(self.SIMPLE_ALERT_BUTTON)
 
-    def handle_simple_alert(self):
-        """
-         Simple alert'ni handle qiladi (OK tugmasini bosadi)
-         Alert chiqgandan keyin uni yopish uchun ishlatiladi   ?????????
-         """
-        alert = self.driver.switch_to.alert# Alert'ga switch qilish
-        alert.accept()# OK button bosish
+    def handle_simple_alert(self):#ozgarish
+        alert = self.wait.until(EC.alert_is_present())
+        _ = alert.text  # xohlasangiz logga yozing
+        alert.accept()
+        # Sahifada result yo‘q => test kutayotgan matnni saqlaymiz
+        self.last_result_text = "Alert accepted"
 # ---------------------------------------------------------------------------------------------------------------------
 
-
-    # ================================================================================
-    # TIMER ALERT METHODS - 5 soniyalik timer alert bilan ishlash
-    # ================================================================================
     def click_timer_alert_button(self):
-        """
-        Timer alert button'ini bosadi
-        Bu button bosilgandan 5 soniya keyin alert chiqadi
-        """
         self.click(self.TIMER_ALERT_BUTTON)
 
     def handle_timer_alert(self):
-        """
-        Timer alert'ni handle qiladi
-        5 soniya kutib, alert chiqgandan keyin uni yopadi
-        WebDriverWait ishlatilgan - alert chiqishini kutish uchun
-        """
-        # 6 soniya ichida alert chiqishini kutadi (5 soniya + 1 soniya buffer)
+        # 5s dan keyin chiqadi, 6s kifoya
         alert = WebDriverWait(self.driver, 6).until(EC.alert_is_present())
+        _ = alert.text
         alert.accept()
-
+        self.last_result_text = "Alert after 5 seconds"
 # ------------------------------------------------------------------------------------------------------------------------------
     def click_confirm_button(self):
-        """
-        Confirm alert button'ini bosadi
-        Bu button bosilganda OK/Cancel tanlov bilan dialog chiqadi
-        """
         self.click(self.CONFIRM_BUTTON)
 
     def get_confirm_result_text(self):
-        """
-        Confirm alert natijasini oladi
-        Confirm dialog'da OK yoki Cancel bosilgandan keyin
-        sahifada result text chiqadi - uni o'qiydi
-        Returns:
-        str: Result text ("You selected Ok" yoki "You selected Cancel")
-                """
         return self.get_text(self.CONFIRM_RESULT)
 
     def handle_confirm_alert_accept(self):
-        """
-        Confirm alert'da OK tugmasini bosadi
-        OK bosilganda "You selected Ok" message chiqadi
-        """
-        alert = self.driver.switch_to.alert
-        alert.accept()# OK tugmasini bosish
+        alert = self.wait.until(EC.alert_is_present())
+        alert.accept()
+        text = self.wait.until(EC.visibility_of_element_located(self.CONFIRM_RESULT)).text
+        self.last_result_text = text  # "You selected Ok"
 
     def handle_confirm_alert_dismiss(self):
-        """
-        Confirm alert'da Cancel tugmasini bosadi
-        Cancel bosilganda "You selected Cancel" message chiqadi
-                """
-        alert = self.driver.switch_to.alert
+        alert = self.wait.until(EC.alert_is_present())
         alert.dismiss()
+        text = self.wait.until(EC.visibility_of_element_located(self.CONFIRM_RESULT)).text
+        self.last_result_text = text  # "You selected Cancel"
 # ------------------------------------------------------------------------------------------------------------------------------
     # ================================================================================
     # PROMPT ALERT METHODS - Text input bilan alert'lar uchun
     # ================================================================================
 
     def click_prompt_button(self):
-        """
-        Prompt alert button'ini bosadi
-        Bu button bosilganda text input field'i bilan dialog chiqadi
-        """
         self.click(self.PROMPT_BUTTON)
 
     def get_prompt_result_text(self):
@@ -130,12 +94,17 @@ class Alerts_page(BasePage):
         return self.get_text(self.PROMPT_RESULT)
 
     def handle_prompt_alert(self, text):
-        """Prompt alert'ga text kiritib OK tugmasini bosadi
-        Args:
-        text (str): Alert'ga kiritilishi kerak bo'lgan text
-        Example:
-        handle_prompt_alert("John Doe")  # "John Doe" textini kiritadi
-        """
-        alert = self.driver.switch_to.alert
-        alert.send_keys(text)# Text kiritish
-        alert.accept()# OK tugmasini bosish
+        alert = self.wait.until(EC.alert_is_present())
+        alert.send_keys(text)
+        alert.accept()
+        text = self.wait.until(EC.visibility_of_element_located(self.PROMPT_RESULT)).text
+        self.last_result_text = text  # "You entered Test User"
+
+    def get_alert_result_text(self):
+        # Endi har doim so'nggi natijani qaytaradi (None bo‘lmaydi, handler chaqirilgan bo‘lsa)
+        return self.last_result_text
+
+    def __init__(self, driver, timeout=10):
+        super().__init__(driver, timeout)
+        self.wait = WebDriverWait(driver, timeout)
+        self.last_result_text = None

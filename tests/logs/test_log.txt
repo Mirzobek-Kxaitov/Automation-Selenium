@@ -1905,3 +1905,256 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 2025-08-09 18:24:26,852 [INFO] Third accordion clicked
 2025-08-09 18:24:26,923 [INFO] Successfully got text: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 2025-08-09 18:24:36,986 [INFO] Third accordion test PASSED
+2025-08-10 11:50:44,094 [INFO] STARTING TEST: test_simple_alert_functionality
+2025-08-10 11:50:44,379 [INFO] Successfully clicked element: ('xpath', "//button[@id='alertButton']")
+2025-08-10 11:50:44,379 [INFO] Clicking simple alert button...
+2025-08-10 11:50:44,384 [INFO] Handling simple alert...
+2025-08-10 11:50:44,384 [INFO] Test completed successfully!
+2025-08-10 11:51:03,810 [INFO] STARTING TEST: test_timer_alert_functionality
+2025-08-10 11:51:03,811 [INFO] Clicking timer alert button...
+2025-08-10 11:51:04,001 [INFO] Successfully clicked element: ('xpath', "//button[@id='timerAlertButton']")
+2025-08-10 11:51:04,002 [INFO] Waiting for 5-second timer alert...
+2025-08-10 11:51:09,057 [INFO] Handling timer alert
+2025-08-10 11:51:09,058 [INFO] Timer alert handled successfully!
+2025-08-10 11:51:37,373 [INFO] STARTING TEST: test_confirm_alert_accept
+2025-08-10 11:51:37,373 [INFO] Clicking confirm button...
+2025-08-10 11:51:37,514 [INFO] Successfully clicked element: ('xpath', "//button[@id='confirmButton']")
+2025-08-10 11:51:37,515 [INFO] Accepting confirm alert...
+2025-08-10 11:51:37,573 [INFO] Successfully got text: You selected Ok
+2025-08-10 11:51:37,574 [INFO] Result verified: You selected Ok
+2025-08-10 11:51:59,705 [INFO] STARTING TEST: test_confirm_alert_dismiss
+2025-08-10 11:51:59,705 [INFO] Clicking confirm button...
+2025-08-10 11:51:59,943 [INFO] Successfully clicked element: ('xpath', "//button[@id='confirmButton']")
+2025-08-10 11:51:59,943 [INFO] Dismiss confirm alert...
+2025-08-10 11:52:00,028 [INFO] Successfully got text: You selected Cancel
+2025-08-10 11:52:00,028 [INFO] Result verified: You selected Cancel
+2025-08-10 11:52:20,327 [INFO] STARTING TEST: test_prompt_alert_functionality
+2025-08-10 11:52:20,328 [INFO] Clicking prompt button...
+2025-08-10 11:52:20,532 [INFO] Successfully clicked element: ('xpath', "//button[@id='promtButton']")
+2025-08-10 11:52:20,541 [INFO] Accepting prompt alert...
+2025-08-10 11:52:20,597 [INFO] Successfully got text: You entered Test User
+2025-08-10 11:52:20,597 [INFO]  Result verified: You entered Test User
+2025-08-10 23:18:18,628 [INFO] Successfully clicked element: ('xpath', "//button[@id='alertButton']")
+2025-08-10 23:18:18,668 [ERROR] Error while getting alert result text: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="result"]"}
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x81fd23+62915]
+	GetHandleVerifier [0x0x81fd64+62980]
+	(No symbol) [0x0x653e13]
+	(No symbol) [0x0x69c89e]
+	(No symbol) [0x0x69cc3b]
+	(No symbol) [0x0x6e4ec2]
+	(No symbol) [0x0x6c1424]
+	(No symbol) [0x0x6e26ea]
+	(No symbol) [0x0x6c11d6]
+	(No symbol) [0x0x690833]
+	(No symbol) [0x0x6916a4]
+	GetHandleVerifier [0x0xa88d13+2590131]
+	GetHandleVerifier [0x0xa83f5a+2570234]
+	GetHandleVerifier [0x0x8459da+217722]
+	GetHandleVerifier [0x0x836048+153832]
+	GetHandleVerifier [0x0x83c4ad+179533]
+	GetHandleVerifier [0x0x827728+94152]
+	GetHandleVerifier [0x0x8278b2+94546]
+	GetHandleVerifier [0x0x812bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-10 23:18:41,125 [INFO] Successfully clicked element: ('xpath', "//button[@id='timerAlertButton']")
+2025-08-10 23:18:46,225 [ERROR] Error while getting alert result text: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="result"]"}
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x81fd23+62915]
+	GetHandleVerifier [0x0x81fd64+62980]
+	(No symbol) [0x0x653e13]
+	(No symbol) [0x0x69c89e]
+	(No symbol) [0x0x69cc3b]
+	(No symbol) [0x0x6e4ec2]
+	(No symbol) [0x0x6c1424]
+	(No symbol) [0x0x6e26ea]
+	(No symbol) [0x0x6c11d6]
+	(No symbol) [0x0x690833]
+	(No symbol) [0x0x6916a4]
+	GetHandleVerifier [0x0xa88d13+2590131]
+	GetHandleVerifier [0x0xa83f5a+2570234]
+	GetHandleVerifier [0x0x8459da+217722]
+	GetHandleVerifier [0x0x836048+153832]
+	GetHandleVerifier [0x0x83c4ad+179533]
+	GetHandleVerifier [0x0x827728+94152]
+	GetHandleVerifier [0x0x8278b2+94546]
+	GetHandleVerifier [0x0x812bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-10 23:19:03,945 [INFO] Successfully clicked element: ('xpath', "//button[@id='confirmButton']")
+2025-08-10 23:19:03,970 [ERROR] Error while getting alert result text: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="result"]"}
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x81fd23+62915]
+	GetHandleVerifier [0x0x81fd64+62980]
+	(No symbol) [0x0x653e13]
+	(No symbol) [0x0x69c89e]
+	(No symbol) [0x0x69cc3b]
+	(No symbol) [0x0x6e4ec2]
+	(No symbol) [0x0x6c1424]
+	(No symbol) [0x0x6e26ea]
+	(No symbol) [0x0x6c11d6]
+	(No symbol) [0x0x690833]
+	(No symbol) [0x0x6916a4]
+	GetHandleVerifier [0x0xa88d13+2590131]
+	GetHandleVerifier [0x0xa83f5a+2570234]
+	GetHandleVerifier [0x0x8459da+217722]
+	GetHandleVerifier [0x0x836048+153832]
+	GetHandleVerifier [0x0x83c4ad+179533]
+	GetHandleVerifier [0x0x827728+94152]
+	GetHandleVerifier [0x0x8278b2+94546]
+	GetHandleVerifier [0x0x812bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-10 23:19:19,511 [INFO] Successfully clicked element: ('xpath', "//button[@id='promtButton']")
+2025-08-10 23:19:19,538 [ERROR] Error while getting alert result text: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="result"]"}
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x81fd23+62915]
+	GetHandleVerifier [0x0x81fd64+62980]
+	(No symbol) [0x0x653e13]
+	(No symbol) [0x0x69c89e]
+	(No symbol) [0x0x69cc3b]
+	(No symbol) [0x0x6e4ec2]
+	(No symbol) [0x0x6c1424]
+	(No symbol) [0x0x6e26ea]
+	(No symbol) [0x0x6c11d6]
+	(No symbol) [0x0x690833]
+	(No symbol) [0x0x6916a4]
+	GetHandleVerifier [0x0xa88d13+2590131]
+	GetHandleVerifier [0x0xa83f5a+2570234]
+	GetHandleVerifier [0x0x8459da+217722]
+	GetHandleVerifier [0x0x836048+153832]
+	GetHandleVerifier [0x0x83c4ad+179533]
+	GetHandleVerifier [0x0x827728+94152]
+	GetHandleVerifier [0x0x8278b2+94546]
+	GetHandleVerifier [0x0x812bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-11 12:31:52,885 [INFO] Successfully clicked element: ('xpath', "//button[@id='alertButton']")
+2025-08-11 12:31:52,907 [ERROR] Error while getting alert result text: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="result"]"}
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x114fd23+62915]
+	GetHandleVerifier [0x0x114fd64+62980]
+	(No symbol) [0x0xf83e13]
+	(No symbol) [0x0xfcc89e]
+	(No symbol) [0x0xfccc3b]
+	(No symbol) [0x0x1014ec2]
+	(No symbol) [0x0xff1424]
+	(No symbol) [0x0x10126ea]
+	(No symbol) [0x0xff11d6]
+	(No symbol) [0x0xfc0833]
+	(No symbol) [0x0xfc16a4]
+	GetHandleVerifier [0x0x13b8d13+2590131]
+	GetHandleVerifier [0x0x13b3f5a+2570234]
+	GetHandleVerifier [0x0x11759da+217722]
+	GetHandleVerifier [0x0x1166048+153832]
+	GetHandleVerifier [0x0x116c4ad+179533]
+	GetHandleVerifier [0x0x1157728+94152]
+	GetHandleVerifier [0x0x11578b2+94546]
+	GetHandleVerifier [0x0x1142bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-11 12:32:03,476 [INFO] Successfully clicked element: ('xpath', "//button[@id='timerAlertButton']")
+2025-08-11 12:32:08,551 [ERROR] Error while getting alert result text: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="result"]"}
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x114fd23+62915]
+	GetHandleVerifier [0x0x114fd64+62980]
+	(No symbol) [0x0xf83e13]
+	(No symbol) [0x0xfcc89e]
+	(No symbol) [0x0xfccc3b]
+	(No symbol) [0x0x1014ec2]
+	(No symbol) [0x0xff1424]
+	(No symbol) [0x0x10126ea]
+	(No symbol) [0x0xff11d6]
+	(No symbol) [0x0xfc0833]
+	(No symbol) [0x0xfc16a4]
+	GetHandleVerifier [0x0x13b8d13+2590131]
+	GetHandleVerifier [0x0x13b3f5a+2570234]
+	GetHandleVerifier [0x0x11759da+217722]
+	GetHandleVerifier [0x0x1166048+153832]
+	GetHandleVerifier [0x0x116c4ad+179533]
+	GetHandleVerifier [0x0x1157728+94152]
+	GetHandleVerifier [0x0x11578b2+94546]
+	GetHandleVerifier [0x0x1142bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-11 12:32:22,416 [INFO] Successfully clicked element: ('xpath', "//button[@id='confirmButton']")
+2025-08-11 12:32:22,440 [ERROR] Error while getting alert result text: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="result"]"}
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x114fd23+62915]
+	GetHandleVerifier [0x0x114fd64+62980]
+	(No symbol) [0x0xf83e13]
+	(No symbol) [0x0xfcc89e]
+	(No symbol) [0x0xfccc3b]
+	(No symbol) [0x0x1014ec2]
+	(No symbol) [0x0xff1424]
+	(No symbol) [0x0x10126ea]
+	(No symbol) [0x0xff11d6]
+	(No symbol) [0x0xfc0833]
+	(No symbol) [0x0xfc16a4]
+	GetHandleVerifier [0x0x13b8d13+2590131]
+	GetHandleVerifier [0x0x13b3f5a+2570234]
+	GetHandleVerifier [0x0x11759da+217722]
+	GetHandleVerifier [0x0x1166048+153832]
+	GetHandleVerifier [0x0x116c4ad+179533]
+	GetHandleVerifier [0x0x1157728+94152]
+	GetHandleVerifier [0x0x11578b2+94546]
+	GetHandleVerifier [0x0x1142bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-11 12:32:31,814 [INFO] Successfully clicked element: ('xpath', "//button[@id='promtButton']")
+2025-08-11 12:32:31,843 [ERROR] Error while getting alert result text: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="result"]"}
+  (Session info: chrome=139.0.7258.66); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x0x114fd23+62915]
+	GetHandleVerifier [0x0x114fd64+62980]
+	(No symbol) [0x0xf83e13]
+	(No symbol) [0x0xfcc89e]
+	(No symbol) [0x0xfccc3b]
+	(No symbol) [0x0x1014ec2]
+	(No symbol) [0x0xff1424]
+	(No symbol) [0x0x10126ea]
+	(No symbol) [0x0xff11d6]
+	(No symbol) [0x0xfc0833]
+	(No symbol) [0x0xfc16a4]
+	GetHandleVerifier [0x0x13b8d13+2590131]
+	GetHandleVerifier [0x0x13b3f5a+2570234]
+	GetHandleVerifier [0x0x11759da+217722]
+	GetHandleVerifier [0x0x1166048+153832]
+	GetHandleVerifier [0x0x116c4ad+179533]
+	GetHandleVerifier [0x0x1157728+94152]
+	GetHandleVerifier [0x0x11578b2+94546]
+	GetHandleVerifier [0x0x1142bca+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-11 12:42:25,319 [INFO] Successfully clicked element: ('xpath', "//button[@id='alertButton']")
+2025-08-11 12:42:41,481 [INFO] Successfully clicked element: ('xpath', "//button[@id='timerAlertButton']")
+2025-08-11 12:42:58,057 [INFO] Successfully clicked element: ('xpath', "//button[@id='confirmButton']")
+2025-08-11 12:43:09,939 [INFO] Successfully clicked element: ('xpath', "//button[@id='promtButton']")
+2025-08-11 12:45:50,685 [INFO] Successfully clicked element: ('xpath', "//button[@id='alertButton']")
+2025-08-11 12:46:06,806 [INFO] Successfully clicked element: ('xpath', "//button[@id='timerAlertButton']")
+2025-08-11 12:46:23,929 [INFO] Successfully clicked element: ('xpath', "//button[@id='confirmButton']")
+2025-08-11 12:46:35,981 [INFO] Successfully clicked element: ('xpath', "//button[@id='promtButton']")

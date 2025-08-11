@@ -1,6 +1,7 @@
 import logging
 import os
 import time
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
@@ -169,3 +170,39 @@ class BasePage:
             self._take_screenshot("checkbox_error")
             raise
     # ------------------------------------------------------------------------------------------------------------------------------
+   #ALERT BILAN ISHLASH
+    def get_alert_text(self):
+        try:
+            WebDriverWait(self.driver, self.timeout).until(EC.alert_is_present())  # Alertni kutish
+            alert = self.driver.switch_to.alert
+            return alert.text
+        except Exception as e:
+            self.logger.error(f"Error while getting alert text: {e}")
+            return None
+
+    def handle_alert(self, action='accept'):
+        try:
+            WebDriverWait(self.driver, self.timeout).until(EC.alert_is_present())  # Alertni kutish
+            alert = self.driver.switch_to.alert
+            if action == 'accept':
+                alert.accept()
+                self.logger.info("Alert accepted")
+            elif action == 'dismiss':
+                alert.dismiss()
+                self.logger.info("Alert dismissed")
+        except Exception as e:
+            self.logger.error(f"Error while handling alert: {e}")
+
+    def handle_prompt_alert(self, text, action='accept'):
+        try:
+            WebDriverWait(self.driver, self.timeout).until(EC.alert_is_present())  # Alertni kutish
+            alert = self.driver.switch_to.alert
+            alert.send_keys(text)  # Foydalanuvchi kiritadigan matn
+            if action == 'accept':
+                alert.accept()
+                self.logger.info("Prompt alert accepted with text: " + text)
+            elif action == 'dismiss':
+                alert.dismiss()
+                self.logger.info("Prompt alert dismissed")
+        except Exception as e:
+            self.logger.error(f"Error while handling prompt alert: {e}")
