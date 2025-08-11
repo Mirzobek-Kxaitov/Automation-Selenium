@@ -17,6 +17,8 @@ class Accordian_page(BasePage):
         self.click(self.FIRST_ACCORDION)
         self.wait_for_element_visible(self.FIRST_CONTENT_LOCATOR)  # Wait for content
 
+    # user
+
     def click_second_accordion(self):
         self.click(self.SECOND_ACCORDION)
         self.wait_for_element_visible(self.SECOND_CONTENT_LOCATOR)  # Wait for content
