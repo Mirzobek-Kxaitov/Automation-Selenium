@@ -4,12 +4,10 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "tests/test_accordian_page.py"  # faqat shu faylga o‘zgartirishlar bilan ishga tushirish
       - "tests/test_alerts_page.py"     # test_alerts_page.py faylida o‘zgarish bo‘lsa
   pull_request:
     branches: [ main ]
     paths:
-      - "tests/test_accordian_page.py"  # faqat shu faylda o‘zgarish bo‘lsa ishlaydi
       - "tests/test_alerts_page.py"
 
 jobs:
