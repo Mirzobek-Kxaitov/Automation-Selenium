@@ -47,7 +47,6 @@ def test_alerts(alert_type, expected_result):
         alerts_page.click_prompt_button()
         alerts_page.handle_prompt_alert("Test User")
         logger.info(f"Handled {alert_type} alert successfully.")
-#user
     result_text = alerts_page.get_alert_result_text()
     assert expected_result in result_text
     logger.info(f"Test completed successfully for {alert_type} alert.")

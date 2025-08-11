@@ -27,7 +27,6 @@ class Alerts_page(BasePage):
  # --------------------------------------------------------------------------------------------------------------------
 
 
-    # SIMPLE ALERT METHODS - Oddiy alert bilan ishlash
     # ================================================================================
     def click_simple_alert_button(self):
         self.click(self.SIMPLE_ALERT_BUTTON)

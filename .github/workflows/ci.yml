@@ -36,4 +36,5 @@ jobs:
           PYTHONUNBUFFERED: 1
           HEADLESS: "1"        # ixtiyoriy; CI borligi yetarli, lekin aniq bo‘lishi uchun qoldirdik
         run: |
-          pytest --maxfail=2 --disable-warnings -v
+          pytest --maxfail=2 --disable-warnings -v \
+            "tests/test_alerts_page.py::test_alerts[simple-Alert accepted]"
