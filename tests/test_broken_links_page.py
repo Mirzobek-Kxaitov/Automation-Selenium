@@ -15,4 +15,4 @@ def test_click_valid_link(driver):
 def test_click_broken_link(driver):
     broken_links_page = Broken_list_page(driver)
     assert broken_links_page.click_broken_link()
-#salomat
+#

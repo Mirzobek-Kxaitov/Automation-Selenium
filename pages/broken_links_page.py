@@ -22,7 +22,7 @@ class Broken_list_page(BasePage):
             else: #unday bo'masa
                 self.logger.error("Valid image failed to load") #logda chiqadi
                 return False #test failed
-        # salomat
+        #
 
         except Exception as e:# ← Agar yuqorida XATOLIK bo'lsa
             self.logger.error(f"Error checking valid image: {str(e)}")
