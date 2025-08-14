@@ -36,5 +36,5 @@ jobs:
           PYTHONUNBUFFERED: 1
           HEADLESS: "1"        # ixtiyoriy; CI borligi yetarli, lekin aniq bo‘lishi uchun qoldirdik
         run: |
-          pytest tests/test_alerts_page.py -v --disable-warnings --maxfail=2
+          pytest tests/broken_links_page.py -v --disable-warnings --maxfail=2
 
