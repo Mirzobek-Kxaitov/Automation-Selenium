@@ -48,7 +48,7 @@ class Broken_list_page(BasePage):
 
     def click_valid_link(self):
         try:
-            self.click(self.valid_link)
+            self.click_with_js(self.valid_link)
             if "demoqa.com" in self.driver.current_url:
                 self.logger.info("Valid link redirected correctly")
                 return True

@@ -245,3 +245,13 @@ class BasePage:
             return True
         except:
             return False
+
+    def click_with_js(self, locator):
+        try:
+            element = self._element_to_be_clickable(locator)
+            self.driver.execute_script("arguments[0].click();", element)
+            self.logger.info(f"Successfully clicked element with JS: {locator}")
+        except Exception as e:
+            self.logger.error(f"Failed to click element with JS {locator}: {str(e)}")
+            self._take_screenshot("js_click_error")
+            raise
