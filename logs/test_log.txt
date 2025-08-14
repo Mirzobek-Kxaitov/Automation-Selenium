@@ -385,3 +385,11 @@ Stacktrace:
 2025-08-08 19:59:56,236 [INFO] Successfully clicked element: ('xpath', '//button[@id="login"]')
 2025-08-08 19:59:56,237 [INFO] login button bosildi
 2025-08-08 19:59:59,616 [INFO] Screenshot saved: screenshots/screenshot_2025-08-08_19-59-59.png
+2025-08-12 20:10:15,495 [INFO] Image natural size: 347x100
+2025-08-12 20:10:15,496 [INFO] Valid image is loaded successfully
+2025-08-13 12:43:35,231 [INFO] Checking valid image...
+2025-08-13 12:43:35,500 [INFO] Image natural size: 347x100
+2025-08-13 12:43:35,500 [INFO] Valid image loaded successfully with size: 347x100
+2025-08-13 12:43:51,158 [INFO] Checking broken image...
+2025-08-13 12:43:51,252 [INFO] Image natural size: 0x0
+2025-08-13 12:43:51,252 [INFO] Broken image is correctly broken

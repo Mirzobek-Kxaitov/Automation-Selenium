@@ -206,3 +206,42 @@ class BasePage:
                 self.logger.info("Prompt alert dismissed")
         except Exception as e:
             self.logger.error(f"Error while handling prompt alert: {e}")
+
+    # BasePage ga qo'shilishi kerak bo'lgan metodlar:
+
+    def _save_page_source(self, file_name=None):
+        """Sahifa manbasini saqlash"""
+        if not os.path.exists("logs/page_sources"):
+            os.makedirs("logs/page_sources")
+
+        if not file_name:
+            timestamp = time.strftime("%Y-%m-%d_%H-%M-%S")
+            file_name = f"logs/page_sources/page_source_{timestamp}.html"
+        else:
+            file_name = f"logs/page_sources/{file_name}.html"
+
+        try:
+            with open(file_name, 'w', encoding='utf-8') as f:
+                f.write(self.driver.page_source)
+            self.logger.info(f"Page source saved: {file_name}")
+        except Exception as e:
+            self.logger.error(f"Failed to save page source: {str(e)}")
+
+    def is_element_present(self, locator):
+        """Element mavjudligini tekshirish"""
+        try:
+            self.driver.find_element(*locator)
+            return True
+        except:
+            return False
+
+    def wait_for_url_contains(self, text, timeout=None):
+        """URL da ma'lum matn borligini kutish"""
+        timeout = timeout or self.timeout
+        try:
+            WebDriverWait(self.driver, timeout).until(
+                lambda driver: text in driver.current_url
+            )
+            return True
+        except:
+            return False

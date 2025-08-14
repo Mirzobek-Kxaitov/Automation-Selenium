@@ -12,22 +12,11 @@ class Broken_list_page(BasePage):
     def verify_valid_image(self):
         try:
             image = self.wait_for_element_visible(self.valid_image)
-            #image = self.wait_for_element_visible(self.valid_image)
-            #  ↑         ↑                              ↑
-            # o'zgaruvchi  method                   locator
-            # 1. valid_image locatorini topadi
-            # 2. Element ko'rinadigan bo'lguncha kutadi
-            # 3. Topilgan elementni 'image' ga saqlaydi
-
             width = image.get_attribute("naturalWidth")
             height = image.get_attribute("naturalHeight")
-            # naturalWidth = 500   # rasm kengligi
-            # naturalHeight = 300  # rasm balandligi
             self.logger.info(f"Image width: {width}, height: {height}")
 
             if int(width) > 0 and int(height) > 0:
-            #    ↑              ↑
-            # width ni integer qil   height ni integer qilish va u ikkisi 0 dan katta bo'lsa:
                 self.logger.info("Valid image is loaded successfully")
                 return True #test passed
             else: #unday bo'masa
@@ -36,10 +25,8 @@ class Broken_list_page(BasePage):
 
 
         except Exception as e:# ← Agar yuqorida XATOLIK bo'lsa
-        # Xatolik 'e' ga yoziladi
             self.logger.error(f"Error checking valid image: {str(e)}")
             return False
-        #dastur davom etadi lekin xatolik ko'rinadi
 # ------------------------------------------------------------------------------------------------------------------------------
     def verify_broken_image(self):
         try:
@@ -91,3 +78,4 @@ class Broken_list_page(BasePage):
         except Exception as e:
             self.logger.error(f"Error checking broken link : {str(e)}")
             return False
+

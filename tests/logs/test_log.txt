@@ -2175,3 +2175,469 @@ Stacktrace:
 2025-08-11 15:31:59,157 [INFO] Third accordion clicked
 2025-08-11 15:31:59,210 [INFO] Successfully got text: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 2025-08-11 15:32:09,223 [INFO] Third accordion test PASSED
+2025-08-11 16:54:44,670 [INFO] Image width: 347, height: 100
+2025-08-11 16:54:44,671 [INFO] Valid image is loaded successfully
+2025-08-11 16:55:01,693 [INFO] Image width0, height0
+2025-08-11 16:55:01,693 [INFO] Broken image is correctly broken
+2025-08-11 16:55:16,052 [INFO] Successfully clicked element: ('xpath', "//a[text()='Click Here for Valid Link']")
+2025-08-11 16:55:16,062 [INFO] Valid link redirected correctly
+2025-08-11 16:55:33,891 [INFO] Successfully clicked element: ('xpath', "//a[text()='Click Here for Broken Link']")
+2025-08-11 16:55:33,903 [INFO] Broken link worked correctly
+2025-08-13 12:49:15,524 [INFO] Checking valid image...
+2025-08-13 12:49:15,663 [INFO] Image natural size: 347x100
+2025-08-13 12:49:15,664 [INFO] Valid image loaded successfully with size: 347x100
+2025-08-13 12:49:37,850 [INFO] Checking broken image...
+2025-08-13 12:49:37,933 [INFO] Image natural size: 0x0
+2025-08-13 12:49:37,933 [INFO] Broken image is correctly broken
+2025-08-13 12:49:56,244 [INFO] Clicking valid link...
+2025-08-13 12:49:59,433 [INFO] Successfully clicked element: ('xpath', "//a[normalize-space()='Click Here for Valid Link']")
+2025-08-13 12:50:01,444 [INFO] Page redirected in same window
+2025-08-13 12:50:01,448 [INFO] Valid link redirected correctly to: https://demoqa.com/
+2025-08-13 12:50:04,368 [INFO] Navigated back to broken links page
+2025-08-13 12:50:15,859 [INFO] Clicking broken link...
+2025-08-13 12:50:25,911 [ERROR] Failed to click element ('xpath', "//a[normalize-space()='Click Here for Broken Link']"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x42fd33+62915]
+	GetHandleVerifier [0x0x42fd74+62980]
+	(No symbol) [0x0x263e13]
+	(No symbol) [0x0x2ac89e]
+	(No symbol) [0x0x2acc3b]
+	(No symbol) [0x0x2f4ec2]
+	(No symbol) [0x0x2d1424]
+	(No symbol) [0x0x2f26ea]
+	(No symbol) [0x0x2d11d6]
+	(No symbol) [0x0x2a0833]
+	(No symbol) [0x0x2a16a4]
+	GetHandleVerifier [0x0x698d23+2590131]
+	GetHandleVerifier [0x0x693f6a+2570234]
+	GetHandleVerifier [0x0x4559ea+217722]
+	GetHandleVerifier [0x0x446058+153832]
+	GetHandleVerifier [0x0x44c4bd+179533]
+	GetHandleVerifier [0x0x437738+94152]
+	GetHandleVerifier [0x0x4378c2+94546]
+	GetHandleVerifier [0x0x422bda+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-13 12:50:26,018 [INFO] Screenshot saved: screenshots/click_error.png
+2025-08-13 12:50:26,018 [ERROR] Error in navigation: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x42fd33+62915]
+	GetHandleVerifier [0x0x42fd74+62980]
+	(No symbol) [0x0x263e13]
+	(No symbol) [0x0x2ac89e]
+	(No symbol) [0x0x2acc3b]
+	(No symbol) [0x0x2f4ec2]
+	(No symbol) [0x0x2d1424]
+	(No symbol) [0x0x2f26ea]
+	(No symbol) [0x0x2d11d6]
+	(No symbol) [0x0x2a0833]
+	(No symbol) [0x0x2a16a4]
+	GetHandleVerifier [0x0x698d23+2590131]
+	GetHandleVerifier [0x0x693f6a+2570234]
+	GetHandleVerifier [0x0x4559ea+217722]
+	GetHandleVerifier [0x0x446058+153832]
+	GetHandleVerifier [0x0x44c4bd+179533]
+	GetHandleVerifier [0x0x437738+94152]
+	GetHandleVerifier [0x0x4378c2+94546]
+	GetHandleVerifier [0x0x422bda+9322]
+	BaseThreadInitThunk [0x0x768d5d49+25]
+	RtlInitializeExceptionChain [0x0x77d8d1ab+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77d8d131+561]
+
+2025-08-13 12:50:35,724 [INFO] Navigated back to broken links page
+2025-08-13 12:50:56,716 [INFO] Checking valid image...
+2025-08-13 12:50:56,820 [INFO] Image natural size: 347x100
+2025-08-13 12:50:56,821 [INFO] Valid image loaded successfully with size: 347x100
+2025-08-13 12:50:56,821 [INFO] Checking broken image...
+2025-08-13 12:50:56,871 [INFO] Image natural size: 0x0
+2025-08-13 12:50:56,871 [INFO] Broken image is correctly broken
+2025-08-13 12:50:59,811 [INFO] Clicking valid link...
+2025-08-13 12:51:03,787 [INFO] Successfully clicked element: ('xpath', "//a[normalize-space()='Click Here for Valid Link']")
+2025-08-13 12:51:05,803 [INFO] Page redirected in same window
+2025-08-13 12:51:05,809 [INFO] Valid link redirected correctly to: https://demoqa.com/
+2025-08-13 12:51:09,761 [INFO] Navigated back to broken links page
+2025-08-13 12:51:09,761 [INFO] Clicking broken link...
+2025-08-13 12:51:14,495 [INFO] Successfully clicked element: ('xpath', "//a[normalize-space()='Click Here for Broken Link']")
+2025-08-13 12:51:16,514 [INFO] Page redirected in same window
+2025-08-13 12:51:16,540 [INFO] Broken link correctly shows error. URL: https://the-internet.herokuapp.com/status_codes/500
+2025-08-13 12:51:19,423 [INFO] Navigated back to broken links page
+2025-08-13 12:51:39,186 [INFO] Checking valid image...
+2025-08-13 12:51:39,251 [INFO] Image natural size: 0x0
+2025-08-13 12:51:39,251 [ERROR] Valid image failed to load (size: 0x0)
+2025-08-13 12:52:12,584 [INFO] Checking broken image...
+2025-08-13 12:52:12,679 [INFO] Image natural size: 0x0
+2025-08-13 12:52:12,679 [INFO] Broken image is correctly broken
+2025-08-13 12:52:33,888 [INFO] Clicking valid link...
+2025-08-13 12:52:37,633 [INFO] Successfully clicked element: ('xpath', "//a[normalize-space()='Click Here for Valid Link']")
+2025-08-13 12:52:39,649 [INFO] Page redirected in same window
+2025-08-13 12:52:39,654 [INFO] Valid link redirected correctly to: https://demoqa.com/
+2025-08-13 12:52:42,066 [INFO] Navigated back to broken links page
+2025-08-13 12:53:02,398 [INFO] Clicking broken link...
+2025-08-13 12:53:06,749 [INFO] Successfully clicked element: ('xpath', "//a[normalize-space()='Click Here for Broken Link']")
+2025-08-13 12:53:08,767 [INFO] Page redirected in same window
+2025-08-13 12:53:08,787 [INFO] Broken link correctly shows error. URL: https://the-internet.herokuapp.com/status_codes/500
+2025-08-13 12:53:09,414 [INFO] Navigated back to broken links page
+2025-08-13 18:17:20,648 [INFO] Checking valid image...
+2025-08-13 18:17:20,936 [INFO] Image natural size: 347x100
+2025-08-13 18:17:20,936 [INFO] Valid image loaded successfully with size: 347x100
+2025-08-13 18:17:41,935 [INFO] Checking broken image...
+2025-08-13 18:17:42,038 [INFO] Image natural size: 0x0
+2025-08-13 18:17:42,039 [INFO] Broken image is correctly broken
+2025-08-13 18:17:52,723 [INFO] Clicking valid link...
+2025-08-13 18:18:02,810 [ERROR] Failed to click element ('xpath', "//a[normalize-space()='Click Here for Valid Link']"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa1fd33+62915]
+	GetHandleVerifier [0x0xa1fd74+62980]
+	(No symbol) [0x0x853e13]
+	(No symbol) [0x0x89c89e]
+	(No symbol) [0x0x89cc3b]
+	(No symbol) [0x0x8e4ec2]
+	(No symbol) [0x0x8c1424]
+	(No symbol) [0x0x8e26ea]
+	(No symbol) [0x0x8c11d6]
+	(No symbol) [0x0x890833]
+	(No symbol) [0x0x8916a4]
+	GetHandleVerifier [0x0xc88d23+2590131]
+	GetHandleVerifier [0x0xc83f6a+2570234]
+	GetHandleVerifier [0x0xa459ea+217722]
+	GetHandleVerifier [0x0xa36058+153832]
+	GetHandleVerifier [0x0xa3c4bd+179533]
+	GetHandleVerifier [0x0xa27738+94152]
+	GetHandleVerifier [0x0xa278c2+94546]
+	GetHandleVerifier [0x0xa12bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-13 18:18:02,914 [INFO] Screenshot saved: screenshots/click_error.png
+2025-08-13 18:18:02,914 [ERROR] Error in navigation: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xa1fd33+62915]
+	GetHandleVerifier [0x0xa1fd74+62980]
+	(No symbol) [0x0x853e13]
+	(No symbol) [0x0x89c89e]
+	(No symbol) [0x0x89cc3b]
+	(No symbol) [0x0x8e4ec2]
+	(No symbol) [0x0x8c1424]
+	(No symbol) [0x0x8e26ea]
+	(No symbol) [0x0x8c11d6]
+	(No symbol) [0x0x890833]
+	(No symbol) [0x0x8916a4]
+	GetHandleVerifier [0x0xc88d23+2590131]
+	GetHandleVerifier [0x0xc83f6a+2570234]
+	GetHandleVerifier [0x0xa459ea+217722]
+	GetHandleVerifier [0x0xa36058+153832]
+	GetHandleVerifier [0x0xa3c4bd+179533]
+	GetHandleVerifier [0x0xa27738+94152]
+	GetHandleVerifier [0x0xa278c2+94546]
+	GetHandleVerifier [0x0xa12bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-13 18:18:08,464 [INFO] Navigated back to broken links page
+2025-08-13 18:18:26,369 [INFO] Clicking broken link...
+2025-08-13 18:18:31,050 [INFO] Successfully clicked element: ('xpath', "//a[normalize-space()='Click Here for Broken Link']")
+2025-08-13 18:18:33,058 [INFO] Page redirected in same window
+2025-08-13 18:18:33,067 [INFO] Broken link correctly shows error. URL: https://the-internet.herokuapp.com/status_codes/500
+2025-08-13 18:18:43,269 [INFO] Navigated back to broken links page
+2025-08-13 18:18:59,167 [INFO] Checking valid image...
+2025-08-13 18:18:59,283 [INFO] Image natural size: 347x100
+2025-08-13 18:18:59,284 [INFO] Valid image loaded successfully with size: 347x100
+2025-08-13 18:18:59,284 [INFO] Checking broken image...
+2025-08-13 18:18:59,366 [INFO] Image natural size: 0x0
+2025-08-13 18:18:59,367 [INFO] Broken image is correctly broken
+2025-08-13 18:19:02,027 [INFO] Clicking valid link...
+2025-08-13 18:19:05,239 [INFO] Successfully clicked element: ('xpath', "//a[normalize-space()='Click Here for Valid Link']")
+2025-08-13 18:19:07,256 [INFO] Page redirected in same window
+2025-08-13 18:19:07,263 [INFO] Valid link redirected correctly to: https://demoqa.com/
+2025-08-13 18:19:11,402 [INFO] Navigated back to broken links page
+2025-08-13 18:19:11,403 [INFO] Clicking broken link...
+2025-08-13 18:19:16,368 [INFO] Successfully clicked element: ('xpath', "//a[normalize-space()='Click Here for Broken Link']")
+2025-08-13 18:19:18,383 [INFO] Page redirected in same window
+2025-08-13 18:19:18,401 [INFO] Broken link correctly shows error. URL: https://the-internet.herokuapp.com/status_codes/500
+2025-08-13 18:19:24,554 [INFO] Navigated back to broken links page
+2025-08-13 18:19:42,989 [INFO] Checking valid image...
+2025-08-13 18:19:43,100 [INFO] Image natural size: 347x100
+2025-08-13 18:19:43,100 [INFO] Valid image loaded successfully with size: 347x100
+2025-08-13 18:19:58,662 [INFO] Checking broken image...
+2025-08-13 18:19:58,744 [INFO] Image natural size: 0x0
+2025-08-13 18:19:58,744 [INFO] Broken image is correctly broken
+2025-08-13 18:20:42,707 [INFO] Clicking valid link...
+2025-08-13 18:20:44,569 [INFO] Successfully clicked element: ('xpath', "//a[normalize-space()='Click Here for Valid Link']")
+2025-08-13 18:20:46,599 [INFO] Page redirected in same window
+2025-08-13 18:20:46,612 [INFO] Valid link redirected correctly to: https://demoqa.com/
+2025-08-13 18:20:48,391 [INFO] Navigated back to broken links page
+2025-08-13 18:21:10,814 [INFO] Clicking broken link...
+2025-08-13 18:21:15,685 [INFO] Successfully clicked element: ('xpath', "//a[normalize-space()='Click Here for Broken Link']")
+2025-08-13 18:21:17,706 [INFO] Page redirected in same window
+2025-08-13 18:21:17,730 [INFO] Broken link correctly shows error. URL: https://the-internet.herokuapp.com/status_codes/500
+2025-08-13 18:21:18,506 [INFO] Navigated back to broken links page
+2025-08-13 18:28:25,599 [INFO] Checking valid image...
+2025-08-13 18:28:26,181 [INFO] Image size: 347x100, complete: True
+2025-08-13 18:28:39,769 [INFO] Checking broken image...
+2025-08-13 18:28:40,354 [INFO] Image size: 0x0, complete: True
+2025-08-13 18:28:49,724 [INFO] Testing valid link...
+2025-08-13 18:28:49,732 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-13 18:28:50,500 [INFO] Link clicked successfully
+2025-08-13 18:28:50,545 [INFO] Navigation detected to: https://demoqa.com/
+2025-08-13 18:28:50,552 [INFO] Final URL: https://demoqa.com/
+2025-08-13 18:28:50,569 [INFO] Returning to broken links page...
+2025-08-13 18:29:02,579 [INFO] Testing broken link...
+2025-08-13 18:29:02,588 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-13 18:29:07,257 [INFO] Link clicked successfully
+2025-08-13 18:29:07,264 [INFO] Navigation detected to: https://the-internet.herokuapp.com/status_codes/500
+2025-08-13 18:29:07,271 [INFO] Final URL: https://the-internet.herokuapp.com/status_codes/500
+2025-08-13 18:29:07,307 [INFO] Returning to broken links page...
+2025-08-13 18:29:19,024 [INFO] Checking valid image...
+2025-08-13 18:29:19,054 [INFO] Image size: 347x100, complete: True
+2025-08-13 18:29:19,056 [INFO] Checking broken image...
+2025-08-13 18:29:19,681 [INFO] Image size: 0x0, complete: True
+2025-08-13 18:29:22,035 [INFO] Testing valid link...
+2025-08-13 18:29:22,452 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-13 18:29:23,353 [INFO] Link clicked successfully
+2025-08-13 18:29:23,365 [INFO] Navigation detected to: https://demoqa.com/
+2025-08-13 18:29:23,376 [INFO] Final URL: https://demoqa.com/
+2025-08-13 18:29:23,414 [INFO] Returning to broken links page...
+2025-08-13 18:29:25,798 [INFO] Testing broken link...
+2025-08-13 18:29:26,825 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-13 18:29:31,449 [INFO] Link clicked successfully
+2025-08-13 18:29:31,459 [INFO] Navigation detected to: https://the-internet.herokuapp.com/status_codes/500
+2025-08-13 18:29:31,465 [INFO] Final URL: https://the-internet.herokuapp.com/status_codes/500
+2025-08-13 18:29:31,477 [INFO] Returning to broken links page...
+2025-08-13 18:29:43,504 [INFO] Checking valid image...
+2025-08-13 18:29:43,532 [INFO] Image size: 347x100, complete: True
+2025-08-13 18:29:53,104 [INFO] Checking broken image...
+2025-08-13 18:29:53,681 [INFO] Image size: 0x0, complete: True
+2025-08-13 18:30:04,388 [INFO] Testing valid link...
+2025-08-13 18:30:04,417 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-13 18:30:05,342 [INFO] Link clicked successfully
+2025-08-13 18:30:05,354 [INFO] Navigation detected to: https://demoqa.com/
+2025-08-13 18:30:05,412 [INFO] Final URL: https://demoqa.com/
+2025-08-13 18:30:05,428 [INFO] Returning to broken links page...
+2025-08-13 18:30:18,492 [INFO] Testing broken link...
+2025-08-13 18:30:18,582 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-13 18:32:09,755 [ERROR] Error in navigation: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=139.0.7258.67)
+Stacktrace:
+	GetHandleVerifier [0x0xa1fd33+62915]
+	GetHandleVerifier [0x0xa1fd74+62980]
+	(No symbol) [0x0x853e13]
+	(No symbol) [0x0x843ce0]
+	(No symbol) [0x0x843c66]
+	(No symbol) [0x0x842583]
+	(No symbol) [0x0x84324d]
+	(No symbol) [0x0x84feae]
+	(No symbol) [0x0x860f75]
+	(No symbol) [0x0x866956]
+	(No symbol) [0x0x84388d]
+	(No symbol) [0x0x860803]
+	(No symbol) [0x0x8e29cc]
+	(No symbol) [0x0x8c11d6]
+	(No symbol) [0x0x890833]
+	(No symbol) [0x0x8916a4]
+	GetHandleVerifier [0x0xc88d23+2590131]
+	GetHandleVerifier [0x0xc83f6a+2570234]
+	GetHandleVerifier [0x0xa459ea+217722]
+	GetHandleVerifier [0x0xa36058+153832]
+	GetHandleVerifier [0x0xa3c4bd+179533]
+	GetHandleVerifier [0x0xa27738+94152]
+	GetHandleVerifier [0x0xa278c2+94546]
+	GetHandleVerifier [0x0xa12bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-13 18:32:09,997 [ERROR] Error returning to original page: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xa1fd33+62915]
+	GetHandleVerifier [0x0xa1fd74+62980]
+	(No symbol) [0x0x853c70]
+	(No symbol) [0x0x88faf8]
+	(No symbol) [0x0x8c1296]
+	(No symbol) [0x0x8bce75]
+	(No symbol) [0x0x8bc3f6]
+	(No symbol) [0x0x825755]
+	(No symbol) [0x0x825cae]
+	(No symbol) [0x0x82613d]
+	GetHandleVerifier [0x0xc88d23+2590131]
+	GetHandleVerifier [0x0xc83f6a+2570234]
+	GetHandleVerifier [0x0xa459ea+217722]
+	GetHandleVerifier [0x0xa36058+153832]
+	GetHandleVerifier [0x0xa3c4bd+179533]
+	(No symbol) [0x0x825420]
+	(No symbol) [0x0x824c36]
+	GetHandleVerifier [0x0xdc509c+3885356]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-14 12:42:10,208 [INFO] Checking valid image...
+2025-08-14 12:42:10,524 [INFO] Image size: 347x100, complete: True
+2025-08-14 12:42:10,525 [INFO]  Valid image loaded: 347x100
+2025-08-14 12:42:19,745 [INFO] Checking broken image...
+2025-08-14 12:42:20,318 [INFO] Image size: 0x0, complete: True
+2025-08-14 12:42:20,318 [INFO]  Broken image correctly broken
+2025-08-14 12:42:37,351 [INFO] Testing valid link...
+2025-08-14 12:42:37,359 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-14 12:43:33,363 [ERROR] Error in navigation: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=139.0.7258.67)
+Stacktrace:
+	GetHandleVerifier [0x0xb9fd33+62915]
+	GetHandleVerifier [0x0xb9fd74+62980]
+	(No symbol) [0x0x9d3e13]
+	(No symbol) [0x0x9c3ce0]
+	(No symbol) [0x0x9c3c66]
+	(No symbol) [0x0x9c2583]
+	(No symbol) [0x0x9c324d]
+	(No symbol) [0x0x9cfeae]
+	(No symbol) [0x0x9e0f75]
+	(No symbol) [0x0x9e6956]
+	(No symbol) [0x0x9c388d]
+	(No symbol) [0x0x9e0803]
+	(No symbol) [0x0xa629cc]
+	(No symbol) [0x0xa411d6]
+	(No symbol) [0x0xa10833]
+	(No symbol) [0x0xa116a4]
+	GetHandleVerifier [0x0xe08d23+2590131]
+	GetHandleVerifier [0x0xe03f6a+2570234]
+	GetHandleVerifier [0x0xbc59ea+217722]
+	GetHandleVerifier [0x0xbb6058+153832]
+	GetHandleVerifier [0x0xbbc4bd+179533]
+	GetHandleVerifier [0x0xba7738+94152]
+	GetHandleVerifier [0x0xba78c2+94546]
+	GetHandleVerifier [0x0xb92bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-14 12:43:33,363 [ERROR]  Failed to navigate
+2025-08-14 12:43:33,614 [ERROR] Error returning to original page: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb9fd33+62915]
+	GetHandleVerifier [0x0xb9fd74+62980]
+	(No symbol) [0x0x9d3c70]
+	(No symbol) [0x0xa0faf8]
+	(No symbol) [0x0xa41296]
+	(No symbol) [0x0xa3ce75]
+	(No symbol) [0x0xa3c3f6]
+	(No symbol) [0x0x9a5755]
+	(No symbol) [0x0x9a5cae]
+	(No symbol) [0x0x9a613d]
+	GetHandleVerifier [0x0xe08d23+2590131]
+	GetHandleVerifier [0x0xe03f6a+2570234]
+	GetHandleVerifier [0x0xbc59ea+217722]
+	GetHandleVerifier [0x0xbb6058+153832]
+	GetHandleVerifier [0x0xbbc4bd+179533]
+	(No symbol) [0x0x9a5420]
+	(No symbol) [0x0x9a4c36]
+	GetHandleVerifier [0x0xf4509c+3885356]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-14 12:43:42,476 [INFO] Testing broken link...
+2025-08-14 12:43:42,482 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-14 12:43:47,311 [INFO] Link clicked successfully
+2025-08-14 12:43:47,330 [INFO] Navigation detected to: https://the-internet.herokuapp.com/status_codes/500
+2025-08-14 12:43:47,341 [INFO] Final URL: https://the-internet.herokuapp.com/status_codes/500
+2025-08-14 12:43:47,347 [INFO]  Broken link correctly shows error
+2025-08-14 12:43:47,394 [INFO] Returning to broken links page...
+2025-08-14 12:43:59,018 [INFO] Checking valid image...
+2025-08-14 12:43:59,968 [INFO] Image size: 347x100, complete: True
+2025-08-14 12:43:59,968 [INFO]  Valid image loaded: 347x100
+2025-08-14 12:43:59,968 [INFO] Checking broken image...
+2025-08-14 12:43:59,991 [INFO] Image size: 0x0, complete: True
+2025-08-14 12:43:59,991 [INFO]  Broken image correctly broken
+2025-08-14 12:44:02,355 [INFO] Testing valid link...
+2025-08-14 12:44:04,407 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-14 12:44:05,355 [INFO] Link clicked successfully
+2025-08-14 12:44:05,376 [INFO] Navigation detected to: https://demoqa.com/
+2025-08-14 12:44:05,381 [INFO] Final URL: https://demoqa.com/
+2025-08-14 12:44:05,382 [INFO]  Valid link redirected successfully
+2025-08-14 12:44:05,401 [INFO] Returning to broken links page...
+2025-08-14 12:44:07,711 [INFO] Testing broken link...
+2025-08-14 12:44:08,590 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-14 12:44:12,886 [INFO] Link clicked successfully
+2025-08-14 12:44:12,894 [INFO] Navigation detected to: https://the-internet.herokuapp.com/status_codes/500
+2025-08-14 12:44:12,899 [INFO] Final URL: https://the-internet.herokuapp.com/status_codes/500
+2025-08-14 12:44:12,903 [INFO]  Broken link correctly shows error
+2025-08-14 12:44:12,915 [INFO] Returning to broken links page...
+2025-08-14 12:44:25,542 [INFO] Checking valid image...
+2025-08-14 12:44:26,107 [INFO] Image size: 347x100, complete: True
+2025-08-14 12:44:26,107 [INFO]  Valid image loaded: 347x100
+2025-08-14 12:44:35,475 [INFO] Checking broken image...
+2025-08-14 12:44:36,055 [INFO] Image size: 0x0, complete: True
+2025-08-14 12:44:36,055 [INFO]  Broken image correctly broken
+2025-08-14 12:44:46,716 [INFO] Testing valid link...
+2025-08-14 12:44:46,730 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-14 12:44:47,658 [INFO] Link clicked successfully
+2025-08-14 12:44:47,663 [INFO] Navigation detected to: https://demoqa.com/
+2025-08-14 12:44:47,668 [INFO] Final URL: https://demoqa.com/
+2025-08-14 12:44:47,668 [INFO]  Valid link redirected successfully
+2025-08-14 12:44:47,681 [INFO] Returning to broken links page...
+2025-08-14 12:45:20,985 [INFO] Testing broken link...
+2025-08-14 12:45:21,016 [INFO] Current URL before click: https://demoqa.com/broken
+2025-08-14 12:45:25,683 [INFO] Link clicked successfully
+2025-08-14 12:45:25,692 [INFO] Navigation detected to: https://the-internet.herokuapp.com/status_codes/500
+2025-08-14 12:45:25,703 [INFO] Final URL: https://the-internet.herokuapp.com/status_codes/500
+2025-08-14 12:45:25,709 [INFO]  Broken link correctly shows error
+2025-08-14 12:45:25,720 [INFO] Returning to broken links page...
+2025-08-14 12:54:46,455 [INFO] Checking valid image...
+2025-08-14 12:54:51,629 [ERROR] Error checking image status: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-14 12:55:01,550 [INFO] Checking broken image...
+2025-08-14 12:55:06,668 [ERROR] Error checking image status: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-14 12:55:15,788 [INFO] Testing valid link...
+2025-08-14 12:55:20,956 [INFO] Primary locator failed, trying alternative...
+2025-08-14 12:55:20,956 [ERROR] Error testing valid link: Neither locator found the link
+2025-08-14 12:55:21,337 [INFO] Screenshot saved: screenshots/valid_link_error.png
+2025-08-14 12:55:36,121 [INFO] Testing broken link...
+2025-08-14 12:55:41,484 [INFO] Primary locator failed, trying alternative...
+2025-08-14 12:55:41,485 [ERROR] Error testing broken link: Neither locator found the link
+2025-08-14 12:55:41,840 [INFO] Screenshot saved: screenshots/broken_link_error.png
+2025-08-14 12:55:51,735 [INFO] Checking valid image...
+2025-08-14 12:55:57,045 [ERROR] Error checking image status: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-14 12:55:57,048 [INFO] Checking broken image...
+2025-08-14 12:55:58,066 [ERROR] Error checking image status: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-14 12:56:19,990 [INFO] Checking valid image...
+2025-08-14 12:56:25,665 [ERROR] Error checking image status: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-14 12:56:36,136 [INFO] Checking broken image...
+2025-08-14 12:56:41,402 [ERROR] Error checking image status: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-14 12:56:53,102 [INFO] Testing valid link...
+2025-08-14 12:56:56,605 [INFO] Primary locator failed, trying alternative...
+2025-08-14 12:56:56,605 [ERROR] Error testing valid link: Neither locator found the link
+2025-08-14 12:56:56,798 [INFO] Screenshot saved: screenshots/valid_link_error.png
+2025-08-14 12:57:12,117 [INFO] Testing broken link...
+2025-08-14 12:57:15,539 [INFO] Primary locator failed, trying alternative...
+2025-08-14 12:57:15,539 [ERROR] Error testing broken link: Neither locator found the link
+2025-08-14 12:57:15,780 [INFO] Screenshot saved: screenshots/broken_link_error.png
+2025-08-14 12:57:37,514 [INFO] Checking valid image...
+2025-08-14 12:57:40,162 [ERROR] Error checking image status: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-14 12:57:53,663 [INFO] Testing valid link...
+2025-08-14 12:57:58,518 [INFO] Primary locator failed, trying alternative...
+2025-08-14 12:57:58,519 [ERROR] Error testing valid link: Neither locator found the link
+2025-08-14 12:57:58,817 [INFO] Screenshot saved: screenshots/valid_link_error.png
+2025-08-14 12:58:10,722 [INFO] Checking valid image...
+2025-08-14 12:58:15,956 [ERROR] Error checking image status: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-14 12:58:15,958 [INFO] Checking broken image...
+2025-08-14 12:58:16,979 [ERROR] Error checking image status: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-14 12:58:27,146 [INFO] Checking valid image...
+2025-08-14 12:58:31,876 [ERROR] Error checking image status: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-14 12:58:43,820 [INFO] Testing valid link...
+2025-08-14 12:58:46,881 [INFO] Primary locator failed, trying alternative...
+2025-08-14 12:58:46,881 [ERROR] Error testing valid link: Neither locator found the link
+2025-08-14 12:58:47,176 [INFO] Screenshot saved: screenshots/valid_link_error.png
+2025-08-14 12:58:57,282 [INFO] Checking valid image...
+2025-08-14 12:59:02,891 [ERROR] Error checking image status: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-14 14:30:24,989 [INFO] Image width: 347, height: 100
+2025-08-14 14:30:24,990 [INFO] Valid image is loaded successfully
+2025-08-14 14:30:43,228 [INFO] Image width0, height0
+2025-08-14 14:30:43,228 [INFO] Broken image is correctly broken
+2025-08-14 14:30:58,937 [INFO] Successfully clicked element: ('xpath', "//a[text()='Click Here for Valid Link']")
+2025-08-14 14:30:58,951 [INFO] Valid link redirected correctly
+2025-08-14 14:31:17,372 [INFO] Successfully clicked element: ('xpath', "//a[text()='Click Here for Broken Link']")
+2025-08-14 14:31:17,380 [INFO] Broken link worked correctly
