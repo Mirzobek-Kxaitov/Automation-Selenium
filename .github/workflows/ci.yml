@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "tests/test_alerts_page.py"     # test_alerts_page.py faylida o‘zgarish bo‘lsa
+      - "tests/test_broken_links_page.py"     # test_alerts_page.py faylida o‘zgarish bo‘lsa
   pull_request:
     branches: [ main ]
     paths:
-      - "tests/test_alerts_page.py"
+      - "tests/test_broken_links_page.py"
 
 jobs:
   test:
