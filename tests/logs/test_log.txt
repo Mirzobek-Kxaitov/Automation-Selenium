@@ -1,0 +1,410 @@
+2025-08-15 14:58:51,319 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 14:58:51,447 [INFO] Successfully clicked element: ('xpath', "(//button[@aria-label='Toggle'])[2]")
+2025-08-15 14:58:51,629 [INFO] Successfully clicked element: ('xpath', "(//button[@aria-label='Toggle'])[3]")
+2025-08-15 14:58:51,776 [INFO] Successfully clicked element: ('xpath', "(//button[@aria-label='Toggle'])[4]")
+2025-08-15 14:58:51,990 [INFO] Successfully clicked element: ('xpath', "//label[@for='tree-node-desktop']")
+2025-08-15 14:58:52,138 [INFO] Successfully clicked element: ('xpath', "//label[@for='tree-node-documents']")
+2025-08-15 14:58:52,245 [INFO] Successfully clicked element: ('xpath', "//label[@for='tree-node-downloads']")
+2025-08-15 16:10:47,790 [INFO] Successfully selected checkbox: ('css selector', "label[for='tree-node-home'] span.rct-checkbox")
+2025-08-15 16:10:47,861 [INFO] Successfully got text: You have selected :
+home
+desktop
+notes
+commands
+documents
+workspace
+react
+angular
+veu
+office
+public
+private
+classified
+general
+downloads
+wordFile
+excelFile
+2025-08-15 16:11:04,664 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 16:11:04,781 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 16:11:15,149 [ERROR] Failed to select checkbox ('css selector', "label[for='tree-node-desktop'] span.rct-checkbox"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcafd33+62915]
+	GetHandleVerifier [0x0xcafd74+62980]
+	(No symbol) [0x0xae3e13]
+	(No symbol) [0x0xb2c89e]
+	(No symbol) [0x0xb2cc3b]
+	(No symbol) [0x0xb74ec2]
+	(No symbol) [0x0xb51424]
+	(No symbol) [0x0xb726ea]
+	(No symbol) [0x0xb511d6]
+	(No symbol) [0x0xb20833]
+	(No symbol) [0x0xb216a4]
+	GetHandleVerifier [0x0xf18d23+2590131]
+	GetHandleVerifier [0x0xf13f6a+2570234]
+	GetHandleVerifier [0x0xcd59ea+217722]
+	GetHandleVerifier [0x0xcc6058+153832]
+	GetHandleVerifier [0x0xccc4bd+179533]
+	GetHandleVerifier [0x0xcb7738+94152]
+	GetHandleVerifier [0x0xcb78c2+94546]
+	GetHandleVerifier [0x0xca2bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-15 16:11:15,360 [INFO] Screenshot saved: screenshots/checkbox_error.png
+2025-08-15 16:11:27,453 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 16:11:27,587 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 16:11:37,868 [ERROR] Failed to select checkbox ('css selector', "label[for='tree-node-documents'] span.rct-checkbox"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcafd33+62915]
+	GetHandleVerifier [0x0xcafd74+62980]
+	(No symbol) [0x0xae3e13]
+	(No symbol) [0x0xb2c89e]
+	(No symbol) [0x0xb2cc3b]
+	(No symbol) [0x0xb74ec2]
+	(No symbol) [0x0xb51424]
+	(No symbol) [0x0xb726ea]
+	(No symbol) [0x0xb511d6]
+	(No symbol) [0x0xb20833]
+	(No symbol) [0x0xb216a4]
+	GetHandleVerifier [0x0xf18d23+2590131]
+	GetHandleVerifier [0x0xf13f6a+2570234]
+	GetHandleVerifier [0x0xcd59ea+217722]
+	GetHandleVerifier [0x0xcc6058+153832]
+	GetHandleVerifier [0x0xccc4bd+179533]
+	GetHandleVerifier [0x0xcb7738+94152]
+	GetHandleVerifier [0x0xcb78c2+94546]
+	GetHandleVerifier [0x0xca2bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-15 16:11:38,074 [INFO] Screenshot saved: screenshots/checkbox_error.png
+2025-08-15 16:11:50,008 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 16:11:50,109 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 16:12:00,389 [ERROR] Failed to select checkbox ('css selector', "label[for='tree-node-downloads'] span.rct-checkbox"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcafd33+62915]
+	GetHandleVerifier [0x0xcafd74+62980]
+	(No symbol) [0x0xae3e13]
+	(No symbol) [0x0xb2c89e]
+	(No symbol) [0x0xb2cc3b]
+	(No symbol) [0x0xb74ec2]
+	(No symbol) [0x0xb51424]
+	(No symbol) [0x0xb726ea]
+	(No symbol) [0x0xb511d6]
+	(No symbol) [0x0xb20833]
+	(No symbol) [0x0xb216a4]
+	GetHandleVerifier [0x0xf18d23+2590131]
+	GetHandleVerifier [0x0xf13f6a+2570234]
+	GetHandleVerifier [0x0xcd59ea+217722]
+	GetHandleVerifier [0x0xcc6058+153832]
+	GetHandleVerifier [0x0xccc4bd+179533]
+	GetHandleVerifier [0x0xcb7738+94152]
+	GetHandleVerifier [0x0xcb78c2+94546]
+	GetHandleVerifier [0x0xca2bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-15 16:12:00,613 [INFO] Screenshot saved: screenshots/checkbox_error.png
+2025-08-15 16:15:54,599 [INFO] Successfully selected checkbox: ('css selector', "label[for='tree-node-home'] span.rct-checkbox")
+2025-08-15 16:15:54,636 [INFO] Successfully got text: You have selected :
+home
+desktop
+notes
+commands
+documents
+workspace
+react
+angular
+veu
+office
+public
+private
+classified
+general
+downloads
+wordFile
+excelFile
+2025-08-15 16:16:13,556 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 16:16:13,705 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 16:16:24,009 [ERROR] Failed to select checkbox ('css selector', "label[for='tree-node-desktop'] span.rct-checkbox"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcafd33+62915]
+	GetHandleVerifier [0x0xcafd74+62980]
+	(No symbol) [0x0xae3e13]
+	(No symbol) [0x0xb2c89e]
+	(No symbol) [0x0xb2cc3b]
+	(No symbol) [0x0xb74ec2]
+	(No symbol) [0x0xb51424]
+	(No symbol) [0x0xb726ea]
+	(No symbol) [0x0xb511d6]
+	(No symbol) [0x0xb20833]
+	(No symbol) [0x0xb216a4]
+	GetHandleVerifier [0x0xf18d23+2590131]
+	GetHandleVerifier [0x0xf13f6a+2570234]
+	GetHandleVerifier [0x0xcd59ea+217722]
+	GetHandleVerifier [0x0xcc6058+153832]
+	GetHandleVerifier [0x0xccc4bd+179533]
+	GetHandleVerifier [0x0xcb7738+94152]
+	GetHandleVerifier [0x0xcb78c2+94546]
+	GetHandleVerifier [0x0xca2bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-15 16:16:24,241 [INFO] Screenshot saved: screenshots/checkbox_error.png
+2025-08-15 16:18:09,856 [INFO] Successfully selected checkbox: ('css selector', "label[for='tree-node-home'] span.rct-checkbox")
+2025-08-15 16:18:09,903 [INFO] Successfully got text: You have selected :
+home
+desktop
+notes
+commands
+documents
+workspace
+react
+angular
+veu
+office
+public
+private
+classified
+general
+downloads
+wordFile
+excelFile
+2025-08-15 16:18:28,120 [ERROR] Failed to click element ('css selector', 'button.rct-collapse path'): Message: element click intercepted: Element <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path> is not clickable at point (729, 539). Other element would receive the click: <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="rct-icon rct-icon-expand-close" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">...</svg>
+  (Session info: chrome=139.0.7258.67)
+Stacktrace:
+	GetHandleVerifier [0x0xcafd33+62915]
+	GetHandleVerifier [0x0xcafd74+62980]
+	(No symbol) [0x0xae3e13]
+	(No symbol) [0x0xb32be0]
+	(No symbol) [0x0xb30f9a]
+	(No symbol) [0x0xb2eaf7]
+	(No symbol) [0x0xb2ddb4]
+	(No symbol) [0x0xb22565]
+	(No symbol) [0x0xb513dc]
+	(No symbol) [0x0xb21ff4]
+	(No symbol) [0x0xb51654]
+	(No symbol) [0x0xb726ea]
+	(No symbol) [0x0xb511d6]
+	(No symbol) [0x0xb20833]
+	(No symbol) [0x0xb216a4]
+	GetHandleVerifier [0x0xf18d23+2590131]
+	GetHandleVerifier [0x0xf13f6a+2570234]
+	GetHandleVerifier [0x0xcd59ea+217722]
+	GetHandleVerifier [0x0xcc6058+153832]
+	GetHandleVerifier [0x0xccc4bd+179533]
+	GetHandleVerifier [0x0xcb7738+94152]
+	GetHandleVerifier [0x0xcb78c2+94546]
+	GetHandleVerifier [0x0xca2bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-15 16:18:28,337 [INFO] Screenshot saved: screenshots/click_error.png
+2025-08-15 16:18:41,757 [ERROR] Failed to click element ('css selector', 'button.rct-collapse path'): Message: element click intercepted: Element <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path> is not clickable at point (729, 539). Other element would receive the click: <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="rct-icon rct-icon-expand-close" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">...</svg>
+  (Session info: chrome=139.0.7258.67)
+Stacktrace:
+	GetHandleVerifier [0x0xcafd33+62915]
+	GetHandleVerifier [0x0xcafd74+62980]
+	(No symbol) [0x0xae3e13]
+	(No symbol) [0x0xb32be0]
+	(No symbol) [0x0xb30f9a]
+	(No symbol) [0x0xb2eaf7]
+	(No symbol) [0x0xb2ddb4]
+	(No symbol) [0x0xb22565]
+	(No symbol) [0x0xb513dc]
+	(No symbol) [0x0xb21ff4]
+	(No symbol) [0x0xb51654]
+	(No symbol) [0x0xb726ea]
+	(No symbol) [0x0xb511d6]
+	(No symbol) [0x0xb20833]
+	(No symbol) [0x0xb216a4]
+	GetHandleVerifier [0x0xf18d23+2590131]
+	GetHandleVerifier [0x0xf13f6a+2570234]
+	GetHandleVerifier [0x0xcd59ea+217722]
+	GetHandleVerifier [0x0xcc6058+153832]
+	GetHandleVerifier [0x0xccc4bd+179533]
+	GetHandleVerifier [0x0xcb7738+94152]
+	GetHandleVerifier [0x0xcb78c2+94546]
+	GetHandleVerifier [0x0xca2bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-15 16:18:41,987 [INFO] Screenshot saved: screenshots/click_error.png
+2025-08-15 16:18:59,085 [ERROR] Failed to click element ('css selector', 'button.rct-collapse path'): Message: element click intercepted: Element <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path> is not clickable at point (729, 539). Other element would receive the click: <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="rct-icon rct-icon-expand-close" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">...</svg>
+  (Session info: chrome=139.0.7258.67)
+Stacktrace:
+	GetHandleVerifier [0x0xcafd33+62915]
+	GetHandleVerifier [0x0xcafd74+62980]
+	(No symbol) [0x0xae3e13]
+	(No symbol) [0x0xb32be0]
+	(No symbol) [0x0xb30f9a]
+	(No symbol) [0x0xb2eaf7]
+	(No symbol) [0x0xb2ddb4]
+	(No symbol) [0x0xb22565]
+	(No symbol) [0x0xb513dc]
+	(No symbol) [0x0xb21ff4]
+	(No symbol) [0x0xb51654]
+	(No symbol) [0x0xb726ea]
+	(No symbol) [0x0xb511d6]
+	(No symbol) [0x0xb20833]
+	(No symbol) [0x0xb216a4]
+	GetHandleVerifier [0x0xf18d23+2590131]
+	GetHandleVerifier [0x0xf13f6a+2570234]
+	GetHandleVerifier [0x0xcd59ea+217722]
+	GetHandleVerifier [0x0xcc6058+153832]
+	GetHandleVerifier [0x0xccc4bd+179533]
+	GetHandleVerifier [0x0xcb7738+94152]
+	GetHandleVerifier [0x0xcb78c2+94546]
+	GetHandleVerifier [0x0xca2bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-15 16:18:59,310 [INFO] Screenshot saved: screenshots/click_error.png
+2025-08-15 16:19:26,403 [INFO] Successfully selected checkbox: ('css selector', "label[for='tree-node-home'] span.rct-checkbox")
+2025-08-15 16:19:26,453 [INFO] Successfully got text: You have selected :
+home
+desktop
+notes
+commands
+documents
+workspace
+react
+angular
+veu
+office
+public
+private
+classified
+general
+downloads
+wordFile
+excelFile
+2025-08-15 16:19:53,819 [ERROR] Failed to click element ('xpath', "//button[@aria-label='Toggle']//svg//path"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcafd33+62915]
+	GetHandleVerifier [0x0xcafd74+62980]
+	(No symbol) [0x0xae3e13]
+	(No symbol) [0x0xb2c89e]
+	(No symbol) [0x0xb2cc3b]
+	(No symbol) [0x0xb74ec2]
+	(No symbol) [0x0xb51424]
+	(No symbol) [0x0xb726ea]
+	(No symbol) [0x0xb511d6]
+	(No symbol) [0x0xb20833]
+	(No symbol) [0x0xb216a4]
+	GetHandleVerifier [0x0xf18d23+2590131]
+	GetHandleVerifier [0x0xf13f6a+2570234]
+	GetHandleVerifier [0x0xcd59ea+217722]
+	GetHandleVerifier [0x0xcc6058+153832]
+	GetHandleVerifier [0x0xccc4bd+179533]
+	GetHandleVerifier [0x0xcb7738+94152]
+	GetHandleVerifier [0x0xcb78c2+94546]
+	GetHandleVerifier [0x0xca2bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-15 16:19:54,052 [INFO] Screenshot saved: screenshots/click_error.png
+2025-08-15 16:20:16,618 [ERROR] Failed to click element ('xpath', "//button[@aria-label='Toggle']//svg//path"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcafd33+62915]
+	GetHandleVerifier [0x0xcafd74+62980]
+	(No symbol) [0x0xae3e13]
+	(No symbol) [0x0xb2c89e]
+	(No symbol) [0x0xb2cc3b]
+	(No symbol) [0x0xb74ec2]
+	(No symbol) [0x0xb51424]
+	(No symbol) [0x0xb726ea]
+	(No symbol) [0x0xb511d6]
+	(No symbol) [0x0xb20833]
+	(No symbol) [0x0xb216a4]
+	GetHandleVerifier [0x0xf18d23+2590131]
+	GetHandleVerifier [0x0xf13f6a+2570234]
+	GetHandleVerifier [0x0xcd59ea+217722]
+	GetHandleVerifier [0x0xcc6058+153832]
+	GetHandleVerifier [0x0xccc4bd+179533]
+	GetHandleVerifier [0x0xcb7738+94152]
+	GetHandleVerifier [0x0xcb78c2+94546]
+	GetHandleVerifier [0x0xca2bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-15 16:20:16,886 [INFO] Screenshot saved: screenshots/click_error.png
+2025-08-15 16:20:39,092 [ERROR] Failed to click element ('xpath', "//button[@aria-label='Toggle']//svg//path"): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcafd33+62915]
+	GetHandleVerifier [0x0xcafd74+62980]
+	(No symbol) [0x0xae3e13]
+	(No symbol) [0x0xb2c89e]
+	(No symbol) [0x0xb2cc3b]
+	(No symbol) [0x0xb74ec2]
+	(No symbol) [0x0xb51424]
+	(No symbol) [0x0xb726ea]
+	(No symbol) [0x0xb511d6]
+	(No symbol) [0x0xb20833]
+	(No symbol) [0x0xb216a4]
+	GetHandleVerifier [0x0xf18d23+2590131]
+	GetHandleVerifier [0x0xf13f6a+2570234]
+	GetHandleVerifier [0x0xcd59ea+217722]
+	GetHandleVerifier [0x0xcc6058+153832]
+	GetHandleVerifier [0x0xccc4bd+179533]
+	GetHandleVerifier [0x0xcb7738+94152]
+	GetHandleVerifier [0x0xcb78c2+94546]
+	GetHandleVerifier [0x0xca2bda+9322]
+	BaseThreadInitThunk [0x0x75425d49+25]
+	RtlInitializeExceptionChain [0x0x770ad2fb+107]
+	RtlGetAppContainerNamedObjectPath [0x0x770ad281+561]
+
+2025-08-15 16:20:39,521 [INFO] Screenshot saved: screenshots/click_error.png
+2025-08-15 16:31:29,051 [INFO] Successfully clicked element: ('xpath', "//label[@for='tree-node-home']")
+2025-08-15 16:31:29,091 [INFO] Successfully got text: You have selected :
+home
+desktop
+notes
+commands
+documents
+workspace
+react
+angular
+veu
+office
+public
+private
+classified
+general
+downloads
+wordFile
+excelFile
+2025-08-15 16:31:46,020 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 16:31:46,145 [INFO] Successfully clicked element: ('xpath', "//label[@for='tree-node-desktop']")
+2025-08-15 16:31:46,191 [INFO] Successfully got text: You have selected :
+desktop
+notes
+commands
+2025-08-15 16:31:59,579 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 16:31:59,715 [INFO] Successfully clicked element: ('xpath', "//label[@for='tree-node-documents']")
+2025-08-15 16:31:59,757 [INFO] Successfully got text: You have selected :
+documents
+workspace
+react
+angular
+veu
+office
+public
+private
+classified
+general
+2025-08-15 16:32:13,051 [INFO] Successfully clicked element: ('css selector', 'button.rct-collapse.rct-collapse-btn')
+2025-08-15 16:32:13,167 [INFO] Successfully clicked element: ('xpath', "//label[@for='tree-node-downloads']")
+2025-08-15 16:32:13,214 [INFO] Successfully got text: You have selected :
+downloads
+wordFile
+excelFile
