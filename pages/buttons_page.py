@@ -9,7 +9,7 @@ class Buttons_page(BasePage):
         element = self.driver.find_element(*self.double_click_button)
         actions = ActionChains(self.driver)
         actions.double_click(element).perform()
-
+#comment
     right_click_button = (By.XPATH,"//button[@id='rightClickBtn']")
     def right_click_button_action(self):
         element = self.driver.find_element(*self.right_click_button)

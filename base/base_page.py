@@ -255,3 +255,16 @@ class BasePage:
             self.logger.error(f"Failed to click element with JS {locator}: {str(e)}")
             self._take_screenshot("js_click_error")
             raise
+
+    def wait_for_text_in_element(self, locator, expected_text, timeout=None):
+        """Wait for specific text to appear in an element"""
+        timeout = timeout or self.timeout
+        try:
+            WebDriverWait(self.driver, timeout).until(
+                lambda driver: expected_text.lower() in
+                               driver.find_element(*locator).text.lower()
+            )
+            return True
+        except Exception as e:
+            self.logger.error(f"Text '{expected_text}' not found in element {locator}: {str(e)}")
+            return False
