@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-def get_driver(url: str):
+def get_driver():
     options = Options()
 
     # 👉 GitHub Actions’da CI=true bo‘ladi. Shuningdek HEADLESS=1/true bo‘lsa ham headless’ga o‘tamiz.
@@ -18,5 +18,4 @@ def get_driver(url: str):
 
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()),
                               options=options)
-    driver.get(url)
     return driver

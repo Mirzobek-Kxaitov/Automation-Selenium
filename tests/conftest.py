@@ -3,7 +3,6 @@ from utils.driver import get_driver
 
 @pytest.fixture(scope="function")
 def driver():
-    driver = get_driver("https://demoqa.com/broken")
+    driver = get_driver()
     yield driver
     driver.quit()
-
