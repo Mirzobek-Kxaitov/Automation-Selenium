@@ -408,3 +408,15 @@ general
 downloads
 wordFile
 excelFile
+2025-08-15 18:47:18,926 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-08-15 18:47:19,005 [INFO] Successfully selected 'August' from dropdown
+2025-08-15 18:47:19,075 [INFO] Successfully selected '2025' from dropdown
+2025-08-15 18:47:19,203 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and normalize-space()='15']")
+2025-08-15 18:53:47,226 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-08-15 18:53:47,288 [INFO] Successfully selected 'August' from dropdown
+2025-08-15 18:53:47,366 [INFO] Successfully selected '2025' from dropdown
+2025-08-15 18:53:47,503 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and not(contains(@class, 'outside')) and normalize-space()='15']")
+2025-08-15 18:58:06,449 [INFO] Successfully clicked element: ('xpath', "//input[@id='datePickerMonthYearInput']")
+2025-08-15 18:58:06,514 [INFO] Successfully selected 'August' from dropdown
+2025-08-15 18:58:06,592 [INFO] Successfully selected '2025' from dropdown
+2025-08-15 18:58:06,724 [INFO] Successfully clicked element: ('xpath', "//div[contains(@class,'react-datepicker__day') and not(contains(@class, 'outside')) and normalize-space()='15']")

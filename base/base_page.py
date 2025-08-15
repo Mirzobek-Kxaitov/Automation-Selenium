@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
 
 class BasePage:
     def __init__(self, driver, timeout=10):
@@ -268,3 +269,13 @@ class BasePage:
         except Exception as e:
             self.logger.error(f"Text '{expected_text}' not found in element {locator}: {str(e)}")
             return False
+
+    def get_element_attribute(self, attribute: str, locator: tuple) -> str:
+
+        try:
+            element = self._visibility_of_element_located(locator)
+            return element.get_attribute(attribute)
+        except (NoSuchElementException, TimeoutException) as e:
+            self.logger.error(f"Element topilmadi yoki vaqt tugadi: {locator}, Xato: {e}")
+            return ""
+
