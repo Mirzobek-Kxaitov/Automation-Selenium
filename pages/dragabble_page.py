@@ -39,9 +39,8 @@ class DraggablePage:
         element.click()
 
     def switch_to_tab(self, tab_locator):
-        """Tab'ni almashtirish"""
-        self.click(tab_locator)
-        time.sleep(1)  # Tab content yuklanishini kutish
+        element = self.wait_for_element_visible(tab_locator)
+        self.driver.execute_script("arguments[0].click();", element)
 
     def drag_by_offset(self, box_locator, x_offset, y_offset):
         """Element'ni belgilangan masofaga sudrab o'tkazish"""
