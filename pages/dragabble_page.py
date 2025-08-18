@@ -41,7 +41,7 @@ class DraggablePage:
     def switch_to_tab(self, tab_locator):
         element = self.wait_for_element_visible(tab_locator)
         self.driver.execute_script("arguments[0].click();", element)
-
+#
     def drag_by_offset(self, box_locator, x_offset, y_offset):
         """Element'ni belgilangan masofaga sudrab o'tkazish"""
         # Boshlang'ich pozitsiyani olish

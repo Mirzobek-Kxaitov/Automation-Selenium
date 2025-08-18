@@ -10,7 +10,7 @@ class TestDraggablePage:
         self.draggable_page = DraggablePage(self.driver)
         # DemoQA draggable sahifasiga o'tish
         self.driver.get("https://demoqa.com/dragabble")
-
+#
     def test_simple_drag(self):
         """Oddiy drag testi"""
         print("\n=== Simple Drag Test ===")
