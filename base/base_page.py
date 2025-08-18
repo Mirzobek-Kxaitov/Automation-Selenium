@@ -279,3 +279,14 @@ class BasePage:
             self.logger.error(f"Element topilmadi yoki vaqt tugadi: {locator}, Xato: {e}")
             return ""
 
+    # BasePage.py ga qo'shing
+
+    def remove_element_with_js(self, locator):
+        """Elementni JavaScript yordamida DOM'dan o'chirib tashlaydi"""
+        try:
+            element = self._visibility_of_element_located(locator)
+            self.driver.execute_script("arguments[0].remove();", element)
+            self.logger.info(f"Successfully removed element with JS: {locator}")
+        except Exception as e:
+            self.logger.warning(f"Could not remove element with JS {locator}: {str(e)}")
+            # Bu yerda xatolik chiqarmaymiz, chunki reklama har doim ham bo'lmasligi mumkin
