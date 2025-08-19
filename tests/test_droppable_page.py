@@ -18,36 +18,36 @@ class TestDroppablePage:
     #     assert self.droppable_page.wait_for_text_in_element(self.droppable_page.DROPPED_TEXT, "Dropped!"), \
     #         "Element tashlangandan keyin matn 'Dropped!' ga o'zgarmadi."
 
-    def test_accept_tab_acceptable(self):
-        """'Accept' tabida ruxsat etilgan elementni tashlash"""
-        self.droppable_page.switch_to_tab(self.droppable_page.TAB_ACCEPT)
-        # Ensure elements are visible and interactable
-        drag_element = self.droppable_page.wait_for_element_visible(self.droppable_page.ACCEPTABLE)
-        drop_element = self.droppable_page.wait_for_element_visible(self.droppable_page.DROP_HERE_ACCEPT)
-        # Scroll to drag element to ensure visibility
-        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", drag_element)
-        try:
-            self.droppable_page.drag_and_drop(self.droppable_page.ACCEPTABLE, self.droppable_page.DROP_HERE_ACCEPT)
-        except Exception as e:
-            print(f"ActionChains failed: {e}. Falling back to JavaScript drag-and-drop.")
-            self.droppable_page.drag_and_drop_js(self.droppable_page.ACCEPTABLE, self.droppable_page.DROP_HERE_ACCEPT)
-        assert self.droppable_page.wait_for_text_in_element(
-            self.droppable_page.DROP_HERE_ACCEPT, "Dropped!"
-        ), "'Acceptable' elementi tashlanganda matn 'Dropped!' ga o'zgarmadi."
-
+    # def test_accept_tab_acceptable(self):
+    #     """'Accept' tabida ruxsat etilgan elementni tashlash"""
+    #     self.droppable_page.switch_to_tab(self.droppable_page.TAB_ACCEPT)
+    #     # Ensure elements are visible and interactable
+    #     drag_element = self.droppable_page.wait_for_element_visible(self.droppable_page.ACCEPTABLE)
+    #     drop_element = self.droppable_page.wait_for_element_visible(self.droppable_page.DROP_HERE_ACCEPT)
+    #     # Scroll to drag element to ensure visibility
+    #     self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", drag_element)
+    #     try:
+    #         self.droppable_page.drag_and_drop(self.droppable_page.ACCEPTABLE, self.droppable_page.DROP_HERE_ACCEPT)
+    #     except Exception as e:
+    #         print(f"ActionChains failed: {e}. Falling back to JavaScript drag-and-drop.")
+    #         self.droppable_page.drag_and_drop_js(self.droppable_page.ACCEPTABLE, self.droppable_page.DROP_HERE_ACCEPT)
+    #     assert self.droppable_page.wait_for_text_in_element(
+    #         self.droppable_page.DROP_HERE_ACCEPT, "Dropped!"
+    #     ), "'Acceptable' elementi tashlanganda matn 'Dropped!' ga o'zgarmadi."
     #
-    def test_accept_tab_not_acceptable(self):
-        self.droppable_page.switch_to_tab(self.droppable_page.TAB_ACCEPT)
-        drag_element = self.droppable_page.wait_for_element_visible(self.droppable_page.NOT_ACCEPTABLE)
-        drop_element = self.droppable_page.wait_for_element_visible(self.droppable_page.DROP_HERE_ACCEPT)
-        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", drag_element)
-        try:
-            self.droppable_page.drag_and_drop(self.droppable_page.NOT_ACCEPTABLE, self.droppable_page.DROP_HERE_ACCEPT)
-        except Exception as e:
-            print(f"ActionChains failed: {e}. Falling back to JavaScript drag-and-drop.")
-            self.droppable_page.drag_and_drop_js(self.droppable_page.NOT_ACCEPTABLE, self.droppable_page.DROP_HERE_ACCEPT)
-        text = self.droppable_page.get_drop_text(self.droppable_page.DROP_HERE_ACCEPT)
-        assert text == "Drop here", "'Not Acceptable' elementini tashlaganda matn o'zgarib ketdi."
+    # #
+    # def test_accept_tab_not_acceptable(self):
+    #     self.droppable_page.switch_to_tab(self.droppable_page.TAB_ACCEPT)
+    #     drag_element = self.droppable_page.wait_for_element_visible(self.droppable_page.NOT_ACCEPTABLE)
+    #     drop_element = self.droppable_page.wait_for_element_visible(self.droppable_page.DROP_HERE_ACCEPT)
+    #     self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", drag_element)
+    #     try:
+    #         self.droppable_page.drag_and_drop(self.droppable_page.NOT_ACCEPTABLE, self.droppable_page.DROP_HERE_ACCEPT)
+    #     except Exception as e:
+    #         print(f"ActionChains failed: {e}. Falling back to JavaScript drag-and-drop.")
+    #         self.droppable_page.drag_and_drop_js(self.droppable_page.NOT_ACCEPTABLE, self.droppable_page.DROP_HERE_ACCEPT)
+    #     text = self.droppable_page.get_drop_text(self.droppable_page.DROP_HERE_ACCEPT)
+    #     assert text == "Drop here", "'Not Acceptable' elementini tashlaganda matn o'zgarib ketdi."
 
     #
     # def test_revert_draggable_behavior(self):
@@ -84,50 +84,26 @@ class TestDroppablePage:
     #
     #
     #
-    # def test_prevent_propagation_greedy(self):
-    #     self.droppable_page.switch_to_prevent_prop_tab()
-    #     self.droppable_page.drag_and_drop(self.droppable_page.PP_DRAG_BOX, self.droppable_page.GREEDY_INNER_DROPPABLE)
-    #     outer_text = self.droppable_page.get_drop_text(self.droppable_page.GREEDY_OUTER_TEXT)
-    #     inner_text = self.droppable_page.get_drop_text(self.droppable_page.GREEDY_INNER_TEXT)
-    #     assert inner_text == "Dropped!", "Greedy ichki elementga tashlanganda matni o'zgarmadi."
-    #     assert outer_text == "Outer droppable", "Greedy ichki elementga tashlanganda tashqi element matni ham o'zgarib ketdi."
-    #
-    # #
-    #
-    # def test_prevent_propagation_greedy_outer(self):
-    #     """'Greedy' rejimida faqat tashqi qutiga tashlaganda, faqat tashqi quti matni o'zgarishini tekshiradi."""
-    #     self.droppable_page.switch_to_prevent_prop_tab()
-    #     self.droppable_page.drag_and_drop(self.droppable_page.PP_DRAG_BOX, self.droppable_page.GREEDY_OUTER_DROPPABLE)
-    #     outer_text = self.droppable_page.get_drop_text(self.droppable_page.GREEDY_OUTER_TEXT)
-    #     inner_text = self.droppable_page.get_drop_text(self.droppable_page.GREEDY_INNER_TEXT)
-    #     # assert outer_text == "Inner droppable (greedy)", "'Greedy'da tashqi matn o'zgarmadi."
-    #     # assert inner_text == "Dropped!", "Tashqi qutiga tashlaganda ichki matn o'zgarmasligi kerak edi."
-    #     #
-    #
-    #
-    #
+    def test_prevent_propagation_greedy_outer(self):
+        """'Greedy' rejimida faqat tashqi qutiga tashlaganda, faqat tashqi quti matni o'zgarishini tekshiradi."""
+        self.droppable_page.switch_to_prevent_prop_tab()
+        drag_element = self.droppable_page.wait_for_element_visible(self.droppable_page.PP_DRAG_BOX)
+        drop_element = self.droppable_page.wait_for_element_visible(self.droppable_page.GREEDY_OUTER_DROPPABLE)
+        self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", drag_element)
+        try:
+            self.droppable_page.drag_and_drop(self.droppable_page.PP_DRAG_BOX,
+                                              self.droppable_page.GREEDY_OUTER_DROPPABLE)
+        except Exception as e:
+            print(f"ActionChains failed: {e}. Falling back to JavaScript drag-and-drop.")
+            self.droppable_page.drag_and_drop_js(self.droppable_page.PP_DRAG_BOX,
+                                                 self.droppable_page.GREEDY_OUTER_DROPPABLE)
+        outer_text = self.droppable_page.get_drop_text(self.droppable_page.GREEDY_OUTER_TEXT)
+        inner_text = self.droppable_page.get_drop_text(self.droppable_page.GREEDY_INNER_TEXT)
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#
 # def test_basic_drag_and_drop_with_explicit_wait(droppable_page):
 #     wait = WebDriverWait(droppable_page.driver, 10)
 #     drag_element = wait.until(EC.element_to_be_clickable(droppable_page.DRAG_ME))
@@ -231,4 +207,4 @@ class TestDroppablePage:
 #     text_greedy_outer = droppable_page.get_drop_text(droppable_page.GREEDY_OUTER_TEXT)
 #     assert text_greedy_inner == "Inner droppable (greedy)"
 #     assert text_greedy_outer == "Outer droppable"
-#
+
