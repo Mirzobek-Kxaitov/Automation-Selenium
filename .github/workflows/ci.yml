@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "tests/test_dragabble_page.py"     # test_alerts_page.py faylida o‘zgarish bo‘lsa
+      - "tests/test_droppable_page.py"     # test_alerts_page.py faylida o‘zgarish bo‘lsa
   pull_request:
     branches: [ main ]
     paths:
-      - "tests/test_dragabble_page.py"
+      - "tests/test_droppable_page.py"
 
 jobs:
   test:
@@ -36,5 +36,5 @@ jobs:
           PYTHONUNBUFFERED: 1
           HEADLESS: "1"        # ixtiyoriy; CI borligi yetarli, lekin aniq bo‘lishi uchun qoldirdi
         run: |
-          pytest tests/test_dragabble_page.py -v -s --disable-warnings --maxfail=2
+          pytest tests/test_droppable_page.py -v -s --disable-warnings --maxfail=2
 

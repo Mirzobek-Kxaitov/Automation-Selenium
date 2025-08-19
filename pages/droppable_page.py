@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from base.base_page import BasePage
+from selenium.webdriver.remote.webelement import WebElement
 
 
 class DroppablePage(BasePage):
@@ -33,6 +34,10 @@ class DroppablePage(BasePage):
     DROP_HERE_ACCEPT = (By.XPATH, "//div[@id='acceptDropContainer']//div[@id='droppable']")
 
 # ----------------------------------------------------------------------------------------------------------------------------
+    def scroll_to_element(self, locator: tuple):
+        """Element ekranga ko'rinadigan bo'lguncha skroll qiladi."""
+        element: WebElement = self.driver.find_element(*locator)
+        self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
 
     def drag_and_drop(self, source_locator, target_locator):
         source = self.wait_for_element_visible(source_locator)
