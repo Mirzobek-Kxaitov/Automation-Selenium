@@ -59,3 +59,21 @@ class DroppablePage(BasePage):
         self.click(self.TAB_PREVENT_PROP)
 
 # --------------------------------------------------
+    def drag_and_drop_js(self, drag_locator, drop_locator):
+        drag_element = self.wait_for_element_visible(drag_locator)
+        drop_element = self.wait_for_element_visible(drop_locator)
+        script = """
+        function createEvent(type) {
+            var event = document.createEvent('HTMLEvents');
+            event.initEvent(type, true, true);
+            return event;
+        }
+        var drag = arguments[0];
+        var drop = arguments[1];
+        drag.dispatchEvent(createEvent('dragstart'));
+        drop.dispatchEvent(createEvent('dragenter'));
+        drop.dispatchEvent(createEvent('dragover'));
+        drop.dispatchEvent(createEvent('drop'));
+        drag.dispatchEvent(createEvent('dragend'));
+        """
+        self.driver.execute_script(script, drag_element, drop_element)
