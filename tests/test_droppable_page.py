@@ -49,20 +49,40 @@ class TestDroppablePage:
         text = self.droppable_page.get_drop_text(self.droppable_page.DROP_HERE_ACCEPT)
         # assert text == "Drop here", "'Not Acceptable' elementini tashlaganda matn o'zgarib ketdi."
 
-
     def test_revert_draggable_behavior(self):
+        """'Will Revert' elementining tashlangandan so'ng o'z joyiga qaytishini tekshiradi."""
         self.droppable_page.switch_to_revert_tab()
+
         will_revert_element = self.droppable_page.wait_for_element_visible(self.droppable_page.WILL_REVERT)
         initial_pos = will_revert_element.location
+
+        # Olib borib tashlash amali
         self.droppable_page.drag_and_drop(self.droppable_page.WILL_REVERT, self.droppable_page.DROP_AREA_REVERT)
+
+        # 1-BOSQICH: TISHLASH MUVAFFAQIYATLI BO'LGANINI TEKSHIRISH
+        # Agar element to'g'ri tashlansa, qutining matni "Dropped!" ga o'zgaradi.
+        # Bu qadam drag_and_drop to'g'ri ishlaganini tasdiqlaydi.
+        assert self.droppable_page.wait_for_text_in_element(
+            self.droppable_page.DROP_AREA_REVERT, "Dropped!"
+        ), "Element tashlanganda qutining matni o'zgarmadi. Demak, drag_and_drop amalida muammo bor."
+
+        # 2-BOSQICH: ELEMENTNING O'Z JOYIGA QAYTISHINI KUTISH
+        # Element o'z joyiga qaytishi uchun biroz vaqt kerak (animatsiya).
         try:
-            wait = WebDriverWait(self.driver, 10)  # 10 soniyagacha kutish
+            wait = WebDriverWait(self.driver, 10)
+            # Elementning joriy pozitsiyasi boshlang'ich pozitsiyaga teng bo'lishini kutish
             wait.until(
                 lambda driver: driver.find_element(*self.droppable_page.WILL_REVERT).location == initial_pos
             )
         except TimeoutException:
-            # Agar 10 soniyada qaytmasa, testni xatolik bilan yakunlash
-            pytest.fail("'Will Revert' elementi 10 soniya ichida o'z joyiga qaytmadi.")
+            # Agar 10 soniyada qaytmasa, aniq xatolik xabarini chiqarish
+            final_pos = self.driver.find_element(*self.droppable_page.WILL_REVERT).location
+            error_message = (
+                f"'Will Revert' elementi 10 soniya ichida o'z joyiga qaytmadi. "
+                f"Boshlang'ich pozitsiya: {initial_pos}, "
+                f"Yakuniy pozitsiya: {final_pos}"
+            )
+            pytest.fail(error_message)
 
     def test_revert_not_revertable_behavior(self):
         """'Not Revert' elementining tashlangan joyida qolishini tekshiradi."""
