@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException, TimeoutException, StaleElementReferenceException
 
 class BasePage:
-    def __init__(self, driver, timeout=10):
+    def __init__(self, driver, timeout=20):
         self.driver = driver
         self.timeout = timeout
         self._configure_logging()
@@ -289,4 +289,38 @@ class BasePage:
             self.logger.info(f"Successfully removed element with JS: {locator}")
         except Exception as e:
             self.logger.warning(f"Could not remove element with JS {locator}: {str(e)}")
-            # Bu yerda xatolik chiqarmaymiz, chunki reklama har doim ham bo'lmasligi mumkin
+
+    def get_element(self, locator):
+        try:
+            return self._visibility_of_element_located(locator)
+        except Exception as e:
+            self.logger.error(f"Failed to locate element {locator}: {e}")
+            raise
+
+    def html5_drag_and_drop(self, source_el, target_el, offset_x=10, offset_y=10):
+        script = """
+         const src = arguments[0], tgt = arguments[1], offX = arguments[2], offY = arguments[3];
+         const rect = tgt.getBoundingClientRect();
+         const clientX = rect.left + offX;
+         const clientY = rect.top + offY;
+
+         const dataTransfer = new DataTransfer();
+
+         function fire(el, type, clientX, clientY) {
+           const evt = new DragEvent(type, {
+             bubbles: true,
+             cancelable: true,
+             dataTransfer,
+             clientX,
+             clientY
+           });
+           el.dispatchEvent(evt);
+         }
+
+         fire(src, 'dragstart', 0, 0);
+         fire(tgt, 'dragenter', clientX, clientY);
+         fire(tgt, 'dragover', clientX, clientY);
+         fire(tgt, 'drop', clientX, clientY);
+         fire(src, 'dragend', clientX, clientY);
+         """
+        self.driver.execute_script(script, source_el, target_el, offset_x, offset_y)

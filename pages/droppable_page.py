@@ -3,7 +3,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from base.base_page import BasePage
 from selenium.webdriver.remote.webelement import WebElement
 
-
+#
 class DroppablePage(BasePage):
     # Element locatorlari
     DRAG_ME = (By.ID, "draggable")
