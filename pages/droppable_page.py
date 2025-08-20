@@ -37,24 +37,17 @@ class DroppablePage(BasePage):
 
     # ----------------------------------------------------------------------------------------------------------------------------
     def perform_drag_and_drop(self, source_locator, target_locator):
-        """
-        Manba elementni topib, maqsad elementga olib borib tashlash amalini bajaradi.
-        Birinchi bo'lib ActionChains'dan foydalanadi, agar u ishlamasa,
-        JavaScript yordamida olib borib tashlashga o'tadi.
-        """
         source_element = self.get_element(source_locator)
         target_element = self.get_element(target_locator)
 
         try:
-            # ActionChains bilan sinab ko'rish
+            # Boshqa ActionChains metodini sinab ko'rish
             actions = ActionChains(self.driver)
-            actions.click_and_hold(source_element).move_to_element(target_element).release().perform()
-            self.logger.info("Drag-and-drop performed using ActionChains with explicit steps successfully.")
+            actions.drag_and_drop(source_element, target_element).perform()  # drag_and_drop ishlatamiz
+            self.logger.info("Drag-and-drop performed using ActionChains 'drag_and_drop' method.")
         except Exception as e:
-            # Agar ActionChains muvaffaqiyatsiz bo'lsa, JS-ga o'tish
-            self.logger.warning(f"ActionChains failed: {e}. Falling back to JavaScript drag-and-drop.")
+            self.logger.warning(f"ActionChains failed: {e}. Falling back to JavaScript.")
             self.html5_drag_and_drop(source_element, target_element)
-            self.logger.info("Drag-and-drop performed using JavaScript.")
 
     def get_drop_text(self, locator):
         """Elementning matnini oladi."""
