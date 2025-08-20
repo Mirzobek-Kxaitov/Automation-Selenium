@@ -593,3 +593,29 @@ Stacktrace:
 2025-08-20 17:08:25,617 [INFO] Drag-and-drop performed using ActionChains with explicit steps successfully.
 2025-08-20 17:08:37,613 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-preventPropogation')
 2025-08-20 17:08:38,217 [INFO] Drag-and-drop performed using ActionChains with explicit steps successfully.
+2025-08-20 18:21:19,389 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:21:31,664 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-accept')
+2025-08-20 18:21:32,307 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:21:44,736 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-accept')
+2025-08-20 18:21:45,379 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:21:58,224 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-revertable')
+2025-08-20 18:21:58,902 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:22:11,876 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-revertable')
+2025-08-20 18:22:12,552 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:22:26,232 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-preventPropogation')
+2025-08-20 18:22:26,869 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:22:41,167 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-preventPropogation')
+2025-08-20 18:22:41,809 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:32:30,061 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:32:43,649 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-accept')
+2025-08-20 18:32:44,288 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:32:54,657 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-accept')
+2025-08-20 18:32:55,287 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:33:05,202 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-revertable')
+2025-08-20 18:33:05,880 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:33:17,140 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-revertable')
+2025-08-20 18:33:17,802 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:33:28,132 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-preventPropogation')
+2025-08-20 18:33:28,772 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 18:33:38,664 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-preventPropogation')
+2025-08-20 18:33:39,281 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
