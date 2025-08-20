@@ -87,7 +87,7 @@ class TestDroppablePage:
         self.droppable_page.switch_to_prevent_prop_tab()
         self.droppable_page.perform_drag_and_drop(self.droppable_page.PP_DRAG_BOX,
                                                   self.droppable_page.GREEDY_OUTER_DROPPABLE)
-
+#
         # Tashqi matnni kutish
         outer_text_changed = self.droppable_page.wait_for_text_in_element(self.droppable_page.GREEDY_OUTER_TEXT,
                                                                           "Dropped!",timeout=10)

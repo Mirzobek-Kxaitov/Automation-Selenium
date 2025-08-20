@@ -61,7 +61,7 @@ class DroppablePage(BasePage):
         el = self.wait_for_element_visible(locator)
         return el.text
 
-    def wait_for_text_in_element(self, locator, text, timeout=15):
+    def wait_for_text_in_element(self, locator, text, timeout=10):
         """Element ichidagi matnning belgilangan matnga o'zgarishini kutadi."""
         try:
             WebDriverWait(self.driver, timeout).until(
