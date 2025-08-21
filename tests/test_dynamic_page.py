@@ -7,7 +7,7 @@ class Test_Dynamic_page:
         self.driver = driver
         self.dynamic_page = Dynamic_page(self.driver)
         self.driver.get("https://demoqa.com/dynamic-properties")
-#
+
     def test_random_text_verification(self):
         assert self.dynamic_page.verify_random_text_displayed()
 
