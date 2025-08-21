@@ -324,3 +324,18 @@ class BasePage:
          fire(src, 'dragend', clientX, clientY);
          """
         self.driver.execute_script(script, source_el, target_el, offset_x, offset_y)
+
+        def wait_js_ready(self, timeout=None):
+            """DOM to‘liq yuklanguncha kutadi: document.readyState == 'complete'"""
+            timeout = timeout or self.timeout
+            WebDriverWait(self.driver, timeout).until(
+                lambda d: d.execute_script("return document.readyState") == "complete"
+            )
+            return True
+
+        def wait_for_attribute_contains(self, locator, attr, value, timeout=None):
+            """Element atributida value paydo bo‘lishini kutadi (masalan class ichida 'text-danger')"""
+            timeout = timeout or self.timeout
+            return WebDriverWait(self.driver, timeout).until(
+                lambda d: value in d.find_element(*locator).get_attribute(attr)
+            )

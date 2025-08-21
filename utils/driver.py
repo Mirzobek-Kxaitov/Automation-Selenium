@@ -13,5 +13,5 @@ def get_driver():
         options.add_argument("--force-device-scale-factor=0.70")
 
     driver = webdriver.Chrome(options=options)  # ❗️Selenium Manager o‘zi mos driverni tanlaydi
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(0)
     return driver

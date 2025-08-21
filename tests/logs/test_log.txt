@@ -619,3 +619,126 @@ Stacktrace:
 2025-08-20 18:33:28,772 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
 2025-08-20 18:33:38,664 [INFO] Successfully clicked element: ('id', 'droppableExample-tab-preventPropogation')
 2025-08-20 18:33:39,281 [INFO] Drag-and-drop performed using ActionChains 'drag_and_drop' method.
+2025-08-20 19:00:10,310 [ERROR] Error verifying random text: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=139.0.7258.67)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff67be078d5+2802741]
+	GetHandleVerifier [0x0x7ff67bb6eb70+79568]
+	(No symbol) [0x0x7ff67b90c0fa]
+	(No symbol) [0x0x7ff67b8f8981]
+	(No symbol) [0x0x7ff67b8f88ec]
+	(No symbol) [0x0x7ff67b8f707f]
+	(No symbol) [0x0x7ff67b8f7d3f]
+	(No symbol) [0x0x7ff67b911631]
+	(No symbol) [0x0x7ff67b912127]
+	(No symbol) [0x0x7ff67b916b1c]
+	(No symbol) [0x0x7ff67b916bef]
+	(No symbol) [0x0x7ff67b962347]
+	(No symbol) [0x0x7ff67b962d4c]
+	(No symbol) [0x0x7ff67b9b6017]
+	(No symbol) [0x0x7ff67b98accf]
+	(No symbol) [0x0x7ff67b9b2e24]
+	(No symbol) [0x0x7ff67b98aa63]
+	(No symbol) [0x0x7ff67b953c91]
+	(No symbol) [0x0x7ff67b954a23]
+	GetHandleVerifier [0x0x7ff67be32ced+2979917]
+	GetHandleVerifier [0x0x7ff67be2d0f3+2956371]
+	GetHandleVerifier [0x0x7ff67be4acbd+3078173]
+	GetHandleVerifier [0x0x7ff67bb8836e+184014]
+	GetHandleVerifier [0x0x7ff67bb9024f+216495]
+	GetHandleVerifier [0x0x7ff67bb770c4+113700]
+	GetHandleVerifier [0x0x7ff67bb77279+114137]
+	GetHandleVerifier [0x0x7ff67bb5df78+10968]
+	BaseThreadInitThunk [0x0x7fffc2f5e8d7+23]
+	RtlUserThreadStart [0x0x7fffc49bc34c+44]
+
+2025-08-20 19:02:46,621 [ERROR] Error verifying random text: 'Test_Dynamic_page' object has no attribute 'find_element'
+2025-08-20 19:02:46,705 [ERROR] Error verifying enable button : 'Test_Dynamic_page' object has no attribute 'find_element'
+2025-08-20 19:02:46,716 [ERROR] Error verifying color change 'Test_Dynamic_page' object has no attribute 'find_element'
+2025-08-20 19:02:46,721 [ERROR] Error verifying button visibility: 'Test_Dynamic_page' object has no attribute 'find_elements'
+2025-08-20 19:03:00,040 [ERROR] Error verifying random text: 'Test_Dynamic_page' object has no attribute 'find_element'
+2025-08-20 19:03:00,135 [ERROR] Error verifying enable button : 'Test_Dynamic_page' object has no attribute 'find_element'
+2025-08-20 19:03:00,139 [ERROR] Error verifying color change 'Test_Dynamic_page' object has no attribute 'find_element'
+2025-08-20 19:03:00,142 [ERROR] Error verifying button visibility: 'Test_Dynamic_page' object has no attribute 'find_elements'
+2025-08-20 19:04:56,226 [INFO] Initially enabled: False
+2025-08-20 19:04:58,528 [INFO] Enable After button clicked.
+2025-08-20 19:05:10,409 [INFO] Color changed: rgba(255, 255, 255, 1) -> rgba(220, 53, 69, 1)
+2025-08-20 19:05:46,934 [INFO] Visible After button clicked.
+2025-08-20 19:14:07,831 [ERROR] Random text element not found within timeout
+2025-08-20 19:14:17,864 [INFO] Button is initially disabled, waiting for it to become enabled...
+2025-08-20 19:14:20,061 [INFO] Button enabled after waiting: True
+2025-08-20 19:14:20,165 [INFO] Successfully clicked the button after it became enabled
+2025-08-20 19:14:29,931 [INFO] Initial button color: rgba(255, 255, 255, 1)
+2025-08-20 19:14:32,010 [INFO] Button color changed from rgba(255, 255, 255, 1) to rgba(220, 53, 69, 1)
+2025-08-20 19:14:43,632 [WARNING] Button is already visible at the start
+2025-08-20 19:14:43,780 [INFO] Successfully clicked the button after it became enabled
+2025-08-20 19:15:03,281 [ERROR] Random text element not found within timeout
+2025-08-20 19:15:22,663 [ERROR] Random text element not found within timeout
+2025-08-20 19:15:41,902 [ERROR] Random text element not found within timeout
+2025-08-20 19:16:02,329 [ERROR] Random text element not found within timeout
+2025-08-20 19:16:11,839 [INFO] Button is initially disabled, waiting for it to become enabled...
+2025-08-20 19:16:14,076 [INFO] Button enabled after waiting: True
+2025-08-20 19:16:14,848 [INFO] Initial button color: rgba(255, 255, 255, 1)
+2025-08-20 19:16:19,636 [INFO] Button color changed from rgba(255, 255, 255, 1) to rgba(220, 53, 69, 1)
+2025-08-20 19:16:25,030 [WARNING] Button is already visible at the start
+2025-08-21 16:45:36,513 [ERROR] Error verifying random text: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-21 16:45:52,263 [ERROR] Error checking button state: 'DynamicPage' object has no attribute '_presence_of_element_located'
+2025-08-21 16:45:52,264 [INFO] Method verify_enable_button_clickable took 0.00 seconds
+2025-08-21 16:46:24,205 [ERROR] Error checking button visibility: 'DynamicPage' object has no attribute 'is_element_visible'
+2025-08-21 16:46:24,206 [INFO] Method verify_visible_button took 0.00 seconds
+2025-08-21 16:46:38,785 [ERROR] Error verifying random text: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-21 16:46:53,842 [ERROR] Error verifying random text: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-21 16:47:07,638 [ERROR] Error verifying random text: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-21 16:47:22,988 [ERROR] Error verifying random text: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-21 16:47:36,784 [ERROR] Error checking button state: 'DynamicPage' object has no attribute '_presence_of_element_located'
+2025-08-21 16:47:36,785 [INFO] Method verify_enable_button_clickable took 0.00 seconds
+2025-08-21 16:47:50,718 [ERROR] Error checking color change: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-21 16:47:50,718 [INFO] Method verify_color_change took 0.00 seconds
+2025-08-21 16:47:54,202 [ERROR] Error checking button visibility: 'DynamicPage' object has no attribute 'is_element_visible'
+2025-08-21 16:47:54,202 [INFO] Method verify_visible_button took 0.00 seconds
+2025-08-21 16:48:08,829 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:48:09,831 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:48:10,832 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:48:11,832 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:48:12,833 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:48:13,835 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:48:14,836 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:48:15,837 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:48:16,837 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:48:17,838 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:48:18,839 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:48:18,841 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:50:50,368 [ERROR] Error verifying random text: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-21 16:51:03,079 [ERROR] Error checking button enabled state: BasePage.wait_for_element_visible() takes 2 positional arguments but 3 were given
+2025-08-21 16:51:03,080 [ERROR] Error checking button state: 'DynamicPage' object has no attribute '_presence_of_element_located'
+2025-08-21 16:51:29,511 [ERROR] Error checking button visibility: 'DynamicPage' object has no attribute 'is_element_visible'
+2025-08-21 16:51:44,117 [ERROR] Error verifying random text: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-21 16:51:58,153 [ERROR] Error checking button state: 'DynamicPage' object has no attribute '_presence_of_element_located'
+2025-08-21 16:52:01,477 [ERROR] Error checking color change: BasePage.wait_for_element_visible() got an unexpected keyword argument 'timeout'
+2025-08-21 16:52:02,355 [ERROR] Error checking button visibility: 'DynamicPage' object has no attribute 'is_element_visible'
+2025-08-21 17:02:01,651 [INFO] Random text verification successfully
+2025-08-21 17:02:14,236 [ERROR] Buton was already enabled initially
+2025-08-21 17:02:42,931 [INFO] Original color: rgba(0, 123, 255, 1)
+2025-08-21 17:02:44,087 [INFO] New colorrgba(0, 105, 217, 1)
+2025-08-21 17:02:44,087 [INFO] Color change verified succesfully
+2025-08-21 17:02:58,406 [ERROR] Button was already visible initially
+2025-08-21 17:09:04,031 [INFO] Random text verification successfully
+2025-08-21 17:09:17,249 [INFO] Button is initially disabled
+2025-08-21 17:09:17,818 [INFO] Button became enabled after waiting
+2025-08-21 17:09:32,744 [INFO] Original color: rgba(0, 123, 255, 1)
+2025-08-21 17:09:33,845 [INFO] New colorrgba(0, 105, 217, 1)
+2025-08-21 17:09:33,845 [INFO] Color change verified succesfully
+2025-08-21 17:09:48,420 [ERROR] Button was already visible initially
+2025-08-21 17:13:08,338 [ERROR] Button was already visible initially
+2025-08-21 17:17:55,271 [ERROR] Button was already visible initially
+2025-08-21 17:18:54,688 [ERROR] Element not found in DOM
+2025-08-21 17:20:10,021 [ERROR] Button was already visible initially
+2025-08-21 17:21:59,525 [INFO] Button is visible (this is expected behavior)
+2025-08-21 17:22:21,671 [INFO] Random text verification successfully
+2025-08-21 17:22:31,280 [INFO] Button is initially disabled
+2025-08-21 17:22:33,518 [INFO] Button became enabled after waiting
+2025-08-21 17:22:43,475 [INFO] Original color: rgba(0, 123, 255, 1)
+2025-08-21 17:22:44,582 [INFO] New colorrgba(0, 105, 217, 1)
+2025-08-21 17:22:44,582 [INFO] Color change verified succesfully
+2025-08-21 17:22:56,312 [INFO] Button is visible (this is expected behavior)
