@@ -52,8 +52,12 @@ class BasePage:
             raise
 # ------------------------------------------------------------------------------------------------------------------------------
 
-    def wait_for_element_visible(self, locator):
-        return self._visibility_of_element_located(locator)
+    def wait_for_element_visible(self, locator, timeout=None):
+        """Element ko'rinadigan bo'lguncha kutadi"""
+        if timeout is None:
+            timeout = self.timeout
+        wait = WebDriverWait(self.driver, timeout)
+        return wait.until(EC.visibility_of_element_located(locator))
 
 
 # ---------------- Yordamchi funksiyalar ----------------

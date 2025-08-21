@@ -84,7 +84,7 @@ class Dynamic_page(BasePage):
 
                 # 5 soniya kutish
                 wait.until(EC.element_to_be_clickable(self.after_enable_button))
-
+#
                 # Qayta tekshirish
                 if element.is_enabled():
                     self.logger.info("Button became enabled after waiting")
