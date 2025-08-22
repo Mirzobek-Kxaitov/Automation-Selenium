@@ -759,3 +759,29 @@ Stacktrace:
 2025-08-22 11:00:47,800 [INFO] Successfully switched to frame2
 2025-08-22 11:00:47,830 [INFO] Frame content text: This is a sample page
 2025-08-22 11:00:47,833 [INFO] Successfully switched to default content
+2025-08-22 14:33:58,942 [INFO] Home button clicked successfully
+2025-08-22 14:33:58,997 [INFO] Successfully switched to new tab
+2025-08-22 14:34:00,983 [INFO] New tab opened successfully: https://demoqa.com/
+2025-08-22 14:34:01,073 [INFO] Current tab closed successfully
+2025-08-22 14:34:01,078 [INFO] Successfully switched back to original tab
+2025-08-22 14:34:11,607 [INFO] Created button clicked
+2025-08-22 14:34:12,253 [INFO] Response message received: Link has responded with staus 201 and status text Created
+2025-08-22 14:34:12,253 [INFO] API response verification passed: Link has responded with staus 201 and status text Created
+2025-08-22 14:34:23,269 [INFO] No Content button clicked
+2025-08-22 14:34:23,897 [INFO] Response message received: Link has responded with staus 204 and status text No Content
+2025-08-22 14:34:23,897 [INFO] API response verification passed: Link has responded with staus 204 and status text No Content
+2025-08-22 14:34:33,700 [INFO] Moved button clicked
+2025-08-22 14:34:34,277 [INFO] Response message received: Link has responded with staus 301 and status text Moved Permanently
+2025-08-22 14:34:34,277 [INFO] API response verification passed: Link has responded with staus 301 and status text Moved Permanently
+2025-08-22 14:34:44,538 [INFO] Bad Request button clicked
+2025-08-22 14:34:45,145 [INFO] Response message received: Link has responded with staus 400 and status text Bad Request
+2025-08-22 14:34:45,145 [INFO] API response verification passed: Link has responded with staus 400 and status text Bad Request
+2025-08-22 14:34:55,547 [INFO] Unauthorized button clicked
+2025-08-22 14:34:56,107 [INFO] Response message received: Link has responded with staus 401 and status text Unauthorized
+2025-08-22 14:34:56,107 [INFO] API response verification passed: Link has responded with staus 401 and status text Unauthorized
+2025-08-22 14:35:06,681 [INFO] Forbidden button clicked
+2025-08-22 14:35:07,274 [INFO] Response message received: Link has responded with staus 403 and status text Forbidden
+2025-08-22 14:35:07,274 [INFO] API response verification passed: Link has responded with staus 403 and status text Forbidden
+2025-08-22 14:35:17,882 [INFO] Not Found button clicked
+2025-08-22 14:35:18,461 [INFO] Response message received: Link has responded with staus 404 and status text Not Found
+2025-08-22 14:35:18,461 [INFO] API response verification passed: Link has responded with staus 404 and status text Not Found
