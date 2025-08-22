@@ -1,26 +1,30 @@
 import pytest
-from utils.driver import get_driver
 from pages.login_page import LoginPage
-import time
 
-@pytest.fixture
-def driver():
-    driver = get_driver("https://demoqa.com/login")
-    yield driver
-    driver.quit()
 
 @pytest.fixture
 def login_page(driver):
-    return LoginPage(driver)
+    page = LoginPage(driver)
+    page.open()
+    return page
 
 def test_login_invalid_credentials(login_page):
-    login_page.enter_username("mirzobek")
-    login_page.logger.info("username kiritildi")
+    invalid_username = "invalid_user"
+    invalid_password = "InvalidPassword123!"
+    expected_error_message = "Invalid username or password!"
+    login_page.login(invalid_username, invalid_password)
+    login_page.logger.info("Login formasi noto'g'ri ma'lumotlar bilan to'ldirildi va yuborildi.")
+    actual_error_message = login_page.get_error_message()
+    assert actual_error_message == expected_error_message, \
+        f"Kutilgan xatolik xabari '{expected_error_message}', lekin '{actual_error_message}' chiqdi."
 
-    login_page.enter_password("cDN!!asaCxbxva4")
-    login_page.logger.info("password kiritildi")
+    login_page.logger.info("Test muvaffaqiyatli yakunlandi: Noto'g'ri ma'lumotlar uchun xatolik xabari to'g'ri chiqdi.")
+    login_page._take_screenshot("test_login_invalid_credentials_success")
 
-    login_page.click_login()
-    login_page.logger.info("login button bosildi")
-    time.sleep(3)  # Error xabari chiqishini kutamiz
-    login_page._take_screenshot()
+def test_login_valid_credential(login_page):
+    valid_username = "mirzobek"
+    valid_password = "cDN!!asaCxbxva4"
+    login_page.login(valid_username,valid_password)
+    login_page.logger.info("Login formasi to'g'ri ma'lumotlar bilan to'ldirildi va yuborildi.")
+    login_page.logger.info("Test muvaffaqiyatli yakunlandi")
+    login_page._take_screenshot("test_login_valid_credentials_success")

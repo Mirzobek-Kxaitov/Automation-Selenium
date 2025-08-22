@@ -785,3 +785,40 @@ Stacktrace:
 2025-08-22 14:35:17,882 [INFO] Not Found button clicked
 2025-08-22 14:35:18,461 [INFO] Response message received: Link has responded with staus 404 and status text Not Found
 2025-08-22 14:35:18,461 [INFO] API response verification passed: Link has responded with staus 404 and status text Not Found
+2025-08-22 17:03:46,926 [INFO] LoginPage initialized.
+2025-08-22 17:03:46,926 [INFO] Navigated to login page and initialized LoginPage object.
+2025-08-22 17:03:47,295 [INFO] Successfully entered text: invalidUser
+2025-08-22 17:03:47,295 [INFO] Entered username: 'invalidUser'
+2025-08-22 17:03:47,487 [INFO] Successfully entered text: invalidPassword!
+2025-08-22 17:03:47,487 [INFO] Entered password: 'invalidPassword!'
+2025-08-22 17:03:47,614 [INFO] Successfully clicked element: ('id', 'login')
+2025-08-22 17:03:47,614 [INFO] Clicked login button.
+2025-08-22 17:03:47,614 [INFO] Attempted login with username: 'invalidUser'
+2025-08-22 17:03:47,614 [INFO] Attempted login with username: 'invalidUser' and password: 'invalidPassword!'
+2025-08-22 17:03:47,614 [ERROR] An unexpected error occurred while getting error message: BasePage.get_text() got an unexpected keyword argument 'custom_timeout'
+2025-08-22 17:03:57,912 [INFO] LoginPage initialized.
+2025-08-22 17:03:57,913 [INFO] Navigated to login page and initialized LoginPage object.
+2025-08-22 17:03:58,124 [INFO] Successfully entered text: 
+2025-08-22 17:03:58,125 [INFO] Entered username: ''
+2025-08-22 17:03:58,242 [INFO] Successfully entered text: 
+2025-08-22 17:03:58,242 [INFO] Entered password: ''
+2025-08-22 17:03:58,387 [INFO] Successfully clicked element: ('id', 'login')
+2025-08-22 17:03:58,387 [INFO] Clicked login button.
+2025-08-22 17:03:58,387 [INFO] Attempted login with username: ''
+2025-08-22 17:03:58,387 [INFO] Attempted login with empty credentials.
+2025-08-22 17:03:58,388 [ERROR] An unexpected error occurred while getting error message: BasePage.get_text() got an unexpected keyword argument 'custom_timeout'
+2025-08-22 18:24:00,834 [INFO] Attempting to log in with username: invalid_user
+2025-08-22 18:24:01,334 [INFO] Successfully entered text: invalid_user
+2025-08-22 18:24:01,546 [INFO] Successfully entered text: InvalidPassword123!
+2025-08-22 18:24:01,685 [INFO] Successfully clicked element: ('id', 'login')
+2025-08-22 18:24:01,686 [INFO] Login formasi noto'g'ri ma'lumotlar bilan to'ldirildi va yuborildi.
+2025-08-22 18:24:02,811 [INFO] Successfully got text: Invalid username or password!
+2025-08-22 18:24:02,811 [INFO] Test muvaffaqiyatli yakunlandi: Noto'g'ri ma'lumotlar uchun xatolik xabari to'g'ri chiqdi.
+2025-08-22 18:24:03,074 [INFO] Screenshot saved: screenshots/test_login_invalid_credentials_success.png
+2025-08-22 18:33:51,702 [INFO] Attempting to log in with username: mirzobek
+2025-08-22 18:33:52,018 [INFO] Successfully entered text: mirzobek
+2025-08-22 18:33:52,185 [INFO] Successfully entered text: cDN!!asaCxbxva4
+2025-08-22 18:33:52,314 [INFO] Successfully clicked element: ('id', 'login')
+2025-08-22 18:33:52,314 [INFO] Login formasi to'g'ri ma'lumotlar bilan to'ldirildi va yuborildi.
+2025-08-22 18:33:52,314 [INFO] Test muvaffaqiyatli yakunlandi
+2025-08-22 18:33:52,582 [INFO] Screenshot saved: screenshots/test_login_valid_credentials_success.png
