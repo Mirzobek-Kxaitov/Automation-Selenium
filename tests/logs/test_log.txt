@@ -742,3 +742,20 @@ Stacktrace:
 2025-08-21 17:22:44,582 [INFO] New colorrgba(0, 105, 217, 1)
 2025-08-21 17:22:44,582 [INFO] Color change verified succesfully
 2025-08-21 17:22:56,312 [INFO] Button is visible (this is expected behavior)
+2025-08-22 11:00:16,762 [INFO] Successfully switched to default content
+2025-08-22 11:00:16,805 [INFO] Successfully switched to frame1
+2025-08-22 11:00:17,039 [INFO] Frame content text: This is a sample page
+2025-08-22 11:00:17,042 [INFO] Successfully switched to default content
+2025-08-22 11:00:17,043 [INFO] Frame frame1 content verification successful
+2025-08-22 11:00:27,202 [INFO] Successfully switched to default content
+2025-08-22 11:00:27,256 [INFO] Successfully switched to frame2
+2025-08-22 11:00:27,295 [INFO] Frame content text: This is a sample page
+2025-08-22 11:00:27,299 [INFO] Successfully switched to default content
+2025-08-22 11:00:27,300 [INFO] Frame frame2 content verification successful
+2025-08-22 11:00:37,194 [INFO] Target frame count: 2
+2025-08-22 11:00:47,712 [INFO] Successfully switched to frame1
+2025-08-22 11:00:47,755 [INFO] Frame content text: This is a sample page
+2025-08-22 11:00:47,758 [INFO] Successfully switched to default content
+2025-08-22 11:00:47,800 [INFO] Successfully switched to frame2
+2025-08-22 11:00:47,830 [INFO] Frame content text: This is a sample page
+2025-08-22 11:00:47,833 [INFO] Successfully switched to default content
