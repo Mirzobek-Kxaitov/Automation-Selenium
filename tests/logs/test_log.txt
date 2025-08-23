@@ -822,3 +822,227 @@ Stacktrace:
 2025-08-22 18:33:52,314 [INFO] Login formasi to'g'ri ma'lumotlar bilan to'ldirildi va yuborildi.
 2025-08-22 18:33:52,314 [INFO] Test muvaffaqiyatli yakunlandi
 2025-08-22 18:33:52,582 [INFO] Screenshot saved: screenshots/test_login_valid_credentials_success.png
+2025-08-22 18:51:19,221 [INFO] Opened page: https://demoqa.com/menu
+2025-08-22 18:51:19,266 [INFO] Element ('css selector', '#nav > li:nth-child(1) > a') is visible.
+2025-08-22 18:51:19,302 [INFO] Element ('css selector', '#nav > li:nth-child(2) > a') is visible.
+2025-08-22 18:51:19,334 [INFO] Element ('css selector', '#nav > li:nth-child(3) > a') is visible.
+2025-08-22 18:51:19,335 [INFO] Barcha asosiy menyu bandlari muvaffaqiyatli topildi.
+2025-08-22 18:51:32,010 [INFO] Opened page: https://demoqa.com/menu
+2025-08-22 18:51:52,092 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is not visible.
+2025-08-22 18:51:52,457 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-22 18:51:52,487 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-22 18:51:52,488 [INFO] Hoverdan keyin ichki menyu muvaffaqiyatli paydo bo'ldi.
+2025-08-22 18:52:03,581 [INFO] Opened page: https://demoqa.com/menu
+2025-08-22 18:52:03,898 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-22 18:52:04,194 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > a')
+2025-08-22 18:52:04,235 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1) > a') is visible.
+2025-08-22 18:52:04,235 [INFO] Uchinchi darajali menyu zanjirvari hoverdan so'ng muvaffaqiyatli paydo bo'ldi.
+2025-08-22 18:56:42,302 [INFO] Opened page: https://demoqa.com/menu
+2025-08-22 18:56:42,346 [INFO] Element ('css selector', '#nav > li:nth-child(1) > a') is visible.
+2025-08-22 18:56:42,367 [INFO] Element ('css selector', '#nav > li:nth-child(2) > a') is visible.
+2025-08-22 18:56:42,388 [INFO] Element ('css selector', '#nav > li:nth-child(3) > a') is visible.
+2025-08-22 18:56:42,388 [INFO] Barcha asosiy menyu bandlari muvaffaqiyatli topildi.
+2025-08-22 18:56:53,047 [INFO] Opened page: https://demoqa.com/menu
+2025-08-22 18:56:53,387 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-22 18:56:53,423 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-22 18:56:53,423 [INFO] Hoverdan keyin ichki menyu muvaffaqiyatli paydo bo'ldi.
+2025-08-22 18:57:03,800 [INFO] Opened page: https://demoqa.com/menu
+2025-08-22 18:57:04,131 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-22 18:57:04,441 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > a')
+2025-08-22 18:57:04,501 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1) > a') is visible.
+2025-08-22 18:57:04,501 [INFO] Uchinchi darajali menyu zanjirvari hoverdan so'ng muvaffaqiyatli paydo bo'ldi.
+2025-08-22 18:57:18,256 [INFO] Opened page: https://demoqa.com/menu
+2025-08-22 18:57:18,257 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-22 18:57:18,558 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-22 18:57:18,605 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-22 18:57:18,605 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-22 18:57:38,636 [ERROR] Failed to hover over element ('class name', 'main-header'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7921478d5+2802741]
+	GetHandleVerifier [0x0x7ff791eaeb70+79568]
+	(No symbol) [0x0x7ff791c4c0fa]
+	(No symbol) [0x0x7ff791ca2a96]
+	(No symbol) [0x0x7ff791ca2d4c]
+	(No symbol) [0x0x7ff791cf6017]
+	(No symbol) [0x0x7ff791ccaccf]
+	(No symbol) [0x0x7ff791cf2e24]
+	(No symbol) [0x0x7ff791ccaa63]
+	(No symbol) [0x0x7ff791c93c91]
+	(No symbol) [0x0x7ff791c94a23]
+	GetHandleVerifier [0x0x7ff792172ced+2979917]
+	GetHandleVerifier [0x0x7ff79216d0f3+2956371]
+	GetHandleVerifier [0x0x7ff79218acbd+3078173]
+	GetHandleVerifier [0x0x7ff791ec836e+184014]
+	GetHandleVerifier [0x0x7ff791ed024f+216495]
+	GetHandleVerifier [0x0x7ff791eb70c4+113700]
+	GetHandleVerifier [0x0x7ff791eb7279+114137]
+	GetHandleVerifier [0x0x7ff791e9df78+10968]
+	BaseThreadInitThunk [0x0x7fffc2f5e8d7+23]
+	RtlUserThreadStart [0x0x7fffc49bc34c+44]
+
+2025-08-22 18:57:38,889 [INFO] Screenshot saved: screenshots/hover_error.png
+2025-08-22 18:57:59,288 [INFO] Opened page: https://demoqa.com/menu
+2025-08-22 18:57:59,289 [INFO] TEST: Ichki menyu bandining bosilishini (navigatsiya) tekshirish.
+2025-08-22 18:57:59,640 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-22 18:57:59,947 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > a')
+2025-08-22 18:58:00,164 [INFO] Successfully clicked element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1) > a')
+2025-08-22 18:58:00,164 [INFO] Sub Sub Item 1 muvaffaqiyatli bosildi.
+2025-08-22 19:00:27,756 [INFO] Opened page: https://demoqa.com/menu
+2025-08-22 19:00:27,760 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 13:02:40,539 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 13:02:40,542 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 13:02:50,058 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 13:02:50,060 [INFO] TEST: Ichki menyu bandining bosilishini (navigatsiya) tekshirish.
+2025-08-23 13:04:18,879 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 13:04:18,881 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 13:04:19,416 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 13:04:19,463 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-23 13:04:19,463 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-23 13:04:39,550 [ERROR] Failed to hover over element ('class name', 'main-header'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff697b378d5+2802741]
+	GetHandleVerifier [0x0x7ff69789eb70+79568]
+	(No symbol) [0x0x7ff69763c0fa]
+	(No symbol) [0x0x7ff697692a96]
+	(No symbol) [0x0x7ff697692d4c]
+	(No symbol) [0x0x7ff6976e6017]
+	(No symbol) [0x0x7ff6976baccf]
+	(No symbol) [0x0x7ff6976e2e24]
+	(No symbol) [0x0x7ff6976baa63]
+	(No symbol) [0x0x7ff697683c91]
+	(No symbol) [0x0x7ff697684a23]
+	GetHandleVerifier [0x0x7ff697b62ced+2979917]
+	GetHandleVerifier [0x0x7ff697b5d0f3+2956371]
+	GetHandleVerifier [0x0x7ff697b7acbd+3078173]
+	GetHandleVerifier [0x0x7ff6978b836e+184014]
+	GetHandleVerifier [0x0x7ff6978c024f+216495]
+	GetHandleVerifier [0x0x7ff6978a70c4+113700]
+	GetHandleVerifier [0x0x7ff6978a7279+114137]
+	GetHandleVerifier [0x0x7ff69788df78+10968]
+	BaseThreadInitThunk [0x0x7fffc2f5e8d7+23]
+	RtlUserThreadStart [0x0x7fffc49bc34c+44]
+
+2025-08-23 13:04:39,831 [INFO] Screenshot saved: screenshots/hover_error.png
+2025-08-23 13:04:49,583 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 13:04:49,585 [INFO] TEST: Ichki menyu bandining bosilishini (navigatsiya) tekshirish.
+2025-08-23 13:04:49,950 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 13:04:50,309 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > a')
+2025-08-23 13:04:50,485 [INFO] Successfully clicked element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1) > a')
+2025-08-23 13:04:50,485 [INFO] Sub Sub Item 1 muvaffaqiyatli bosildi.
+2025-08-23 13:07:24,355 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 13:07:24,356 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 13:07:24,673 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 13:07:24,696 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-23 13:07:24,696 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-23 13:07:35,771 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 13:07:35,772 [INFO] TEST: Ichki menyu bandining bosilishini (navigatsiya) tekshirish.
+2025-08-23 13:07:36,086 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 13:07:36,416 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > a')
+2025-08-23 13:07:36,524 [INFO] Successfully clicked element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1) > a')
+2025-08-23 13:07:36,525 [INFO] Sub Sub Item 1 muvaffaqiyatli bosildi.
+2025-08-23 14:13:30,128 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:13:30,136 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 14:13:30,536 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:13:30,559 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-23 14:13:30,559 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-23 14:13:40,799 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:13:40,801 [INFO] TEST: Ichki menyu bandining bosilishini (navigatsiya) tekshirish.
+2025-08-23 14:13:41,117 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:13:41,414 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > a')
+2025-08-23 14:13:41,573 [INFO] Successfully clicked element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1) > a')
+2025-08-23 14:13:41,574 [INFO] Sub Sub Item 1 muvaffaqiyatli bosildi.
+2025-08-23 14:14:02,414 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:14:02,416 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 14:14:02,727 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:14:02,752 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-23 14:14:02,752 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-23 14:14:22,807 [ERROR] Failed to hover over element ('class name', 'main-header'): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b29c78d5+2802741]
+	GetHandleVerifier [0x0x7ff7b272eb70+79568]
+	(No symbol) [0x0x7ff7b24cc0fa]
+	(No symbol) [0x0x7ff7b2522a96]
+	(No symbol) [0x0x7ff7b2522d4c]
+	(No symbol) [0x0x7ff7b2576017]
+	(No symbol) [0x0x7ff7b254accf]
+	(No symbol) [0x0x7ff7b2572e24]
+	(No symbol) [0x0x7ff7b254aa63]
+	(No symbol) [0x0x7ff7b2513c91]
+	(No symbol) [0x0x7ff7b2514a23]
+	GetHandleVerifier [0x0x7ff7b29f2ced+2979917]
+	GetHandleVerifier [0x0x7ff7b29ed0f3+2956371]
+	GetHandleVerifier [0x0x7ff7b2a0acbd+3078173]
+	GetHandleVerifier [0x0x7ff7b274836e+184014]
+	GetHandleVerifier [0x0x7ff7b275024f+216495]
+	GetHandleVerifier [0x0x7ff7b27370c4+113700]
+	GetHandleVerifier [0x0x7ff7b2737279+114137]
+	GetHandleVerifier [0x0x7ff7b271df78+10968]
+	BaseThreadInitThunk [0x0x7fffc2f5e8d7+23]
+	RtlUserThreadStart [0x0x7fffc49bc34c+44]
+
+2025-08-23 14:14:23,113 [INFO] Screenshot saved: screenshots/hover_error.png
+2025-08-23 14:14:33,331 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:14:33,332 [INFO] TEST: Ichki menyu bandining bosilishini (navigatsiya) tekshirish.
+2025-08-23 14:14:33,657 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:14:33,983 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > a')
+2025-08-23 14:14:34,138 [INFO] Successfully clicked element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1) > a')
+2025-08-23 14:14:34,138 [INFO] Sub Sub Item 1 muvaffaqiyatli bosildi.
+2025-08-23 14:17:28,980 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:17:28,981 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 14:17:29,287 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:17:29,332 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-23 14:17:29,332 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-23 14:20:07,832 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:20:07,834 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 14:20:08,156 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:20:08,184 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-23 14:20:08,184 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-23 14:20:08,518 [INFO] Successfully hovered over element: ('tag name', 'footer')
+2025-08-23 14:20:08,518 [INFO] Sichqoncha menyudan chetga, sahifa footeriga olindi.
+2025-08-23 14:22:45,353 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:22:45,355 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 14:22:45,680 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:22:45,709 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-23 14:22:45,709 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-23 14:22:46,021 [INFO] Successfully hovered over element: ('tag name', 'footer')
+2025-08-23 14:22:46,021 [INFO] Sichqoncha menyudan chetga, sahifa footeriga olindi.
+2025-08-23 14:41:01,398 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:41:01,402 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 14:41:01,730 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:41:01,762 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-23 14:41:01,763 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-23 14:41:02,086 [INFO] Successfully hovered over element: ('tag name', 'footer')
+2025-08-23 14:41:02,087 [INFO] Sichqoncha menyudan chetga, sahifa footeriga olindi.
+2025-08-23 14:46:22,275 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:46:22,278 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 14:46:22,618 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:46:22,657 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-23 14:46:22,657 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-23 14:46:22,989 [INFO] Successfully hovered over element: ('tag name', 'footer')
+2025-08-23 14:46:22,989 [INFO] Sichqoncha menyudan chetga, sahifa footeriga olindi.
+2025-08-23 14:46:43,505 [ERROR] Element remained visible after 20 seconds: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a')
+2025-08-23 14:46:43,710 [INFO] Screenshot saved: screenshots/element_still_visible_error.png
+2025-08-23 14:48:26,073 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:48:26,075 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 14:48:26,427 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:48:26,452 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-23 14:48:26,453 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-23 14:48:26,756 [INFO] Successfully hovered over element: ('tag name', 'footer')
+2025-08-23 14:48:26,757 [INFO] Sichqoncha menyudan chetga, sahifa footeriga olindi.
+2025-08-23 14:48:33,096 [INFO] Element is now invisible or not present: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a')
+2025-08-23 14:48:33,096 [INFO] Test muvaffaqiyatli: Ichki menyu to'g'ri yopildi.
+2025-08-23 14:49:26,377 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:49:26,378 [INFO] TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.
+2025-08-23 14:49:26,689 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:49:26,718 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') is visible.
+2025-08-23 14:49:26,718 [INFO] Ichki menyu muvaffaqiyatli ochildi.
+2025-08-23 14:49:27,047 [INFO] Successfully hovered over element: ('tag name', 'footer')
+2025-08-23 14:49:27,048 [INFO] Sichqoncha menyudan chetga, sahifa footeriga olindi.
+2025-08-23 14:49:28,129 [INFO] Element is now invisible or not present: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a')
+2025-08-23 14:49:28,129 [INFO] Test muvaffaqiyatli: Ichki menyu to'g'ri yopildi.
+2025-08-23 14:49:37,753 [INFO] Opened page: https://demoqa.com/menu
+2025-08-23 14:49:37,755 [INFO] TEST: Ichki menyu bandining bosilishini (navigatsiya) tekshirish.
+2025-08-23 14:49:38,076 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-08-23 14:49:38,373 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > a')
+2025-08-23 14:49:38,604 [INFO] Successfully clicked element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1) > a')
+2025-08-23 14:49:38,604 [INFO] Sub Sub Item 1 muvaffaqiyatli bosildi.

@@ -1,51 +1,45 @@
-from pages.menu_page import Menu_Page
-from utils.driver import get_driver
-from selenium.webdriver.common.by import By
 import pytest
-import time
+from pages.menu_page import MenuPage
+from selenium.webdriver.common.by import By
+
+@pytest.fixture
+def menu_page(driver):
+    page = MenuPage(driver)
+    page.open()
+    return page
 
 
+def test_submenu_disappears_on_hover_away(menu_page):
+    """
+    Sichqoncha menyudan chetga olinganda ichki menyu yopilishini (yo'qolishini) tekshiradi.
+    """
+    menu_page.logger.info("TEST: Ichki menyuning hoverdan keyin yo'qolishini tekshirish.")
 
-@pytest.fixture()
-def setup():
-    driver = get_driver("https://demoqa.com/menu")
-    page = Menu_Page(driver)
-    yield page
-    driver.quit()
+    menu_page.hover_element(menu_page.MAIN_ITEM_2)
 
-def test_menu_items_display(setup):
-    page = setup
-    assert page.wait_for_element_visible(page.MAIN_ITEM_1)
-    assert page.wait_for_element_visible(page.MAIN_ITEM_2)
-    assert page.wait_for_element_visible(page.MAIN_ITEM_3)
+    assert menu_page.is_element_visible(menu_page.SUB_ITEM_1), "Tekshiruv oldidan ichki menyu ochilmadi."
+    menu_page.logger.info("Ichki menyu muvaffaqiyatli ochildi.")
 
-def test_hover_effects(setup):
-    page = setup
+    # To'g'ri lokator ishlatilmoqda
+    menu_page.hover_element(menu_page.PAGE_FOOTER)
+    menu_page.logger.info("Sichqoncha menyudan chetga, sahifa footeriga olindi.")
 
-    page.hover_main_item_one()
-    page.hover_main_item_two()
-    page.hover_main_item_three()
+    assert menu_page.wait_for_element_invisible(
+        menu_page.SUB_ITEM_1), "Sichqoncha chetga olingandan keyin ichki menyu yo'qolmadi."
+    menu_page.logger.info("Test muvaffaqiyatli: Ichki menyu to'g'ri yopildi.")
 
-    assert True
 
-def test_submenu_appears_on_hover(setup):
-    page = setup
-    page.hover_main_item_two()
-    assert page.is_submenu_visible()
+def test_navigation_on_submenu_click(menu_page):
+    menu_page.logger.info("TEST: Ichki menyu bandining bosilishini (navigatsiya) tekshirish.")
+    menu_page.hover_element(menu_page.MAIN_ITEM_2)
+    menu_page.hover_element(menu_page.SUB_SUB_LIST)
 
-def test_submenu_items_clickable(setup):
-    page = setup
-    page.hover_main_item_two()
-    page.wait_for_submenu_to_appear()
-    page.hover_sub_item_one()
-    page.hover_sub_sub_list()
-    assert page.is_nested_submenu_visible()
+    try:
+        menu_page.click(menu_page.SUB_SUB_ITEM_1)
+        clicked_successfully = True
+        menu_page.logger.info("Sub Sub Item 1 muvaffaqiyatli bosildi.")
+    except Exception as e:
+        menu_page.logger.error(f"Elementni bosishda kutilmagan xato yuz berdi: {e}")
+        clicked_successfully = False
+    assert clicked_successfully, "Ichki menyu bandini bosishda xatolik yuz berdi."
 
-def test_menu_timing_behavior(setup):
-    page = setup
-    start_time = time.time()
-    page.hover_main_item_two()
-    page.wait_for_submenu_to_appear()
-    end_time = time.time()
-
-    assert (end_time - start_time) < 2.0

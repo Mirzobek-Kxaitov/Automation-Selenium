@@ -324,5 +324,16 @@ class BasePage:
          fire(src, 'dragend', clientX, clientY);
          """
         self.driver.execute_script(script, source_el, target_el, offset_x, offset_y)
-
-
+    def wait_for_element_invisible(self, locator, timeout=None):
+        """Element ko'rinmaydigan bo'lishini yoki DOM'dan yo'qolishini kutadi."""
+        timeout = timeout or self.timeout
+        try:
+            WebDriverWait(self.driver, timeout).until(
+                EC.invisibility_of_element_located(locator)
+            )
+            self.logger.info(f"Element is now invisible or not present: {locator}")
+            return True
+        except TimeoutException:
+            self.logger.error(f"Element remained visible after {timeout} seconds: {locator}")
+            self._take_screenshot("element_still_visible_error")
+            return False
