@@ -337,3 +337,28 @@ class BasePage:
             self.logger.error(f"Element remained visible after {timeout} seconds: {locator}")
             self._take_screenshot("element_still_visible_error")
             return False
+
+    def hover_element_with_js(self, locator):
+        """
+        Elementga sichqoncha olib borish (mouseover) hodisasini
+        JavaScript yordamida to'g'ridan-to'g'ri chaqiradi.
+        Bu ActionChains ishlamaydigan holatlar uchun ishonchliroq.
+        """
+        try:
+            element = self.wait_for_element_visible(locator)
+            self._scroll_to_element(element)
+            script = """
+            if(document.createEvent){
+                var evObj = document.createEvent('MouseEvents');
+                evObj.initEvent('mouseover', true, false);
+                arguments[0].dispatchEvent(evObj);
+            } else if(document.createEventObject) {
+                arguments[0].fireEvent('onmouseover');
+            }
+            """
+            self.driver.execute_script(script, element)
+            self.logger.info(f"Successfully hovered over element with JS: {locator}")
+        except Exception as e:
+            self.logger.error(f"Failed to hover over element with JS {locator}: {str(e)}")
+            self._take_screenshot("js_hover_error")
+            raise
