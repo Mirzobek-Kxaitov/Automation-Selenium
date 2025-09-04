@@ -51,27 +51,6 @@ def test_menu_structure_validation(menu_page):
     menu_page.logger.info("TEST PASSED: Menu strukturasi to'g'ri")
 
 
-@pytest.mark.skipif(os.getenv("CI"), reason="Hover effects inconsistent in headless CI environment")
-def test_menu_hover_interaction_local(menu_page):
-    """Menu hover funksionalligini tekshirish (faqat local environment)"""
-    menu_page.logger.info("TEST: Menu hover interaction (local only)")
-
-    # Main Item 2 ga hover qilish
-    menu_page.hover_element(menu_page.MAIN_ITEM_2)
-    time.sleep(1.5)  # CSS transition uchun vaqt
-
-    # Submenu ko'rinishini tekshirish
-    submenu_visible = menu_page.is_element_visible(menu_page.SUB_ITEM_1)
-
-    if submenu_visible:
-        menu_page.logger.info("Submenu hover orqali ochildi")
-        assert True
-    else:
-        menu_page.logger.warning("Submenu hover orqali ochilmadi - bu ba'zan normal")
-        assert True  # Test ni fail qilmaymiz
-
-    menu_page.logger.info("TEST PASSED: Hover test yakunlandi")
-
 
 def test_menu_basic_check(menu_page):
     """Asosiy menu tekshiruvi"""
