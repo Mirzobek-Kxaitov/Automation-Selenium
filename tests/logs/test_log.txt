@@ -1148,3 +1148,66 @@ Stacktrace:
 2025-09-04 16:03:18,850 [INFO] Successfully clicked element: ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1) > a')
 2025-09-04 16:03:18,850 [INFO] Sub Sub Item 1 muvaffaqiyatli bosildi.
 2025-09-04 16:03:18,850 [INFO] Navigation test yakunlandi.
+2025-09-04 16:08:13,792 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:08:13,793 [INFO] DEBUG: Menu strukturasini tekshirish...
+2025-09-04 16:08:21,176 [INFO] Main Item 2 count: 1
+2025-09-04 16:08:21,176 [INFO] Sub Item 1 count: 1
+2025-09-04 16:08:21,184 [INFO] Page title: DEMOQA
+2025-09-04 16:08:21,184 [INFO] Current URL: https://demoqa.com/menu
+2025-09-04 16:08:21,189 [INFO] Main element CSS: {'display': 'block', 'position': 'static', 'visibility': 'visible', 'zIndex': 'auto'}
+2025-09-04 16:08:21,195 [INFO] Sub element CSS before hover: {'display': 'block', 'height': 0, 'opacity': '1', 'visibility': 'visible', 'width': 0}
+2025-09-04 16:08:21,773 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-09-04 16:08:23,781 [INFO] Sub element CSS after hover: {'display': 'block', 'height': 0, 'opacity': '1', 'visibility': 'visible', 'width': 0}
+2025-09-04 16:08:35,031 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:08:35,032 [INFO] TEST: JavaScript orqali submenu ko'rsatish
+2025-09-04 16:08:35,037 [INFO] Force show result: {'subitem_found': True, 'submenu_found': True, 'success': True}
+2025-09-04 16:08:36,058 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') visibility: True
+2025-09-04 16:08:36,058 [INFO] Submenu visible after JS force: True
+2025-09-04 16:14:51,737 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:14:51,738 [INFO] TEST: Menu sahifasi yuklash va elementlar
+2025-09-04 16:14:53,750 [INFO] Sahifa muvaffaqiyatli yuklandi: DEMOQA
+2025-09-04 16:14:53,758 [INFO] TEST PASSED: Menu sahifasi to'g'ri yuklandi
+2025-09-04 16:15:05,395 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:15:05,396 [INFO] TEST: Menu strukturasi validatsiyasi
+2025-09-04 16:15:05,425 [INFO] Sub Item 1 DOM da mavjud: True
+2025-09-04 16:15:05,425 [INFO] TEST PASSED: Menu strukturasi to'g'ri
+2025-09-04 16:15:26,456 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:15:26,457 [INFO] TEST: Menu hover interaction (local only)
+2025-09-04 16:15:27,056 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-09-04 16:15:28,572 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') visibility: True
+2025-09-04 16:15:28,572 [INFO] Submenu hover orqali ochildi
+2025-09-04 16:15:28,572 [INFO] TEST PASSED: Hover test yakunlandi
+2025-09-04 16:15:33,129 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:15:33,129 [INFO] TEST: Menu JavaScript interaction
+2025-09-04 16:15:38,896 [INFO] Menu JavaScript ma'lumotlari: {'error': 'Menu topilmadi'}
+2025-09-04 16:16:01,424 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:16:01,424 [INFO] TEST: Menu elementlari bilan muloqot
+2025-09-04 16:16:01,454 [INFO] Main Item 2: 'Main Item 2', Displayed: True, Enabled: True
+2025-09-04 16:16:02,040 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-09-04 16:16:03,041 [INFO] Menu hover bajarildi
+2025-09-04 16:16:03,041 [INFO] TEST PASSED: Menu elementlari bilan muloqot
+2025-09-04 16:16:13,968 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:19:41,237 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:19:41,238 [INFO] TEST: Menu sahifasi yuklash va elementlar
+2025-09-04 16:19:43,268 [INFO] Sahifa muvaffaqiyatli yuklandi: 502 Bad Gateway
+2025-09-04 16:19:50,835 [INFO] TEST PASSED: Menu sahifasi to'g'ri yuklandi
+2025-09-04 16:20:01,669 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:20:01,670 [INFO] TEST: Menu strukturasi validatsiyasi
+2025-09-04 16:20:01,694 [INFO] Sub Item 1 DOM da mavjud: True
+2025-09-04 16:20:01,695 [INFO] TEST PASSED: Menu strukturasi to'g'ri
+2025-09-04 16:20:11,915 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:20:11,915 [INFO] TEST: Menu hover interaction (local only)
+2025-09-04 16:20:12,524 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-09-04 16:20:14,042 [INFO] Element ('css selector', '#nav > li:nth-child(2) > ul > li:nth-child(1) > a') visibility: True
+2025-09-04 16:20:14,042 [INFO] Submenu hover orqali ochildi
+2025-09-04 16:20:14,042 [INFO] TEST PASSED: Hover test yakunlandi
+2025-09-04 16:20:18,615 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:20:18,615 [INFO] TEST: Asosiy menu
+2025-09-04 16:20:23,986 [INFO] TEST PASSED: Menu basic check
+2025-09-04 16:20:51,539 [INFO] Opened page: https://demoqa.com/menu
+2025-09-04 16:20:51,540 [INFO] TEST: Menu elementlari bilan muloqot
+2025-09-04 16:20:51,573 [INFO] Main Item 2: 'Main Item 2', Displayed: True, Enabled: True
+2025-09-04 16:20:52,158 [INFO] Successfully hovered over element: ('css selector', '#nav > li:nth-child(2) > a')
+2025-09-04 16:20:53,158 [INFO] Menu hover bajarildi
+2025-09-04 16:20:53,159 [INFO] TEST PASSED: Menu elementlari bilan muloqot
+2025-09-04 16:21:05,255 [INFO] Opened page: https://demoqa.com/menu
