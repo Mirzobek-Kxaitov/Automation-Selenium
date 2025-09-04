@@ -1274,3 +1274,55 @@ Stacktrace:
 2025-09-04 16:42:55,618 [INFO] Modal closed using X button
 2025-09-04 16:43:06,145 [INFO] Modal disappeared successfully
 2025-09-04 16:43:16,663 [INFO] TEST PASSED: Ko'p marta modal ochish-yopish ishlaydi
+2025-09-04 16:49:06,106 [INFO] TEST: Modal sahifa yuklash
+2025-09-04 16:49:06,146 [INFO] TEST PASSED: Modal sahifa to'g'ri yuklandi
+2025-09-04 16:49:16,334 [INFO] TEST: Small modal funksionallik
+2025-09-04 16:49:16,430 [INFO] Successfully clicked element: ('id', 'showSmallModal')
+2025-09-04 16:49:16,430 [INFO] Small modal button clicked successfully
+2025-09-04 16:49:17,455 [INFO] Modal appeared successfully
+2025-09-04 16:49:17,534 [INFO] Modal title: Small Modal
+2025-09-04 16:49:17,594 [INFO] Modal body length: 47 characters
+2025-09-04 16:49:17,594 [INFO] Small modal title: 'Small Modal', body length: 47
+2025-09-04 16:49:17,657 [INFO] Modal closed using X button
+2025-09-04 16:49:28,180 [INFO] Modal disappeared successfully
+2025-09-04 16:49:38,730 [INFO] TEST PASSED: Small modal funksionallik ishlaydi
+2025-09-04 16:49:49,468 [INFO] TEST: Large modal funksionallik
+2025-09-04 16:49:49,549 [INFO] Successfully clicked element: ('id', 'showLargeModal')
+2025-09-04 16:49:49,549 [INFO] Large modal button clicked successfully
+2025-09-04 16:49:50,063 [INFO] Modal appeared successfully
+2025-09-04 16:49:50,135 [INFO] Modal title: Large Modal
+2025-09-04 16:49:50,170 [INFO] Modal body length: 574 characters
+2025-09-04 16:49:50,170 [INFO] Large modal title: 'Large Modal', body length: 574
+2025-09-04 16:49:50,236 [INFO] Modal closed using X button
+2025-09-04 16:50:00,764 [INFO] Modal disappeared successfully
+2025-09-04 16:50:11,312 [INFO] TEST PASSED: Large modal funksionallik ishlaydi
+2025-09-04 16:50:21,961 [INFO] TEST: Modal ESC key yopish (local only)
+2025-09-04 16:50:22,057 [INFO] Successfully clicked element: ('id', 'showSmallModal')
+2025-09-04 16:50:22,058 [INFO] Small modal button clicked successfully
+2025-09-04 16:50:23,084 [INFO] Modal appeared successfully
+2025-09-04 16:50:34,197 [INFO] Modal ESC key orqali yopildi
+2025-09-04 16:50:34,197 [INFO] TEST PASSED: ESC key test yakunlandi
+2025-09-04 16:51:00,573 [INFO] TEST: Ko'p marta modal ochish-yopish
+2025-09-04 16:51:00,574 [INFO] Modal interaction #1
+2025-09-04 16:51:00,657 [INFO] Successfully clicked element: ('id', 'showSmallModal')
+2025-09-04 16:51:00,657 [INFO] Small modal button clicked successfully
+2025-09-04 16:51:01,170 [INFO] Modal appeared successfully
+2025-09-04 16:51:01,239 [INFO] Modal closed using X button
+2025-09-04 16:51:11,765 [INFO] Modal disappeared successfully
+2025-09-04 16:51:22,358 [INFO] Successfully clicked element: ('id', 'showLargeModal')
+2025-09-04 16:51:22,358 [INFO] Large modal button clicked successfully
+2025-09-04 16:51:23,376 [INFO] Modal appeared successfully
+2025-09-04 16:51:23,461 [INFO] Modal closed using X button
+2025-09-04 16:51:23,985 [INFO] Modal disappeared successfully
+2025-09-04 16:51:34,539 [INFO] Modal interaction #2
+2025-09-04 16:51:34,608 [INFO] Successfully clicked element: ('id', 'showSmallModal')
+2025-09-04 16:51:34,608 [INFO] Small modal button clicked successfully
+2025-09-04 16:51:35,627 [INFO] Modal appeared successfully
+2025-09-04 16:51:35,671 [INFO] Modal closed using X button
+2025-09-04 16:51:36,211 [INFO] Modal disappeared successfully
+2025-09-04 16:51:46,836 [INFO] Successfully clicked element: ('id', 'showLargeModal')
+2025-09-04 16:51:46,836 [INFO] Large modal button clicked successfully
+2025-09-04 16:51:47,857 [INFO] Modal appeared successfully
+2025-09-04 16:51:47,904 [INFO] Modal closed using X button
+2025-09-04 16:51:58,437 [INFO] Modal disappeared successfully
+2025-09-04 16:52:08,985 [INFO] TEST PASSED: Ko'p marta modal ochish-yopish ishlaydi
