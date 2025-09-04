@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "tests/test_menu_page.py"
+      - "tests/test_modals_page.py"
   pull_request:
     branches: [ main ]
     paths:
-      - "tests/test_menu_page.py"
+      - "tests/test_modals_page.py"
 
 jobs:
   test:
@@ -43,4 +43,4 @@ jobs:
           PYTHONUNBUFFERED: 1
           HEADLESS: "true"
         run: |
-          pytest tests/test_menu_page.py -v --disable-warnings --maxfail=2
+          pytest tests/test_modals_page.py -v --disable-warnings --maxfail=2
