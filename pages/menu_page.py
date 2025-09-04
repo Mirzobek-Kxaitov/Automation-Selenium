@@ -1,4 +1,4 @@
-# pages/menu_page.py
+# pages/menu_page.py - BUTUNLAY ALMASHTIRING
 
 from selenium.webdriver.common.by import By
 from base.base_page import BasePage
@@ -16,7 +16,7 @@ class MenuPage(BasePage):
     SUB_SUB_ITEM_1 = (By.CSS_SELECTOR, '#nav > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(1) > a')
     SUB_SUB_ITEM_2 = (By.CSS_SELECTOR, '#nav > li:nth-child(2) > ul > li:nth-child(3) > ul > li:nth-child(2) > a')
     PAGE_HEADER = (By.CLASS_NAME, 'main-header')
-    PAGE_FOOTER = (By.TAG_NAME, 'footer')  # <-- MANA SHU LOKATOR MUHIM
+    PAGE_FOOTER = (By.TAG_NAME, 'footer')
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -31,6 +31,8 @@ class MenuPage(BasePage):
             element = self.wait_for_element_visible(locator)
             self._scroll_to_element(element)
             ActionChains(self.driver).move_to_element(element).perform()
+            import time
+            time.sleep(0.3)  # CSS transition uchun
             self.logger.info(f"Successfully hovered over element: {locator}")
         except Exception as e:
             self.logger.error(f"Failed to hover over element {locator}: {str(e)}")
@@ -39,18 +41,10 @@ class MenuPage(BasePage):
 
     def is_element_visible(self, locator):
         try:
-            self.wait_for_element_visible(locator)
-            self.logger.info(f"Element {locator} is visible.")
-            return True
+            element = self.driver.find_element(*locator)
+            is_visible = element.is_displayed()
+            self.logger.info(f"Element {locator} visibility: {is_visible}")
+            return is_visible
         except:
-            self.logger.info(f"Element {locator} is not visible.")
-            return False
-
-    def is_element_invisible(self, locator):
-        try:
-            self.wait_for_element_invisible(locator)
-            self.logger.info(f"Element {locator} is not visible")
-            return True
-        except:
-            self.logger.info(f"Element {locator} is visible")
+            self.logger.info(f"Element {locator} not found")
             return False

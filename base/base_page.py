@@ -362,3 +362,77 @@ class BasePage:
             self.logger.error(f"Failed to hover over element with JS {locator}: {str(e)}")
             self._take_screenshot("js_hover_error")
             raise
+
+    # base_page.py faylingizga quyidagi metodlarni qo'shing:
+
+    def trigger_mouse_leave(self, locator):
+        """Elementdan sichqonchani olib ketish eventlarini ishga tushiradi"""
+        try:
+            element = self.wait_for_element_visible(locator)
+            script = """
+            const element = arguments[0];
+
+            // Mouse leave eventlar ketma-ketligi
+            const events = ['mouseleave', 'mouseout'];
+            events.forEach(eventType => {
+                const event = new MouseEvent(eventType, {
+                    bubbles: true,
+                    cancelable: true,
+                    view: window
+                });
+                element.dispatchEvent(event);
+            });
+            """
+            self.driver.execute_script(script, element)
+            self.logger.info(f"Successfully triggered mouse leave events for element: {locator}")
+        except Exception as e:
+            self.logger.error(f"Failed to trigger mouse leave events for element {locator}: {str(e)}")
+            raise
+
+    def move_mouse_to_safe_location(self):
+        """Sichqonchani xavfsiz joyga o'tkazish"""
+        try:
+            script = """
+            // Mouse'ni sahifa chetiga o'tkazish
+            document.dispatchEvent(new MouseEvent('mousemove', {
+                clientX: window.innerWidth - 10,
+                clientY: 10,
+                bubbles: true
+            }));
+
+            // Body ga mouseleave event yuborish
+            const bodyElement = document.body;
+            const event = new MouseEvent('mouseleave', {
+                bubbles: true,
+                cancelable: true,
+                view: window
+            });
+            bodyElement.dispatchEvent(event);
+            """
+            self.driver.execute_script(script)
+            self.logger.info("Successfully moved mouse to safe location")
+        except Exception as e:
+            self.logger.error(f"Failed to move mouse to safe location: {str(e)}")
+            raise
+
+    def wait_for_element_invisible_with_retry(self, locator, timeout=5, max_retries=3):
+        """Element ko'rinmaydigan bo'lishini kutish, retry bilan"""
+        import time
+
+        for retry in range(max_retries):
+            try:
+                WebDriverWait(self.driver, timeout).until(
+                    EC.invisibility_of_element_located(locator)
+                )
+                self.logger.info(f"Element became invisible on retry {retry + 1}: {locator}")
+                return True
+            except TimeoutException:
+                if retry < max_retries - 1:
+                    self.logger.warning(f"Element still visible, retry {retry + 1}/{max_retries}")
+                    self.move_mouse_to_safe_location()
+                    time.sleep(0.5)
+                else:
+                    self.logger.error(f"Element remained visible after {max_retries} retries")
+                    return False
+
+        return False
