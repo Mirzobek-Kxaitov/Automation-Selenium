@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - "tests/test_menu_page.py"     # test_alerts_page.py faylida o‘zgarish bo‘lsa
+      - "tests/test_menu_page.py"
   pull_request:
     branches: [ main ]
     paths:
@@ -13,28 +13,34 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Setup Google Chrome
+      - name: Setup Chrome
         uses: browser-actions/setup-chrome@v1
 
-      - name: Run tests (headless on CI)
+      - name: Run tests
         env:
           PYTHONUNBUFFERED: 1
-          HEADLESS: "true"        # ixtiyoriy; CI borligi yetarli, lekin aniq bo‘lishi uchun qoldirdi
+          HEADLESS: "true"
         run: |
-          pytest tests/test_menu_page.py -v -s --disable-warnings --maxfail=2
-
+          pytest tests/test_menu_page.py -v --disable-warnings --maxfail=2
