@@ -9,7 +9,7 @@ def modals_page(driver):
     page = Modals_page(driver)
     driver.get("https://demoqa.com/modal-dialogs")
     return page
-
+#s
 
 def test_modal_page_loads(modals_page):
     """Modal sahifasi to'g'ri yuklanganligini tekshirish"""
